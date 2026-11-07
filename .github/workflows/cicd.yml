@@ -129,7 +129,10 @@ jobs:
 
   build-image:
     name: build-image
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    # PRs: build and scan only (no push), so a failing image scan shows up before the merge.
+    if: >-
+      github.event_name == 'pull_request' ||
+      (github.event_name == 'push' && github.ref == 'refs/heads/main')
     needs: [web-quality, pipeline-quality, codeql]
     runs-on: ubuntu-latest
     timeout-minutes: 20
@@ -153,6 +156,7 @@ jobs:
           path: web/build
       - uses: docker/setup-buildx-action@f87e5991a6d7451dcb8d9637bfbc97413f497069 # v4.4.1
       - uses: docker/login-action@8aa5831fb8d48d8f76594c7ddde61ae58019f550 # v4.8.0
+        if: github.event_name == 'push'
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
@@ -189,6 +193,10 @@ jobs:
           # Without this, trivy-action drops the severity filter for SARIF output and any
           # LOW/MEDIUM finding would fail the build.
           limit-severities-for-sarif: "true"
+      - name: Show Trivy findings
+        if: failure() && hashFiles('trivy.sarif') != ''
+        run: |
+          jq -r '.runs[].results[] | "\(.ruleId): \(.message.text | gsub("\n"; " | "))"' trivy.sarif
       - name: Upload Trivy SARIF to code scanning
         if: always() && hashFiles('trivy.sarif') != ''
         uses: github/codeql-action/upload-sarif@33d7b85da1a04171e211befe2c739303b9a4c066 # v4.39.3
@@ -197,6 +205,7 @@ jobs:
           category: trivy-image
       - id: push
         name: Push to GHCR
+        if: github.event_name == 'push'
         uses: docker/build-push-action@c3c9e263c25d99ce0380d002d59b67737d91b0dc # v7.4.0
         with:
           context: .
@@ -206,6 +215,7 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
       - uses: actions/attest-build-provenance@4d101475d8b20a2381f78447822ac1eab6504dd8 # v4.2.2
+        if: github.event_name == 'push'
         with:
           subject-name: ${{ env.IMAGE }}
           subject-digest: ${{ steps.push.outputs.digest }}
@@ -214,7 +224,7 @@ jobs:
   deploy:
     name: deploy
     # Off until the VPS exists (phase 1): set the repository variable DEPLOY_ENABLED=true.
-    if: vars.DEPLOY_ENABLED == 'true'
+    if: github.event_name == 'push' && vars.DEPLOY_ENABLED == 'true'
     needs: build-image
     runs-on: ubuntu-latest
     timeout-minutes: 10
