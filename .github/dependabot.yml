@@ -1,0 +1,45 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions:
+        patterns: ["*"]
+    commit-message:
+      prefix: ci
+
+  - package-ecosystem: npm
+    directory: /web
+    schedule:
+      interval: weekly
+    groups:
+      dev-dependencies:
+        dependency-type: development
+      prod-minor-patch:
+        dependency-type: production
+        update-types: [minor, patch]
+    commit-message:
+      prefix: chore
+
+  - package-ecosystem: uv
+    directory: /pipeline
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: chore
+
+  - package-ecosystem: docker
+    directory: /infra
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: chore
+
+  - package-ecosystem: docker-compose
+    directory: /infra
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: chore

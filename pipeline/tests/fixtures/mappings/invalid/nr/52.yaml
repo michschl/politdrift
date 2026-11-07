@@ -1,0 +1,10 @@
+# Deliberately broken: unknown axis, direction 0, reviewed without reviewer.
+- vote_id: 1
+  title: "Broken example"
+  axes:
+    - axis: aussenpolitik_geschlossen
+      direction: 0
+      weight: 0.5
+  source: manual
+  confidence: 0.5
+  reviewed: true

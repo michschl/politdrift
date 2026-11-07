@@ -1,0 +1,19 @@
+name: Fehler melden
+description: Etwas funktioniert nicht oder wird falsch angezeigt.
+labels: [bug]
+body:
+  - type: textarea
+    id: was
+    attributes:
+      label: Was ist passiert?
+    validations:
+      required: true
+  - type: textarea
+    id: erwartet
+    attributes:
+      label: Was hast du erwartet?
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: https://politdrift.org/…

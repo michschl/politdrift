@@ -1,0 +1,29 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_ed25519*
+
+# Python / pipeline
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+pipeline/.cache/
+*.duckdb
+*.duckdb.wal
+
+# Web (details in web/.gitignore)
+node_modules/
+
+# Docker / scans
+trivy.sarif
