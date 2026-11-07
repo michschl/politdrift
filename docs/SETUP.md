@@ -48,7 +48,8 @@ Vorher geprüft: Im Repository liegen keine Secrets, Schlüssel oder personenbez
 **Settings → Advanced Security** (bei älteren Oberflächen: «Code security»):
 
 1. **Private vulnerability reporting**: Enable
-2. **Dependency graph**: an (bei public automatisch)
+2. **Dependency graph**: **Enable**. Wird beim Umstellen von private auf public nicht automatisch
+   aktiviert. Ohne ihn scheitert der Check `dependency-review`.
 3. **Dependabot alerts**: Enable
 4. **Dependabot security updates**: Enable
 5. **Grouped security updates**: Enable
