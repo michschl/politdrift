@@ -2,12 +2,15 @@
 
 from __future__ import annotations
 
+import tempfile
 from pathlib import Path
 from typing import Annotated
 
 import typer
 
 from politdrift import __version__
+from politdrift.export import run_export, validate_derived
+from politdrift.export_models import Index
 from politdrift.fetch import run_fetch
 from politdrift.mappings import validate_tree
 from politdrift.sources.odata import ODataClient
@@ -87,16 +90,57 @@ def review(body: BodyOpt = "nr", legislature: LegislatureOpt = 52) -> None:
     _not_implemented("review", "phase 2")
 
 
-@app.command()
-def compute(body: BodyOpt = "nr", legislature: LegislatureOpt = 52) -> None:
-    """Compute voting profiles, Fraktionsdrift and drift series from reviewed mappings."""
-    _not_implemented("compute", "phase 2")
+MappingsOpt = Annotated[Path, typer.Option("--mappings", help="Mapping root directory")]
+OutOpt = Annotated[Path, typer.Option("--out", help="Export directory")]
+DEFAULT_MAPPINGS = Path("../data/mappings")
+DEFAULT_OUT = Path("../data/derived")
 
 
 @app.command()
-def export(body: BodyOpt = "nr", legislature: LegislatureOpt = 52) -> None:
+def compute(
+    body: BodyOpt = "nr",
+    legislature: LegislatureOpt = 52,
+    cache: CacheOpt = DEFAULT_CACHE,
+    mappings: MappingsOpt = DEFAULT_MAPPINGS,
+) -> None:
+    """Compute profiles from reviewed mappings and report coverage (no files written)."""
+    with Store(cache) as store, tempfile.TemporaryDirectory() as tmp:
+        stats = run_export(store, mappings, Path(tmp), body, legislature)
+        index = Index.model_validate_json(
+            (Path(tmp) / body / str(legislature) / "index.json").read_text()
+        )
+    scored = [p for p in index.persons if any(v.score is not None for v in p.profile.values())]
+    typer.echo(
+        f"{stats.persons} persons, {stats.votes} votes, {stats.mapped_votes} mapped votes in "
+        f"profiles; {len(scored)} persons with at least one axis score "
+        f"(window {index.current_window})"
+    )
+    for w in stats.warnings:
+        typer.secho(w, err=True, fg="yellow")
+
+
+@app.command()
+def export(
+    body: BodyOpt = "nr",
+    legislature: LegislatureOpt = 52,
+    cache: CacheOpt = DEFAULT_CACHE,
+    mappings: MappingsOpt = DEFAULT_MAPPINGS,
+    out: OutOpt = DEFAULT_OUT,
+) -> None:
     """Write static JSON to data/derived/ (KONZEPT 4.3)."""
-    _not_implemented("export", "phase 2")
+    with Store(cache) as store:
+        stats = run_export(store, mappings, out, body, legislature)
+    for w in stats.warnings:
+        typer.secho(w, err=True, fg="yellow")
+    errors = validate_derived(out)
+    for e in errors:
+        typer.secho(e, err=True, fg="red")
+    if errors:
+        raise typer.Exit(code=1)
+    typer.secho(
+        f"exported {stats.persons} persons, {stats.mapped_votes} mapped votes to {out}",
+        fg="green",
+    )
 
 
 @app.command()
@@ -104,9 +148,14 @@ def validate(
     path: Annotated[
         Path, typer.Argument(help="Mapping root directory", exists=True, file_okay=False)
     ] = Path("../data/mappings"),
+    derived: Annotated[
+        Path | None, typer.Option("--derived", help="Also validate exported JSON in this dir")
+    ] = None,
 ) -> None:
-    """Check mapping YAML against the schema: axis keys, directions, required fields, review."""
+    """Check mapping YAML (and optionally the export) against the schema."""
     report = validate_tree(path)
+    if derived is not None:
+        report.errors += validate_derived(derived)
     for err in report.errors:
         typer.secho(err, err=True, fg="red")
     summary = (

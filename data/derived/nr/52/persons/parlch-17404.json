@@ -1,0 +1,59 @@
+{
+ "person": {
+  "person_id": "parlch:17404",
+  "slug": "parlch-17404",
+  "first_name": "Andrea",
+  "last_name": "de Meuron",
+  "canton": "BE",
+  "party": "GRÜNE",
+  "parl_group": "G",
+  "seat": 33,
+  "active": true,
+  "profile": {
+   "aussenpolitik_offen": {
+    "score": null,
+    "n": 0
+   },
+   "wirtschaft_liberal": {
+    "score": null,
+    "n": 0
+   },
+   "finanzen_restriktiv": {
+    "score": null,
+    "n": 0
+   },
+   "law_order": {
+    "score": null,
+    "n": 0
+   },
+   "migration_restriktiv": {
+    "score": null,
+    "n": 0
+   },
+   "umwelt_ausgebaut": {
+    "score": null,
+    "n": 0
+   },
+   "sozialstaat_ausgebaut": {
+    "score": null,
+    "n": 0
+   },
+   "gesellschaft_liberal": {
+    "score": null,
+    "n": 0
+   }
+  },
+  "group_distance": null,
+  "drift": null
+ },
+ "memberships": [
+  {
+   "start": "2026-06-01",
+   "end": null,
+   "party": "GRÜNE",
+   "parl_group": "G"
+  }
+ ],
+ "profiles": {},
+ "ballots": []
+}

@@ -1,0 +1,98 @@
+{
+ "$defs": {
+  "Source": {
+   "additionalProperties": false,
+   "properties": {
+    "name": {
+     "title": "Name",
+     "type": "string"
+    },
+    "url": {
+     "title": "Url",
+     "type": "string"
+    },
+    "license": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "License"
+    }
+   },
+   "required": [
+    "name",
+    "url"
+   ],
+   "title": "Source",
+   "type": "object"
+  }
+ },
+ "additionalProperties": false,
+ "properties": {
+  "schema_version": {
+   "const": 1,
+   "default": 1,
+   "title": "Schema Version",
+   "type": "integer"
+  },
+  "pipeline_version": {
+   "title": "Pipeline Version",
+   "type": "string"
+  },
+  "body": {
+   "title": "Body",
+   "type": "string"
+  },
+  "legislature": {
+   "title": "Legislature",
+   "type": "integer"
+  },
+  "data_as_of": {
+   "anyOf": [
+    {
+     "format": "date-time",
+     "type": "string"
+    },
+    {
+     "type": "null"
+    }
+   ],
+   "description": "Time of the latest vote in the cache",
+   "title": "Data As Of"
+  },
+  "sources": {
+   "items": {
+    "$ref": "#/$defs/Source"
+   },
+   "title": "Sources",
+   "type": "array"
+  },
+  "counts": {
+   "additionalProperties": {
+    "type": "integer"
+   },
+   "title": "Counts",
+   "type": "object"
+  },
+  "n_min": {
+   "title": "N Min",
+   "type": "integer"
+  }
+ },
+ "required": [
+  "pipeline_version",
+  "body",
+  "legislature",
+  "data_as_of",
+  "sources",
+  "counts",
+  "n_min"
+ ],
+ "title": "Meta",
+ "type": "object"
+}

@@ -1,0 +1,59 @@
+{
+ "person": {
+  "person_id": "parlch:3882",
+  "slug": "parlch-3882",
+  "first_name": "Bastien",
+  "last_name": "Girod",
+  "canton": "ZH",
+  "party": "GRÜNE",
+  "parl_group": "G",
+  "seat": null,
+  "active": false,
+  "profile": {
+   "aussenpolitik_offen": {
+    "score": null,
+    "n": 0
+   },
+   "wirtschaft_liberal": {
+    "score": null,
+    "n": 0
+   },
+   "finanzen_restriktiv": {
+    "score": null,
+    "n": 0
+   },
+   "law_order": {
+    "score": null,
+    "n": 0
+   },
+   "migration_restriktiv": {
+    "score": null,
+    "n": 0
+   },
+   "umwelt_ausgebaut": {
+    "score": null,
+    "n": 0
+   },
+   "sozialstaat_ausgebaut": {
+    "score": null,
+    "n": 0
+   },
+   "gesellschaft_liberal": {
+    "score": null,
+    "n": 0
+   }
+  },
+  "group_distance": null,
+  "drift": null
+ },
+ "memberships": [
+  {
+   "start": "2023-12-04",
+   "end": "2024-12-01",
+   "party": "GRÜNE",
+   "parl_group": "G"
+  }
+ ],
+ "profiles": {},
+ "ballots": []
+}

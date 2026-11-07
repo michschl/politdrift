@@ -1,0 +1,59 @@
+{
+ "person": {
+  "person_id": "parlch:16706",
+  "slug": "parlch-16706",
+  "first_name": "Edgar",
+  "last_name": "Bischof",
+  "canton": "AR",
+  "party": "SVP",
+  "parl_group": "V",
+  "seat": 18,
+  "active": true,
+  "profile": {
+   "aussenpolitik_offen": {
+    "score": null,
+    "n": 0
+   },
+   "wirtschaft_liberal": {
+    "score": null,
+    "n": 0
+   },
+   "finanzen_restriktiv": {
+    "score": null,
+    "n": 0
+   },
+   "law_order": {
+    "score": null,
+    "n": 0
+   },
+   "migration_restriktiv": {
+    "score": null,
+    "n": 0
+   },
+   "umwelt_ausgebaut": {
+    "score": null,
+    "n": 0
+   },
+   "sozialstaat_ausgebaut": {
+    "score": null,
+    "n": 0
+   },
+   "gesellschaft_liberal": {
+    "score": null,
+    "n": 0
+   }
+  },
+  "group_distance": null,
+  "drift": null
+ },
+ "memberships": [
+  {
+   "start": "2026-03-20",
+   "end": null,
+   "party": "SVP",
+   "parl_group": "V"
+  }
+ ],
+ "profiles": {},
+ "ballots": []
+}

@@ -1,0 +1,169 @@
+{
+ "$defs": {
+  "Axis": {
+   "enum": [
+    "aussenpolitik_offen",
+    "wirtschaft_liberal",
+    "finanzen_restriktiv",
+    "law_order",
+    "migration_restriktiv",
+    "umwelt_ausgebaut",
+    "sozialstaat_ausgebaut",
+    "gesellschaft_liberal"
+   ],
+   "title": "Axis",
+   "type": "string"
+  },
+  "AxisValue": {
+   "additionalProperties": false,
+   "properties": {
+    "score": {
+     "anyOf": [
+      {
+       "maximum": 100,
+       "minimum": 0,
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "description": "0..100, null = too little data",
+     "title": "Score"
+    },
+    "n": {
+     "description": "Number of mapped, cast votes in the window",
+     "minimum": 0,
+     "title": "N",
+     "type": "integer"
+    }
+   },
+   "required": [
+    "score",
+    "n"
+   ],
+   "title": "AxisValue",
+   "type": "object"
+  },
+  "GroupProfiles": {
+   "additionalProperties": false,
+   "properties": {
+    "group": {
+     "title": "Group",
+     "type": "string"
+    },
+    "profiles": {
+     "additionalProperties": {
+      "additionalProperties": {
+       "$ref": "#/$defs/AxisValue"
+      },
+      "propertyNames": {
+       "$ref": "#/$defs/Axis"
+      },
+      "type": "object"
+     },
+     "description": "window id -> profile",
+     "title": "Profiles",
+     "type": "object"
+    }
+   },
+   "required": [
+    "group",
+    "profiles"
+   ],
+   "title": "GroupProfiles",
+   "type": "object"
+  },
+  "Window": {
+   "additionalProperties": false,
+   "properties": {
+    "id": {
+     "description": "session:<id>, rolling4:<last session id> or legislature:<n>",
+     "title": "Id",
+     "type": "string"
+    },
+    "kind": {
+     "$ref": "#/$defs/WindowKind"
+    },
+    "session_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "description": "Last session in the window",
+     "title": "Session Id"
+    },
+    "label": {
+     "title": "Label",
+     "type": "string"
+    },
+    "start": {
+     "format": "date",
+     "title": "Start",
+     "type": "string"
+    },
+    "end": {
+     "format": "date",
+     "title": "End",
+     "type": "string"
+    }
+   },
+   "required": [
+    "id",
+    "kind",
+    "session_id",
+    "label",
+    "start",
+    "end"
+   ],
+   "title": "Window",
+   "type": "object"
+  },
+  "WindowKind": {
+   "enum": [
+    "session",
+    "rolling4",
+    "legislature"
+   ],
+   "title": "WindowKind",
+   "type": "string"
+  }
+ },
+ "additionalProperties": false,
+ "properties": {
+  "body": {
+   "title": "Body",
+   "type": "string"
+  },
+  "legislature": {
+   "title": "Legislature",
+   "type": "integer"
+  },
+  "windows": {
+   "items": {
+    "$ref": "#/$defs/Window"
+   },
+   "title": "Windows",
+   "type": "array"
+  },
+  "groups": {
+   "items": {
+    "$ref": "#/$defs/GroupProfiles"
+   },
+   "title": "Groups",
+   "type": "array"
+  }
+ },
+ "required": [
+  "body",
+  "legislature",
+  "windows",
+  "groups"
+ ],
+ "title": "Parties",
+ "type": "object"
+}

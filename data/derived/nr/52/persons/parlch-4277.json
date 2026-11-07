@@ -1,0 +1,59 @@
+{
+ "person": {
+  "person_id": "parlch:4277",
+  "slug": "parlch-4277",
+  "first_name": "Melanie",
+  "last_name": "Mettler",
+  "canton": "BE",
+  "party": "glp",
+  "parl_group": "GL",
+  "seat": null,
+  "active": false,
+  "profile": {
+   "aussenpolitik_offen": {
+    "score": null,
+    "n": 0
+   },
+   "wirtschaft_liberal": {
+    "score": null,
+    "n": 0
+   },
+   "finanzen_restriktiv": {
+    "score": null,
+    "n": 0
+   },
+   "law_order": {
+    "score": null,
+    "n": 0
+   },
+   "migration_restriktiv": {
+    "score": null,
+    "n": 0
+   },
+   "umwelt_ausgebaut": {
+    "score": null,
+    "n": 0
+   },
+   "sozialstaat_ausgebaut": {
+    "score": null,
+    "n": 0
+   },
+   "gesellschaft_liberal": {
+    "score": null,
+    "n": 0
+   }
+  },
+  "group_distance": null,
+  "drift": null
+ },
+ "memberships": [
+  {
+   "start": "2023-12-04",
+   "end": "2025-03-03",
+   "party": "glp",
+   "parl_group": "GL"
+  }
+ ],
+ "profiles": {},
+ "ballots": []
+}

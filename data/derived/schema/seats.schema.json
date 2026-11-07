@@ -1,0 +1,23 @@
+{
+ "additionalProperties": false,
+ "properties": {
+  "body": {
+   "title": "Body",
+   "type": "string"
+  },
+  "seats": {
+   "additionalProperties": {
+    "type": "string"
+   },
+   "description": "seat number -> person_id",
+   "title": "Seats",
+   "type": "object"
+  }
+ },
+ "required": [
+  "body",
+  "seats"
+ ],
+ "title": "Seats",
+ "type": "object"
+}

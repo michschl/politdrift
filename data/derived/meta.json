@@ -1,0 +1,29 @@
+{
+ "schema_version": 1,
+ "pipeline_version": "0.1.0",
+ "body": "nr",
+ "legislature": 52,
+ "data_as_of": "2026-10-02T09:40:36.907000Z",
+ "sources": [
+  {
+   "name": "Parlamentsdienste, parlament.ch",
+   "url": "https://www.parlament.ch",
+   "license": null
+  },
+  {
+   "name": "Politdrift (Achsen-Zuordnungen)",
+   "url": "https://github.com/michschl/politdrift",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "counts": {
+  "sessions": 15,
+  "votes": 4201,
+  "ballots": 839717,
+  "persons": 221,
+  "mappings": 1,
+  "mappings_reviewed": 1,
+  "mapped_votes_in_profiles": 1
+ },
+ "n_min": 8
+}

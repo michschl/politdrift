@@ -1,0 +1,1510 @@
+{
+ "body": "nr",
+ "legislature": 52,
+ "windows": [
+  {
+   "id": "session:5201",
+   "kind": "session",
+   "session_id": "5201",
+   "label": "Wintersession 2023",
+   "start": "2023-12-04",
+   "end": "2023-12-22"
+  },
+  {
+   "id": "session:5202",
+   "kind": "session",
+   "session_id": "5202",
+   "label": "Frühjahrssession 2024",
+   "start": "2024-02-26",
+   "end": "2024-03-15"
+  },
+  {
+   "id": "session:5203",
+   "kind": "session",
+   "session_id": "5203",
+   "label": "Sondersession 4. 2024",
+   "start": "2024-04-15",
+   "end": "2024-04-17"
+  },
+  {
+   "id": "session:5204",
+   "kind": "session",
+   "session_id": "5204",
+   "label": "Sommersession 2024",
+   "start": "2024-05-27",
+   "end": "2024-06-14"
+  },
+  {
+   "id": "session:5205",
+   "kind": "session",
+   "session_id": "5205",
+   "label": "Herbstsession 2024",
+   "start": "2024-09-09",
+   "end": "2024-09-27"
+  },
+  {
+   "id": "session:5206",
+   "kind": "session",
+   "session_id": "5206",
+   "label": "Wintersession 2024",
+   "start": "2024-12-02",
+   "end": "2024-12-20"
+  },
+  {
+   "id": "session:5207",
+   "kind": "session",
+   "session_id": "5207",
+   "label": "Frühjahrssession 2025",
+   "start": "2025-03-03",
+   "end": "2025-03-21"
+  },
+  {
+   "id": "session:5208",
+   "kind": "session",
+   "session_id": "5208",
+   "label": "Sondersession 5. 2025",
+   "start": "2025-05-05",
+   "end": "2025-05-07"
+  },
+  {
+   "id": "session:5209",
+   "kind": "session",
+   "session_id": "5209",
+   "label": "Sommersession 2025",
+   "start": "2025-06-02",
+   "end": "2025-06-20"
+  },
+  {
+   "id": "session:5210",
+   "kind": "session",
+   "session_id": "5210",
+   "label": "Herbstsession 2025",
+   "start": "2025-09-08",
+   "end": "2025-09-26"
+  },
+  {
+   "id": "session:5211",
+   "kind": "session",
+   "session_id": "5211",
+   "label": "Wintersession 2025",
+   "start": "2025-12-01",
+   "end": "2025-12-19"
+  },
+  {
+   "id": "session:5212",
+   "kind": "session",
+   "session_id": "5212",
+   "label": "Frühjahrssession 2026",
+   "start": "2026-03-02",
+   "end": "2026-03-20"
+  },
+  {
+   "id": "session:5213",
+   "kind": "session",
+   "session_id": "5213",
+   "label": "Sondersession 4. 2026",
+   "start": "2026-04-27",
+   "end": "2026-04-30"
+  },
+  {
+   "id": "session:5214",
+   "kind": "session",
+   "session_id": "5214",
+   "label": "Sommersession 2026",
+   "start": "2026-06-01",
+   "end": "2026-06-19"
+  },
+  {
+   "id": "session:5215",
+   "kind": "session",
+   "session_id": "5215",
+   "label": "Herbstsession 2026",
+   "start": "2026-09-14",
+   "end": "2026-10-02"
+  },
+  {
+   "id": "rolling4:5201",
+   "kind": "rolling4",
+   "session_id": "5201",
+   "label": "Wintersession 2023",
+   "start": "2023-12-04",
+   "end": "2023-12-22"
+  },
+  {
+   "id": "rolling4:5202",
+   "kind": "rolling4",
+   "session_id": "5202",
+   "label": "Wintersession 2023 – Frühjahrssession 2024",
+   "start": "2023-12-04",
+   "end": "2024-03-15"
+  },
+  {
+   "id": "rolling4:5203",
+   "kind": "rolling4",
+   "session_id": "5203",
+   "label": "Wintersession 2023 – Sondersession 4. 2024",
+   "start": "2023-12-04",
+   "end": "2024-04-17"
+  },
+  {
+   "id": "rolling4:5204",
+   "kind": "rolling4",
+   "session_id": "5204",
+   "label": "Wintersession 2023 – Sommersession 2024",
+   "start": "2023-12-04",
+   "end": "2024-06-14"
+  },
+  {
+   "id": "rolling4:5205",
+   "kind": "rolling4",
+   "session_id": "5205",
+   "label": "Frühjahrssession 2024 – Herbstsession 2024",
+   "start": "2024-02-26",
+   "end": "2024-09-27"
+  },
+  {
+   "id": "rolling4:5206",
+   "kind": "rolling4",
+   "session_id": "5206",
+   "label": "Sondersession 4. 2024 – Wintersession 2024",
+   "start": "2024-04-15",
+   "end": "2024-12-20"
+  },
+  {
+   "id": "rolling4:5207",
+   "kind": "rolling4",
+   "session_id": "5207",
+   "label": "Sommersession 2024 – Frühjahrssession 2025",
+   "start": "2024-05-27",
+   "end": "2025-03-21"
+  },
+  {
+   "id": "rolling4:5208",
+   "kind": "rolling4",
+   "session_id": "5208",
+   "label": "Herbstsession 2024 – Sondersession 5. 2025",
+   "start": "2024-09-09",
+   "end": "2025-05-07"
+  },
+  {
+   "id": "rolling4:5209",
+   "kind": "rolling4",
+   "session_id": "5209",
+   "label": "Wintersession 2024 – Sommersession 2025",
+   "start": "2024-12-02",
+   "end": "2025-06-20"
+  },
+  {
+   "id": "rolling4:5210",
+   "kind": "rolling4",
+   "session_id": "5210",
+   "label": "Frühjahrssession 2025 – Herbstsession 2025",
+   "start": "2025-03-03",
+   "end": "2025-09-26"
+  },
+  {
+   "id": "rolling4:5211",
+   "kind": "rolling4",
+   "session_id": "5211",
+   "label": "Sondersession 5. 2025 – Wintersession 2025",
+   "start": "2025-05-05",
+   "end": "2025-12-19"
+  },
+  {
+   "id": "rolling4:5212",
+   "kind": "rolling4",
+   "session_id": "5212",
+   "label": "Sommersession 2025 – Frühjahrssession 2026",
+   "start": "2025-06-02",
+   "end": "2026-03-20"
+  },
+  {
+   "id": "rolling4:5213",
+   "kind": "rolling4",
+   "session_id": "5213",
+   "label": "Herbstsession 2025 – Sondersession 4. 2026",
+   "start": "2025-09-08",
+   "end": "2026-04-30"
+  },
+  {
+   "id": "rolling4:5214",
+   "kind": "rolling4",
+   "session_id": "5214",
+   "label": "Wintersession 2025 – Sommersession 2026",
+   "start": "2025-12-01",
+   "end": "2026-06-19"
+  },
+  {
+   "id": "rolling4:5215",
+   "kind": "rolling4",
+   "session_id": "5215",
+   "label": "Frühjahrssession 2026 – Herbstsession 2026",
+   "start": "2026-03-02",
+   "end": "2026-10-02"
+  },
+  {
+   "id": "legislature:52",
+   "kind": "legislature",
+   "session_id": "5215",
+   "label": "Legislatur 52",
+   "start": "2023-12-04",
+   "end": "2026-10-02"
+  }
+ ],
+ "groups": [
+  {
+   "group": "G",
+   "profiles": {
+    "session:5211": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5211": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5212": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5213": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5214": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "legislature:52": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    }
+   }
+  },
+  {
+   "group": "GL",
+   "profiles": {
+    "session:5211": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5211": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5212": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5213": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5214": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "legislature:52": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    }
+   }
+  },
+  {
+   "group": "M-E",
+   "profiles": {
+    "session:5211": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5211": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5212": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5213": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5214": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "legislature:52": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    }
+   }
+  },
+  {
+   "group": "RL",
+   "profiles": {
+    "session:5211": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5211": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5212": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5213": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5214": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "legislature:52": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    }
+   }
+  },
+  {
+   "group": "S",
+   "profiles": {
+    "session:5211": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5211": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5212": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5213": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5214": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "legislature:52": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    }
+   }
+  },
+  {
+   "group": "V",
+   "profiles": {
+    "session:5211": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5211": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5212": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5213": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "rolling4:5214": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    },
+    "legislature:52": {
+     "aussenpolitik_offen": {
+      "score": null,
+      "n": 0
+     },
+     "wirtschaft_liberal": {
+      "score": null,
+      "n": 1
+     },
+     "finanzen_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "law_order": {
+      "score": null,
+      "n": 1
+     },
+     "migration_restriktiv": {
+      "score": null,
+      "n": 0
+     },
+     "umwelt_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "sozialstaat_ausgebaut": {
+      "score": null,
+      "n": 0
+     },
+     "gesellschaft_liberal": {
+      "score": null,
+      "n": 0
+     }
+    }
+   }
+  }
+ ]
+}

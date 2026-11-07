@@ -120,6 +120,6 @@ def test_cli_validate_fails_on_invalid() -> None:
     assert result.exit_code == 1
 
 
-@pytest.mark.parametrize("command", ["classify", "review", "compute", "export"])
+@pytest.mark.parametrize("command", ["classify", "review"])
 def test_stubs_exit_with_code_2(command: str) -> None:
     assert runner.invoke(app, [command]).exit_code == 2

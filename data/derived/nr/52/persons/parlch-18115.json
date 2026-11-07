@@ -1,0 +1,59 @@
+{
+ "person": {
+  "person_id": "parlch:18115",
+  "slug": "parlch-18115",
+  "first_name": "Christoph",
+  "last_name": "Hagenbuch",
+  "canton": "AG",
+  "party": null,
+  "parl_group": null,
+  "seat": null,
+  "active": true,
+  "profile": {
+   "aussenpolitik_offen": {
+    "score": null,
+    "n": 0
+   },
+   "wirtschaft_liberal": {
+    "score": null,
+    "n": 0
+   },
+   "finanzen_restriktiv": {
+    "score": null,
+    "n": 0
+   },
+   "law_order": {
+    "score": null,
+    "n": 0
+   },
+   "migration_restriktiv": {
+    "score": null,
+    "n": 0
+   },
+   "umwelt_ausgebaut": {
+    "score": null,
+    "n": 0
+   },
+   "sozialstaat_ausgebaut": {
+    "score": null,
+    "n": 0
+   },
+   "gesellschaft_liberal": {
+    "score": null,
+    "n": 0
+   }
+  },
+  "group_distance": null,
+  "drift": null
+ },
+ "memberships": [
+  {
+   "start": "2027-03-01",
+   "end": null,
+   "party": null,
+   "parl_group": null
+  }
+ ],
+ "profiles": {},
+ "ballots": []
+}

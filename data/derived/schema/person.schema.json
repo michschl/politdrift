@@ -1,0 +1,268 @@
+{
+ "$defs": {
+  "Axis": {
+   "enum": [
+    "aussenpolitik_offen",
+    "wirtschaft_liberal",
+    "finanzen_restriktiv",
+    "law_order",
+    "migration_restriktiv",
+    "umwelt_ausgebaut",
+    "sozialstaat_ausgebaut",
+    "gesellschaft_liberal"
+   ],
+   "title": "Axis",
+   "type": "string"
+  },
+  "AxisValue": {
+   "additionalProperties": false,
+   "properties": {
+    "score": {
+     "anyOf": [
+      {
+       "maximum": 100,
+       "minimum": 0,
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "description": "0..100, null = too little data",
+     "title": "Score"
+    },
+    "n": {
+     "description": "Number of mapped, cast votes in the window",
+     "minimum": 0,
+     "title": "N",
+     "type": "integer"
+    }
+   },
+   "required": [
+    "score",
+    "n"
+   ],
+   "title": "AxisValue",
+   "type": "object"
+  },
+  "Decision": {
+   "enum": [
+    "yes",
+    "no",
+    "abstain",
+    "absent",
+    "excused",
+    "president"
+   ],
+   "title": "Decision",
+   "type": "string"
+  },
+  "PersonBallot": {
+   "additionalProperties": false,
+   "properties": {
+    "vote_id": {
+     "title": "Vote Id",
+     "type": "integer"
+    },
+    "decision": {
+     "$ref": "#/$defs/Decision"
+    },
+    "parl_group": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Parl Group"
+    }
+   },
+   "required": [
+    "vote_id",
+    "decision",
+    "parl_group"
+   ],
+   "title": "PersonBallot",
+   "type": "object"
+  },
+  "PersonSummary": {
+   "additionalProperties": false,
+   "properties": {
+    "person_id": {
+     "title": "Person Id",
+     "type": "string"
+    },
+    "slug": {
+     "title": "Slug",
+     "type": "string"
+    },
+    "first_name": {
+     "title": "First Name",
+     "type": "string"
+    },
+    "last_name": {
+     "title": "Last Name",
+     "type": "string"
+    },
+    "canton": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Canton"
+    },
+    "party": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Party"
+    },
+    "parl_group": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Parl Group"
+    },
+    "seat": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Seat"
+    },
+    "active": {
+     "title": "Active",
+     "type": "boolean"
+    },
+    "profile": {
+     "additionalProperties": {
+      "$ref": "#/$defs/AxisValue"
+     },
+     "description": "Rolling window over the last 4 sessions",
+     "propertyNames": {
+      "$ref": "#/$defs/Axis"
+     },
+     "title": "Profile",
+     "type": "object"
+    },
+    "group_distance": {
+     "anyOf": [
+      {
+       "maximum": 100,
+       "minimum": 0,
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "description": "Fraktionsdrift: mean |person - group| over axes",
+     "title": "Group Distance"
+    },
+    "drift": {
+     "anyOf": [
+      {
+       "maximum": 100,
+       "minimum": 0,
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "description": "Mean axis change between first and latest rolling window",
+     "title": "Drift"
+    }
+   },
+   "required": [
+    "person_id",
+    "slug",
+    "first_name",
+    "last_name",
+    "canton",
+    "party",
+    "parl_group",
+    "seat",
+    "active",
+    "profile",
+    "group_distance",
+    "drift"
+   ],
+   "title": "PersonSummary",
+   "type": "object"
+  }
+ },
+ "additionalProperties": false,
+ "properties": {
+  "person": {
+   "$ref": "#/$defs/PersonSummary"
+  },
+  "memberships": {
+   "items": {
+    "additionalProperties": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "type": "object"
+   },
+   "title": "Memberships",
+   "type": "array"
+  },
+  "profiles": {
+   "additionalProperties": {
+    "additionalProperties": {
+     "$ref": "#/$defs/AxisValue"
+    },
+    "propertyNames": {
+     "$ref": "#/$defs/Axis"
+    },
+    "type": "object"
+   },
+   "description": "window id -> profile",
+   "title": "Profiles",
+   "type": "object"
+  },
+  "ballots": {
+   "description": "Ballots on mapped votes only",
+   "items": {
+    "$ref": "#/$defs/PersonBallot"
+   },
+   "title": "Ballots",
+   "type": "array"
+  }
+ },
+ "required": [
+  "person",
+  "memberships",
+  "profiles",
+  "ballots"
+ ],
+ "title": "PersonDetail",
+ "type": "object"
+}

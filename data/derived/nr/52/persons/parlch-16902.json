@@ -1,0 +1,59 @@
+{
+ "person": {
+  "person_id": "parlch:16902",
+  "slug": "parlch-16902",
+  "first_name": "Arbër",
+  "last_name": "Bullakaj",
+  "canton": "SG",
+  "party": "SP",
+  "parl_group": "S",
+  "seat": 65,
+  "active": true,
+  "profile": {
+   "aussenpolitik_offen": {
+    "score": null,
+    "n": 0
+   },
+   "wirtschaft_liberal": {
+    "score": null,
+    "n": 0
+   },
+   "finanzen_restriktiv": {
+    "score": null,
+    "n": 0
+   },
+   "law_order": {
+    "score": null,
+    "n": 0
+   },
+   "migration_restriktiv": {
+    "score": null,
+    "n": 0
+   },
+   "umwelt_ausgebaut": {
+    "score": null,
+    "n": 0
+   },
+   "sozialstaat_ausgebaut": {
+    "score": null,
+    "n": 0
+   },
+   "gesellschaft_liberal": {
+    "score": null,
+    "n": 0
+   }
+  },
+  "group_distance": null,
+  "drift": null
+ },
+ "memberships": [
+  {
+   "start": "2026-04-27",
+   "end": null,
+   "party": "SP",
+   "parl_group": "S"
+  }
+ ],
+ "profiles": {},
+ "ballots": []
+}
