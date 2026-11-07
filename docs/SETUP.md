@@ -156,7 +156,7 @@ entfernt oder sicher abgelegt.
    im Manager. Weil der Server zustandslos ist (Neuaufbau mit `bootstrap.sh`), sind Snapshots ein
    Komfort, keine Pflicht.
 3. Kleinste Grösse genügt (1–2 vCPU, 2 GB RAM).
-4. Betriebssystem: **Ubuntu 24.04 LTS**.
+4. Betriebssystem: **Ubuntu 26.04 LTS** (24.04 LTS geht ebenfalls).
 5. SSH-Schlüssel: den **öffentlichen** Admin-Schlüssel hochladen (`~/.ssh/politdrift_admin.pub`).
 6. Nach der Bereitstellung IPv4- und IPv6-Adresse im Manager notieren.
 

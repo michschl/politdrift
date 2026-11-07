@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Idempotent base installation of the Politdrift VPS (Ubuntu 24.04 LTS, KONZEPT 8.2).
+# Idempotent base installation of the Politdrift VPS (Ubuntu 24.04 or 26.04 LTS, KONZEPT 8.2).
 #
 # Run as root (e.g. via sudo from the image's default user) from a checkout of this repository:
 #   sudo ADMIN_PUBKEY="ssh-ed25519 AAAA… you@laptop" \
@@ -18,7 +18,7 @@ set -euo pipefail
 [[ $EUID -eq 0 ]] || { echo "run as root" >&2; exit 1; }
 # shellcheck source=/dev/null
 . /etc/os-release
-[[ "${ID}" == "ubuntu" && "${VERSION_ID}" == "24.04" ]] || echo "warning: tested on Ubuntu 24.04 only" >&2
+[[ "${ID}" == "ubuntu" && "${VERSION_ID}" =~ ^(24|26)\.04$ ]] || echo "warning: tested on Ubuntu 24.04/26.04 LTS only" >&2
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 APP_DIR=/opt/politdrift
@@ -40,8 +40,18 @@ Unattended-Upgrade::Automatic-Reboot-Time "03:30";
 CONF
 
 log "2. Users admin (sudo) and deploy (forced command only)"
-id admin >/dev/null 2>&1 || useradd --create-home --shell /bin/bash --groups sudo admin
-id deploy >/dev/null 2>&1 || useradd --create-home --shell /bin/bash deploy
+# Ubuntu ships a legacy group "admin", so a plain `useradd admin` fails. Reuse an existing
+# group of the same name as primary group, otherwise create one.
+ensure_user() { # name [extra groups]
+  local name="$1" extra="${2:-}" args=(--create-home --shell /bin/bash)
+  id "$name" >/dev/null 2>&1 && return 0
+  if getent group "$name" >/dev/null; then args+=(--gid "$name"); else args+=(--user-group); fi
+  [[ -n "$extra" ]] && args+=(--groups "$extra")
+  useradd "${args[@]}" "$name"
+}
+ensure_user admin sudo
+ensure_user deploy
+usermod -aG sudo admin
 passwd -l admin >/dev/null
 passwd -l deploy >/dev/null
 echo "admin ALL=(ALL) NOPASSWD:ALL" >/etc/sudoers.d/90-admin
@@ -81,7 +91,9 @@ MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com
 HostKeyAlgorithms ssh-ed25519,rsa-sha2-512,rsa-sha2-256
 CONF
 sshd -t
-systemctl reload ssh
+# Ubuntu 24.04+ may socket-activate ssh; reload only if the service runs, a later start reads
+# the new config anyway. Existing sessions stay open.
+systemctl try-reload-or-restart ssh.service
 
 log "4. Firewall and fail2ban"
 ufw default deny incoming
