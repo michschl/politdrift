@@ -214,12 +214,29 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
-      - uses: actions/attest-build-provenance@4d101475d8b20a2381f78447822ac1eab6504dd8 # v4.2.2
+      - id: attest
+        name: Attest build provenance
+        uses: actions/attest-build-provenance@4d101475d8b20a2381f78447822ac1eab6504dd8 # v4.2.2
         if: github.event_name == 'push'
+        # Provenance is not verified at deploy time (yet), so a Sigstore outage must not block
+        # the deploy. See docs/adr/0006-non-blocking-attestation.md.
+        continue-on-error: true
         with:
           subject-name: ${{ env.IMAGE }}
           subject-digest: ${{ steps.push.outputs.digest }}
           push-to-registry: true
+      - name: Warn if provenance attestation failed
+        if: github.event_name == 'push' && steps.attest.outcome == 'failure'
+        env:
+          DIGEST: ${{ steps.push.outputs.digest }}
+        run: |
+          echo "::warning title=No build provenance::Attestation failed (likely a Sigstore outage). Image ${IMAGE}@${DIGEST} was pushed without provenance."
+          {
+            echo "### ⚠️ Image pushed without build provenance"
+            echo ""
+            echo "Attestation failed for \`${IMAGE}@${DIGEST}\`. The deploy continues (ADR 0006)."
+            echo "Re-run this job later to attach provenance."
+          } >> "$GITHUB_STEP_SUMMARY"
 
   deploy:
     name: deploy
