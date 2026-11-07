@@ -1,0 +1,79 @@
+# Few-shot examples for `politdrift classify`. Versioned with the prompt (KONZEPT 2.4).
+# Each example: the vote as the model sees it, and the expected answer.
+# The first is Michael's reviewed mapping (data/mappings/nr/52.yaml); the others are
+# illustrative drafts and should be reviewed like any mapping.
+
+- vote:
+    business: "25.024"
+    title: "Kriegsmaterialgesetzes (Aufnahme einer Abweichungskompetenz für den Bundesrat). Änderung"
+    subject: "Vote final"
+    meaning_yes: "Adopter le projet"
+    meaning_no: "Rejeter le projet"
+  answer:
+    yes_means: >-
+      Der Bundesrat erhält die Kompetenz, bei Kriegsmaterialexporten von den
+      Bewilligungskriterien abzuweichen.
+    axes:
+      - {axis: wirtschaft_liberal, direction: 1, weight: 0.5}
+      - {axis: law_order, direction: 1, weight: 0.3}
+    topics: [sicherheit_neutralitaet]
+    confidence: 0.7
+    contested: true
+    rationale: >-
+      Mehr Spielraum für Rüstungsexporte stärkt die Industrie (liberal) und die
+      sicherheitspolitische Handlungsfähigkeit. Aussenpolitik bewusst nicht zugeordnet,
+      weil die Lager quer zur Achse offene/geschlossene Aussenpolitik stimmen.
+
+- vote:
+    business: "22.306"
+    title: "Einführung einer wirksamen Kerosinsteuer"
+    subject: null
+    meaning_yes: "Antrag der Mehrheit (keine Folge geben)"
+    meaning_no: "Antrag der Minderheit Trede (Folge geben)"
+  answer:
+    yes_means: >-
+      Der parlamentarischen Initiative wird keine Folge gegeben, es gibt keine Kerosinsteuer.
+    axes:
+      - {axis: umwelt_ausgebaut, direction: -1, weight: 0.8}
+      - {axis: finanzen_restriktiv, direction: 1, weight: 0.3}
+    topics: [verkehr]
+    confidence: 0.8
+    contested: false
+    rationale: >-
+      Ja bedeutet hier, der Initiative keine Folge zu geben, also keine Kerosinsteuer:
+      gegen Klimaschutz (direction -1) und für tiefere Abgaben (direction 1).
+
+- vote:
+    business: "00.000"
+    title: "Ordnungsantrag"
+    subject: null
+    meaning_yes: "Annahme des Ordnungsantrags"
+    meaning_no: "Ablehnung des Ordnungsantrags"
+  answer:
+    yes_means: "Der Ordnungsantrag zum Ablauf der Beratung wird angenommen."
+    axes: []
+    topics: []
+    confidence: 0.95
+    contested: false
+    rationale: "Verfahrensabstimmung ohne inhaltlichen Achsenbezug."
+
+# Volksinitiative from an earlier legislature (KONZEPT 2.4: the final vote is on the federal
+# decree, which here recommends rejection, so yes is against the initiative's aim).
+- vote:
+    business: null
+    title: "«Für eine starke Pflege (Pflegeinitiative)». Volksinitiative"
+    subject: "Schlussabstimmung"
+    meaning_yes: "Annahme der Vorlage (Empfehlung auf Ablehnung der Volksinitiative)"
+    meaning_no: "Ablehnung der Vorlage"
+  answer:
+    yes_means: >-
+      Der Rat empfiehlt, die Pflegeinitiative abzulehnen, also keinen Verfassungsauftrag für
+      mehr Pflegepersonal und bessere Arbeitsbedingungen.
+    axes:
+      - {axis: sozialstaat_ausgebaut, direction: -1, weight: 0.6}
+    topics: [gesundheit]
+    confidence: 0.8
+    contested: false
+    rationale: >-
+      Die Initiative will den Service public in der Pflege ausbauen. Ja zum Bundesbeschluss
+      heisst Ablehnung empfehlen und damit gegen diesen Ausbau (direction -1).

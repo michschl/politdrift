@@ -245,3 +245,13 @@ def test_validate_derived_reports_broken_files(store: Store, tmp_path: Path) -> 
     (out / "nr/52/votes/100.json").write_text('{"vote_id": "x"}')
     errors = validate_derived(out)
     assert len(errors) == 1 and "votes/100.json" in errors[0]
+
+
+def test_include_pending_is_opt_in(store: Store, tmp_path: Path) -> None:
+    mappings_dir = write_mappings(
+        tmp_path, [mapping(v) for v in VOTES[:5]] + [mapping(v, reviewed=False) for v in VOTES[5:]]
+    )
+    out = tmp_path / "derived"
+    assert run_export(store, mappings_dir, out, "nr", 52).mapped_votes == 5
+    pending = run_export(store, mappings_dir, tmp_path / "aid", "nr", 52, include_pending=True)
+    assert pending.mapped_votes == 10

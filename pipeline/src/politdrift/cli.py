@@ -29,11 +29,6 @@ BodyOpt = Annotated[str, typer.Option("--body", help="Parliament id, e.g. nr")]
 LegislatureOpt = Annotated[int, typer.Option("--legislature", help="Legislature number, e.g. 52")]
 
 
-def _not_implemented(command: str, phase: str) -> None:
-    typer.secho(f"`{command}` is not implemented yet ({phase}).", err=True, fg="yellow")
-    raise typer.Exit(code=2)
-
-
 @app.callback(invoke_without_command=True)
 def _root(
     version: Annotated[bool, typer.Option("--version", help="Show version and exit.")] = False,
@@ -79,15 +74,140 @@ def fetch(
 
 
 @app.command()
-def classify(body: BodyOpt = "nr", legislature: LegislatureOpt = 52) -> None:
+def classify(
+    body: BodyOpt = "nr",
+    legislature: LegislatureOpt = 52,
+    cache: CacheOpt = DEFAULT_CACHE,
+    mappings: Annotated[Path, typer.Option("--mappings")] = Path("../data/mappings"),
+    scope: Annotated[str, typer.Option(help="final | overall | motions | all")] = "final",
+    limit: Annotated[int, typer.Option(min=1, help="Maximum number of new proposals")] = 20,
+    model: Annotated[str | None, typer.Option(help="Overrides POLITDRIFT_LLM_MODEL")] = None,
+    dry_run: Annotated[bool, typer.Option("--dry-run", help="Print, do not write")] = False,
+) -> None:
     """Propose axis mappings for unmapped votes with an LLM (source: llm, reviewed: false)."""
-    _not_implemented("classify", "phase 2")
+    from politdrift import mapping_io
+    from politdrift.classify import LLMConfig, classify_votes, openai_compatible, select_votes
+
+    path = mappings / body / f"{legislature}.yaml"
+    existing = mapping_io.vote_ids(mapping_io.load(path))
+    config = LLMConfig.from_env(model)
+    with Store(cache) as store:
+        session_ids = [
+            r[0]
+            for r in store.con.execute(
+                "SELECT session_id FROM sessions WHERE body_id = ? AND legislature = ?",
+                [body, legislature],
+            ).fetchall()
+        ]
+        votes = select_votes(store, session_ids, existing, scope, limit)
+    if not votes:
+        typer.echo("no unmapped votes in this scope")
+        return
+    typer.echo(f"classifying {len(votes)} vote(s) with {config.model}")
+    result = classify_votes(votes, openai_compatible(config), config.model, log=typer.echo)
+    for err in result.errors:
+        typer.secho(err, err=True, fg="yellow")
+    if dry_run:
+        return
+    added = mapping_io.append(path, result.mappings)
+    typer.secho(f"added {added} proposal(s) to {path} (reviewed: false)", fg="green")
 
 
 @app.command()
-def review(body: BodyOpt = "nr", legislature: LegislatureOpt = 52) -> None:
-    """Accept, edit or reject proposed mappings."""
-    _not_implemented("review", "phase 2")
+def review(
+    body: BodyOpt = "nr",
+    legislature: LegislatureOpt = 52,
+    cache: CacheOpt = DEFAULT_CACHE,
+    mappings: Annotated[Path, typer.Option("--mappings")] = Path("../data/mappings"),
+    reviewer: Annotated[str, typer.Option(help="GitHub handle stored as reviewed_by")] = "michschl",
+    from_file: Annotated[
+        Path | None,
+        typer.Option(
+            "--from",
+            help="Import decisions made elsewhere (JSON list of {vote_id, action, ...})",
+            exists=True,
+            dir_okay=False,
+        ),
+    ] = None,
+) -> None:
+    """Accept, edit or reject proposed mappings, one by one. Saves after every decision."""
+    import datetime as dt
+
+    import yaml
+    from pydantic import TypeAdapter
+
+    from politdrift import mapping_io
+    from politdrift.review import (
+        Action,
+        Decision,
+        apply,
+        describe,
+        edit_text,
+        import_decisions,
+        pending,
+        replace_with,
+    )
+
+    path = mappings / body / f"{legislature}.yaml"
+    data = mapping_io.load(path)
+    if from_file is not None:
+        decisions = TypeAdapter(list[Decision]).validate_json(from_file.read_bytes())
+        applied, messages = import_decisions(list(data), decisions, reviewer, dt.date.today())
+        for m in messages:
+            typer.secho(m, err=True, fg="yellow")
+        if applied:
+            mapping_io.save(path, data)
+        typer.secho(
+            f"{applied} decision(s) applied, {len(pending(list(data)))} still pending", fg="green"
+        )
+        return
+    todo = pending(list(data))
+    if not todo:
+        typer.echo("nothing to review")
+        return
+    store = Store(cache) if cache.exists() else None
+    today = dt.date.today()
+    done = 0
+    try:
+        for i, node in enumerate(todo, start=1):
+            typer.echo(f"\n[{i}/{len(todo)}]")
+            typer.echo(describe(node, store))
+            while True:
+                choice = (
+                    typer.prompt(
+                        "[a]nnehmen, [b]earbeiten, [k]eine Achse, [s]überspringen, [q]uit",
+                        default="s",
+                    )
+                    .strip()
+                    .lower()
+                )
+                try:
+                    action = Action(choice[:1])
+                except ValueError:
+                    continue
+                break
+            if action is Action.QUIT:
+                break
+            if action is Action.SKIP:
+                continue
+            try:
+                if action is Action.EDIT:
+                    draft = yaml.safe_dump(dict(node), allow_unicode=True, sort_keys=False)
+                    text = edit_text(draft)
+                    if text is None:
+                        continue
+                    replace_with(node, yaml.safe_load(text), reviewer, today)
+                else:
+                    apply(node, action, reviewer, today)
+            except ValueError as err:
+                typer.secho(f"nicht gespeichert: {err}", fg="red")
+                continue
+            mapping_io.save(path, data)
+            done += 1
+    finally:
+        if store is not None:
+            store.close()
+    typer.secho(f"{done} reviewed, {len(todo) - done} still pending", fg="green")
 
 
 MappingsOpt = Annotated[Path, typer.Option("--mappings", help="Mapping root directory")]
@@ -102,10 +222,19 @@ def compute(
     legislature: LegislatureOpt = 52,
     cache: CacheOpt = DEFAULT_CACHE,
     mappings: MappingsOpt = DEFAULT_MAPPINGS,
+    include_pending: Annotated[
+        bool,
+        typer.Option(
+            "--include-pending",
+            help="Review aid: treat unreviewed proposals as reviewed for the consistency check",
+        ),
+    ] = False,
 ) -> None:
     """Compute profiles from reviewed mappings and report coverage (no files written)."""
     with Store(cache) as store, tempfile.TemporaryDirectory() as tmp:
-        stats = run_export(store, mappings, Path(tmp), body, legislature)
+        stats = run_export(
+            store, mappings, Path(tmp), body, legislature, include_pending=include_pending
+        )
         index = Index.model_validate_json(
             (Path(tmp) / body / str(legislature) / "index.json").read_text()
         )
