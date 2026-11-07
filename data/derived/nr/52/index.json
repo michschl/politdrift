@@ -1,0 +1,10644 @@
+{
+ "body": "nr",
+ "legislature": 52,
+ "windows": [
+  {
+   "id": "session:5201",
+   "kind": "session",
+   "session_id": "5201",
+   "label": "Wintersession 2023",
+   "start": "2023-12-04",
+   "end": "2023-12-22"
+  },
+  {
+   "id": "session:5202",
+   "kind": "session",
+   "session_id": "5202",
+   "label": "Frühjahrssession 2024",
+   "start": "2024-02-26",
+   "end": "2024-03-15"
+  },
+  {
+   "id": "session:5203",
+   "kind": "session",
+   "session_id": "5203",
+   "label": "Sondersession 4. 2024",
+   "start": "2024-04-15",
+   "end": "2024-04-17"
+  },
+  {
+   "id": "session:5204",
+   "kind": "session",
+   "session_id": "5204",
+   "label": "Sommersession 2024",
+   "start": "2024-05-27",
+   "end": "2024-06-14"
+  },
+  {
+   "id": "session:5205",
+   "kind": "session",
+   "session_id": "5205",
+   "label": "Herbstsession 2024",
+   "start": "2024-09-09",
+   "end": "2024-09-27"
+  },
+  {
+   "id": "session:5206",
+   "kind": "session",
+   "session_id": "5206",
+   "label": "Wintersession 2024",
+   "start": "2024-12-02",
+   "end": "2024-12-20"
+  },
+  {
+   "id": "session:5207",
+   "kind": "session",
+   "session_id": "5207",
+   "label": "Frühjahrssession 2025",
+   "start": "2025-03-03",
+   "end": "2025-03-21"
+  },
+  {
+   "id": "session:5208",
+   "kind": "session",
+   "session_id": "5208",
+   "label": "Sondersession 5. 2025",
+   "start": "2025-05-05",
+   "end": "2025-05-07"
+  },
+  {
+   "id": "session:5209",
+   "kind": "session",
+   "session_id": "5209",
+   "label": "Sommersession 2025",
+   "start": "2025-06-02",
+   "end": "2025-06-20"
+  },
+  {
+   "id": "session:5210",
+   "kind": "session",
+   "session_id": "5210",
+   "label": "Herbstsession 2025",
+   "start": "2025-09-08",
+   "end": "2025-09-26"
+  },
+  {
+   "id": "session:5211",
+   "kind": "session",
+   "session_id": "5211",
+   "label": "Wintersession 2025",
+   "start": "2025-12-01",
+   "end": "2025-12-19"
+  },
+  {
+   "id": "session:5212",
+   "kind": "session",
+   "session_id": "5212",
+   "label": "Frühjahrssession 2026",
+   "start": "2026-03-02",
+   "end": "2026-03-20"
+  },
+  {
+   "id": "session:5213",
+   "kind": "session",
+   "session_id": "5213",
+   "label": "Sondersession 4. 2026",
+   "start": "2026-04-27",
+   "end": "2026-04-30"
+  },
+  {
+   "id": "session:5214",
+   "kind": "session",
+   "session_id": "5214",
+   "label": "Sommersession 2026",
+   "start": "2026-06-01",
+   "end": "2026-06-19"
+  },
+  {
+   "id": "session:5215",
+   "kind": "session",
+   "session_id": "5215",
+   "label": "Herbstsession 2026",
+   "start": "2026-09-14",
+   "end": "2026-10-02"
+  },
+  {
+   "id": "rolling4:5201",
+   "kind": "rolling4",
+   "session_id": "5201",
+   "label": "Wintersession 2023",
+   "start": "2023-12-04",
+   "end": "2023-12-22"
+  },
+  {
+   "id": "rolling4:5202",
+   "kind": "rolling4",
+   "session_id": "5202",
+   "label": "Wintersession 2023 – Frühjahrssession 2024",
+   "start": "2023-12-04",
+   "end": "2024-03-15"
+  },
+  {
+   "id": "rolling4:5203",
+   "kind": "rolling4",
+   "session_id": "5203",
+   "label": "Wintersession 2023 – Sondersession 4. 2024",
+   "start": "2023-12-04",
+   "end": "2024-04-17"
+  },
+  {
+   "id": "rolling4:5204",
+   "kind": "rolling4",
+   "session_id": "5204",
+   "label": "Wintersession 2023 – Sommersession 2024",
+   "start": "2023-12-04",
+   "end": "2024-06-14"
+  },
+  {
+   "id": "rolling4:5205",
+   "kind": "rolling4",
+   "session_id": "5205",
+   "label": "Frühjahrssession 2024 – Herbstsession 2024",
+   "start": "2024-02-26",
+   "end": "2024-09-27"
+  },
+  {
+   "id": "rolling4:5206",
+   "kind": "rolling4",
+   "session_id": "5206",
+   "label": "Sondersession 4. 2024 – Wintersession 2024",
+   "start": "2024-04-15",
+   "end": "2024-12-20"
+  },
+  {
+   "id": "rolling4:5207",
+   "kind": "rolling4",
+   "session_id": "5207",
+   "label": "Sommersession 2024 – Frühjahrssession 2025",
+   "start": "2024-05-27",
+   "end": "2025-03-21"
+  },
+  {
+   "id": "rolling4:5208",
+   "kind": "rolling4",
+   "session_id": "5208",
+   "label": "Herbstsession 2024 – Sondersession 5. 2025",
+   "start": "2024-09-09",
+   "end": "2025-05-07"
+  },
+  {
+   "id": "rolling4:5209",
+   "kind": "rolling4",
+   "session_id": "5209",
+   "label": "Wintersession 2024 – Sommersession 2025",
+   "start": "2024-12-02",
+   "end": "2025-06-20"
+  },
+  {
+   "id": "rolling4:5210",
+   "kind": "rolling4",
+   "session_id": "5210",
+   "label": "Frühjahrssession 2025 – Herbstsession 2025",
+   "start": "2025-03-03",
+   "end": "2025-09-26"
+  },
+  {
+   "id": "rolling4:5211",
+   "kind": "rolling4",
+   "session_id": "5211",
+   "label": "Sondersession 5. 2025 – Wintersession 2025",
+   "start": "2025-05-05",
+   "end": "2025-12-19"
+  },
+  {
+   "id": "rolling4:5212",
+   "kind": "rolling4",
+   "session_id": "5212",
+   "label": "Sommersession 2025 – Frühjahrssession 2026",
+   "start": "2025-06-02",
+   "end": "2026-03-20"
+  },
+  {
+   "id": "rolling4:5213",
+   "kind": "rolling4",
+   "session_id": "5213",
+   "label": "Herbstsession 2025 – Sondersession 4. 2026",
+   "start": "2025-09-08",
+   "end": "2026-04-30"
+  },
+  {
+   "id": "rolling4:5214",
+   "kind": "rolling4",
+   "session_id": "5214",
+   "label": "Wintersession 2025 – Sommersession 2026",
+   "start": "2025-12-01",
+   "end": "2026-06-19"
+  },
+  {
+   "id": "rolling4:5215",
+   "kind": "rolling4",
+   "session_id": "5215",
+   "label": "Frühjahrssession 2026 – Herbstsession 2026",
+   "start": "2026-03-02",
+   "end": "2026-10-02"
+  },
+  {
+   "id": "legislature:52",
+   "kind": "legislature",
+   "session_id": "5215",
+   "label": "Legislatur 52",
+   "start": "2023-12-04",
+   "end": "2026-10-02"
+  }
+ ],
+ "current_window": "rolling4:5215",
+ "persons": [
+  {
+   "person_id": "parlch:4154",
+   "slug": "parlch-4154",
+   "first_name": "Jean-Luc",
+   "last_name": "Addor",
+   "canton": "VS",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 90,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4049",
+   "slug": "parlch-4049",
+   "first_name": "Matthias",
+   "last_name": "Aebischer",
+   "canton": "BE",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": null,
+   "active": false,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10803",
+   "slug": "parlch-10803",
+   "first_name": "Cyril",
+   "last_name": "Aellen",
+   "canton": "GE",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 140,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4053",
+   "slug": "parlch-4053",
+   "first_name": "Thomas",
+   "last_name": "Aeschi",
+   "canton": "ZG",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 196,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10812",
+   "slug": "parlch-10812",
+   "first_name": "Islam",
+   "last_name": "Alijaj",
+   "canton": "ZH",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 167,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4090",
+   "slug": "parlch-4090",
+   "first_name": "Céline",
+   "last_name": "Amaudruz",
+   "canton": "GE",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 190,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4320",
+   "slug": "parlch-4320",
+   "first_name": "Emmanuel",
+   "last_name": "Amoos",
+   "canton": "VS",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 71,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4245",
+   "slug": "parlch-4245",
+   "first_name": "Gerhard",
+   "last_name": "Andrey",
+   "canton": "FR",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 37,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4184",
+   "slug": "parlch-4184",
+   "first_name": "Sibel",
+   "last_name": "Arslan",
+   "canton": "BS",
+   "party": "BastA",
+   "parl_group": "G",
+   "seat": 35,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4246",
+   "slug": "parlch-4246",
+   "first_name": "Christine",
+   "last_name": "Badertscher",
+   "canton": "BE",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 19,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4058",
+   "slug": "parlch-4058",
+   "first_name": "Jacqueline",
+   "last_name": "Badran",
+   "canton": "ZH",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 129,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:11508",
+   "slug": "parlch-11508",
+   "first_name": "Maya",
+   "last_name": "Bally",
+   "canton": "AG",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 121,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10804",
+   "slug": "parlch-10804",
+   "first_name": "Bettina",
+   "last_name": "Balmer",
+   "canton": "ZH",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 98,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10818",
+   "slug": "parlch-10818",
+   "first_name": "Nicole",
+   "last_name": "Barandun",
+   "canton": "ZH",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 117,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4247",
+   "slug": "parlch-4247",
+   "first_name": "Kilian",
+   "last_name": "Baumann",
+   "canton": "BE",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 13,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4213",
+   "slug": "parlch-4213",
+   "first_name": "Samuel",
+   "last_name": "Bendahan",
+   "canton": "VD",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 175,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:16109",
+   "slug": "parlch-16109",
+   "first_name": "Rudi",
+   "last_name": "Berli",
+   "canton": "GE",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 21,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4102",
+   "slug": "parlch-4102",
+   "first_name": "Kathrin",
+   "last_name": "Bertschy",
+   "canton": "BE",
+   "party": "glp",
+   "parl_group": "GL",
+   "seat": 96,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4250",
+   "slug": "parlch-4250",
+   "first_name": "Martina",
+   "last_name": "Bircher",
+   "canton": "AG",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": null,
+   "active": false,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:16706",
+   "slug": "parlch-16706",
+   "first_name": "Edgar",
+   "last_name": "Bischof",
+   "canton": "AR",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 18,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10816",
+   "slug": "parlch-10816",
+   "first_name": "Dominik",
+   "last_name": "Blunschy",
+   "canton": "SZ",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 123,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4334",
+   "slug": "parlch-4334",
+   "first_name": "Thomas",
+   "last_name": "Bläsi",
+   "canton": "GE",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 14,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4230",
+   "slug": "parlch-4230",
+   "first_name": "Philipp Matthias",
+   "last_name": "Bregy",
+   "canton": "VS",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 189,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4315",
+   "slug": "parlch-4315",
+   "first_name": "Florence",
+   "last_name": "Brenzikofer",
+   "canton": "BL",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 31,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10813",
+   "slug": "parlch-10813",
+   "first_name": "Simona",
+   "last_name": "Brizzi",
+   "canton": "AG",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 95,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4156",
+   "slug": "parlch-4156",
+   "first_name": "Michaël",
+   "last_name": "Buffat",
+   "canton": "VD",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 156,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:16902",
+   "slug": "parlch-16902",
+   "first_name": "Arbër",
+   "last_name": "Bullakaj",
+   "canton": "SG",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 65,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4101",
+   "slug": "parlch-4101",
+   "first_name": "Christine",
+   "last_name": "Bulliard-Marbach",
+   "canton": "FR",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 147,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4158",
+   "slug": "parlch-4158",
+   "first_name": "Thomas",
+   "last_name": "Burgherr",
+   "canton": "AG",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 60,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:1138",
+   "slug": "parlch-1138",
+   "first_name": "Martin",
+   "last_name": "Bäumle",
+   "canton": "ZH",
+   "party": "glp",
+   "parl_group": "GL",
+   "seat": 125,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4025",
+   "slug": "parlch-4025",
+   "first_name": "Roland Rino",
+   "last_name": "Büchel",
+   "canton": "SG",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 3,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4157",
+   "slug": "parlch-4157",
+   "first_name": "Manfred",
+   "last_name": "Bühler",
+   "canton": "BE",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 86,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10845",
+   "slug": "parlch-10845",
+   "first_name": "Roman",
+   "last_name": "Bürgi",
+   "canton": "SZ",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 56,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10819",
+   "slug": "parlch-10819",
+   "first_name": "Yvonne",
+   "last_name": "Bürgin",
+   "canton": "ZH",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 197,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10850",
+   "slug": "parlch-10850",
+   "first_name": "Didier",
+   "last_name": "Calame",
+   "canton": "NE",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 16,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10828",
+   "slug": "parlch-10828",
+   "first_name": "Hasan",
+   "last_name": "Candan",
+   "canton": "LU",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 101,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4070",
+   "slug": "parlch-4070",
+   "first_name": "Martin",
+   "last_name": "Candinas",
+   "canton": "GR",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 185,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10817",
+   "slug": "parlch-10817",
+   "first_name": "Isabelle",
+   "last_name": "Chappuis",
+   "canton": "VD",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 119,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:15304",
+   "slug": "parlch-15304",
+   "first_name": "Clarence",
+   "last_name": "Chollet",
+   "canton": "NE",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 27,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4252",
+   "slug": "parlch-4252",
+   "first_name": "Katja",
+   "last_name": "Christ",
+   "canton": "BS",
+   "party": "glp",
+   "parl_group": "GL",
+   "seat": 2,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4253",
+   "slug": "parlch-4253",
+   "first_name": "Christophe",
+   "last_name": "Clivaz",
+   "canton": "VS",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 51,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4254",
+   "slug": "parlch-4254",
+   "first_name": "Damien",
+   "last_name": "Cottier",
+   "canton": "NE",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 178,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4219",
+   "slug": "parlch-4219",
+   "first_name": "Brigitte",
+   "last_name": "Crottaz",
+   "canton": "VD",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 43,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4255",
+   "slug": "parlch-4255",
+   "first_name": "Christian",
+   "last_name": "Dandrès",
+   "canton": "GE",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 69,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:14105",
+   "slug": "parlch-14105",
+   "first_name": "Linda",
+   "last_name": "De Ventura",
+   "canton": "SH",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 9,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4160",
+   "slug": "parlch-4160",
+   "first_name": "Marcel",
+   "last_name": "Dettling",
+   "canton": "SZ",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 194,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:16905",
+   "slug": "parlch-16905",
+   "first_name": "Loïc",
+   "last_name": "Dobler",
+   "canton": "JU",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 67,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4190",
+   "slug": "parlch-4190",
+   "first_name": "Marcel",
+   "last_name": "Dobler",
+   "canton": "SG",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 146,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10829",
+   "slug": "parlch-10829",
+   "first_name": "Martine",
+   "last_name": "Docourt",
+   "canton": "NE",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 41,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10815",
+   "slug": "parlch-10815",
+   "first_name": "Regina",
+   "last_name": "Durrer",
+   "canton": "NW",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 11,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:17301",
+   "slug": "parlch-17301",
+   "first_name": "Michèle",
+   "last_name": "Dünki-Bättig",
+   "canton": "ZH",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 91,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4229",
+   "slug": "parlch-4229",
+   "first_name": "Mike",
+   "last_name": "Egger",
+   "canton": "SG",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 72,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4259",
+   "slug": "parlch-4259",
+   "first_name": "Alex",
+   "last_name": "Farinelli",
+   "canton": "TI",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 138,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4195",
+   "slug": "parlch-4195",
+   "first_name": "Laurence",
+   "last_name": "Fehlmann Rielle",
+   "canton": "GE",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 45,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10833",
+   "slug": "parlch-10833",
+   "first_name": "Nina",
+   "last_name": "Fehr Düsel",
+   "canton": "ZH",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 36,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4077",
+   "slug": "parlch-4077",
+   "first_name": "Olivier",
+   "last_name": "Feller",
+   "canton": "VD",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 172,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4326",
+   "slug": "parlch-4326",
+   "first_name": "Benjamin",
+   "last_name": "Fischer",
+   "canton": "ZH",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 28,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4260",
+   "slug": "parlch-4260",
+   "first_name": "Fabien",
+   "last_name": "Fivaz",
+   "canton": "NE",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": null,
+   "active": false,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4059",
+   "slug": "parlch-4059",
+   "first_name": "Beat",
+   "last_name": "Flach",
+   "canton": "AG",
+   "party": "glp",
+   "parl_group": "GL",
+   "seat": null,
+   "active": false,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:11505",
+   "slug": "parlch-11505",
+   "first_name": "Giorgio",
+   "last_name": "Fonio",
+   "canton": "TI",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 115,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10835",
+   "slug": "parlch-10835",
+   "first_name": "Sylvain",
+   "last_name": "Freymond",
+   "canton": "VD",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 52,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4074",
+   "slug": "parlch-4074",
+   "first_name": "Pierre-Alain",
+   "last_name": "Fridez",
+   "canton": "JU",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": null,
+   "active": false,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4131",
+   "slug": "parlch-4131",
+   "first_name": "Claudia",
+   "last_name": "Friedl",
+   "canton": "SG",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": null,
+   "active": false,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4262",
+   "slug": "parlch-4262",
+   "first_name": "Tamara",
+   "last_name": "Funiciello",
+   "canton": "BE",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 145,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4263",
+   "slug": "parlch-4263",
+   "first_name": "Andreas",
+   "last_name": "Gafner",
+   "canton": "BE",
+   "party": "EDU",
+   "parl_group": "V",
+   "seat": 24,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:15004",
+   "slug": "parlch-15004",
+   "first_name": "Benoît",
+   "last_name": "Gaillard",
+   "canton": "VD",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 127,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:16804",
+   "slug": "parlch-16804",
+   "first_name": "Laura",
+   "last_name": "Gantenbein",
+   "canton": "SO",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 23,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10848",
+   "slug": "parlch-10848",
+   "first_name": "Walter",
+   "last_name": "Gartmann",
+   "canton": "SG",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 42,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4265",
+   "slug": "parlch-4265",
+   "first_name": "Anna",
+   "last_name": "Giacometti",
+   "canton": "GR",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 134,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10807",
+   "slug": "parlch-10807",
+   "first_name": "Simone",
+   "last_name": "Gianini",
+   "canton": "TI",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 106,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4266",
+   "slug": "parlch-4266",
+   "first_name": "Benjamin",
+   "last_name": "Giezendanner",
+   "canton": "AG",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 162,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:3882",
+   "slug": "parlch-3882",
+   "first_name": "Bastien",
+   "last_name": "Girod",
+   "canton": "ZH",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": null,
+   "active": false,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4161",
+   "slug": "parlch-4161",
+   "first_name": "Andreas",
+   "last_name": "Glarner",
+   "canton": "AG",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 38,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:14803",
+   "slug": "parlch-14803",
+   "first_name": "Christian",
+   "last_name": "Glur",
+   "canton": "AG",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 30,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4093",
+   "slug": "parlch-4093",
+   "first_name": "Balthasar",
+   "last_name": "Glättli",
+   "canton": "ZH",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": null,
+   "active": false,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10809",
+   "slug": "parlch-10809",
+   "first_name": "Nadine",
+   "last_name": "Gobet",
+   "canton": "FR",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 100,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4137",
+   "slug": "parlch-4137",
+   "first_name": "Roger",
+   "last_name": "Golay",
+   "canton": "GE",
+   "party": "MCG",
+   "parl_group": "V",
+   "seat": 10,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4319",
+   "slug": "parlch-4319",
+   "first_name": "Michael",
+   "last_name": "Graber",
+   "canton": "VS",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 150,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4267",
+   "slug": "parlch-4267",
+   "first_name": "Corina",
+   "last_name": "Gredig",
+   "canton": "ZH",
+   "party": "glp",
+   "parl_group": "GL",
+   "seat": 94,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4083",
+   "slug": "parlch-4083",
+   "first_name": "Jürg",
+   "last_name": "Grossen",
+   "canton": "BE",
+   "party": "glp",
+   "parl_group": "GL",
+   "seat": 92,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4162",
+   "slug": "parlch-4162",
+   "first_name": "Franz",
+   "last_name": "Grüter",
+   "canton": "LU",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 164,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4214",
+   "slug": "parlch-4214",
+   "first_name": "Niklaus-Samuel",
+   "last_name": "Gugger",
+   "canton": "ZH",
+   "party": "EVP",
+   "parl_group": "M-E",
+   "seat": 109,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4310",
+   "slug": "parlch-4310",
+   "first_name": "Lars",
+   "last_name": "Guggisberg",
+   "canton": "BE",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 122,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4216",
+   "slug": "parlch-4216",
+   "first_name": "Diana",
+   "last_name": "Gutjahr",
+   "canton": "TG",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 158,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4121",
+   "slug": "parlch-4121",
+   "first_name": "Barbara",
+   "last_name": "Gysi",
+   "canton": "SG",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 133,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4268",
+   "slug": "parlch-4268",
+   "first_name": "Greta",
+   "last_name": "Gysin",
+   "canton": "TI",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 79,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4335",
+   "slug": "parlch-4335",
+   "first_name": "Michael",
+   "last_name": "Götte",
+   "canton": "SG",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 48,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4236",
+   "slug": "parlch-4236",
+   "first_name": "Martin",
+   "last_name": "Haab",
+   "canton": "ZH",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 74,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:18115",
+   "slug": "parlch-18115",
+   "first_name": "Christoph",
+   "last_name": "Hagenbuch",
+   "canton": "AG",
+   "party": null,
+   "parl_group": null,
+   "seat": null,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:3887",
+   "slug": "parlch-3887",
+   "first_name": "Alfred",
+   "last_name": "Heer",
+   "canton": "ZH",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": null,
+   "active": false,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4314",
+   "slug": "parlch-4314",
+   "first_name": "Stefanie",
+   "last_name": "Heimgartner",
+   "canton": "AG",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 20,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4163",
+   "slug": "parlch-4163",
+   "first_name": "Erich",
+   "last_name": "Hess",
+   "canton": "BE",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 68,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4094",
+   "slug": "parlch-4094",
+   "first_name": "Lorenz",
+   "last_name": "Hess",
+   "canton": "BE",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 165,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4317",
+   "slug": "parlch-4317",
+   "first_name": "Alois",
+   "last_name": "Huber",
+   "canton": "AG",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 34,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10844",
+   "slug": "parlch-10844",
+   "first_name": "Roman",
+   "last_name": "Hug",
+   "canton": "GR",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 44,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:3890",
+   "slug": "parlch-3890",
+   "first_name": "Thomas",
+   "last_name": "Hurter",
+   "canton": "SH",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 154,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:11507",
+   "slug": "parlch-11507",
+   "first_name": "Patrick",
+   "last_name": "Hässig",
+   "canton": "ZH",
+   "party": "glp",
+   "parl_group": "GL",
+   "seat": 66,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10831",
+   "slug": "parlch-10831",
+   "first_name": "Martin",
+   "last_name": "Hübscher",
+   "canton": "ZH",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 114,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4164",
+   "slug": "parlch-4164",
+   "first_name": "Christian",
+   "last_name": "Imark",
+   "canton": "SO",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 126,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10820",
+   "slug": "parlch-10820",
+   "first_name": "Jessica",
+   "last_name": "Jaccoud",
+   "canton": "VD",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 73,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4208",
+   "slug": "parlch-4208",
+   "first_name": "Matthias Samuel",
+   "last_name": "Jauslin",
+   "canton": "AG",
+   "party": "FDP-Liberale",
+   "parl_group": "GL",
+   "seat": 85,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4331",
+   "slug": "parlch-4331",
+   "first_name": "Marc",
+   "last_name": "Jost",
+   "canton": "BE",
+   "party": "EVP",
+   "parl_group": "M-E",
+   "seat": 111,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4271",
+   "slug": "parlch-4271",
+   "first_name": "Sidney",
+   "last_name": "Kamerzin",
+   "canton": "VS",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 153,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10814",
+   "slug": "parlch-10814",
+   "first_name": "Pius",
+   "last_name": "Kaufmann",
+   "canton": "LU",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 163,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4272",
+   "slug": "parlch-4272",
+   "first_name": "Delphine",
+   "last_name": "Klopfenstein Broggini",
+   "canton": "GE",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 55,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10832",
+   "slug": "parlch-10832",
+   "first_name": "Thomas",
+   "last_name": "Knutti",
+   "canton": "BE",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 54,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10836",
+   "slug": "parlch-10836",
+   "first_name": "Nicolas",
+   "last_name": "Kolly",
+   "canton": "FR",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 118,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4225",
+   "slug": "parlch-4225",
+   "first_name": "Philipp",
+   "last_name": "Kutter",
+   "canton": "ZH",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 181,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4218",
+   "slug": "parlch-4218",
+   "first_name": "Irène",
+   "last_name": "Kälin",
+   "canton": "AG",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 83,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:17201",
+   "slug": "parlch-17201",
+   "first_name": "Miriam",
+   "last_name": "Locher",
+   "canton": "BL",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 63,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4118",
+   "slug": "parlch-4118",
+   "first_name": "Christian",
+   "last_name": "Lohr",
+   "canton": "TG",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 179,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4327",
+   "slug": "parlch-4327",
+   "first_name": "Raphaël",
+   "last_name": "Mahaim",
+   "canton": "VD",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 77,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4275",
+   "slug": "parlch-4275",
+   "first_name": "Vincent",
+   "last_name": "Maitre",
+   "canton": "GE",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 155,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4311",
+   "slug": "parlch-4311",
+   "first_name": "Piero",
+   "last_name": "Marchesi",
+   "canton": "TI",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": null,
+   "active": false,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4197",
+   "slug": "parlch-4197",
+   "first_name": "Min Li",
+   "last_name": "Marti",
+   "canton": "ZH",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 103,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4228",
+   "slug": "parlch-4228",
+   "first_name": "Samira",
+   "last_name": "Marti",
+   "canton": "BL",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 173,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4167",
+   "slug": "parlch-4167",
+   "first_name": "Magdalena",
+   "last_name": "Martullo-Blocher",
+   "canton": "GR",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 198,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4130",
+   "slug": "parlch-4130",
+   "first_name": "Nadine",
+   "last_name": "Masshardt",
+   "canton": "BE",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 177,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4144",
+   "slug": "parlch-4144",
+   "first_name": "Thomas",
+   "last_name": "Matter",
+   "canton": "ZH",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 192,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4333",
+   "slug": "parlch-4333",
+   "first_name": "Andreas",
+   "last_name": "Meier",
+   "canton": "AG",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 151,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4277",
+   "slug": "parlch-4277",
+   "first_name": "Melanie",
+   "last_name": "Mettler",
+   "canton": "BE",
+   "party": "glp",
+   "parl_group": "GL",
+   "seat": null,
+   "active": false,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4198",
+   "slug": "parlch-4198",
+   "first_name": "Mattea",
+   "last_name": "Meyer",
+   "canton": "ZH",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 171,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4278",
+   "slug": "parlch-4278",
+   "first_name": "Sophie",
+   "last_name": "Michaud Gigon",
+   "canton": "VD",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 17,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10810",
+   "slug": "parlch-10810",
+   "first_name": "Simon",
+   "last_name": "Michel",
+   "canton": "SO",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 144,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4223",
+   "slug": "parlch-4223",
+   "first_name": "Fabian",
+   "last_name": "Molina",
+   "canton": "ZH",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 105,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4134",
+   "slug": "parlch-4134",
+   "first_name": "Martina",
+   "last_name": "Munz",
+   "canton": "SH",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": null,
+   "active": false,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4097",
+   "slug": "parlch-4097",
+   "first_name": "Leo",
+   "last_name": "Müller",
+   "canton": "LU",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 183,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4063",
+   "slug": "parlch-4063",
+   "first_name": "Stefan",
+   "last_name": "Müller-Altermatt",
+   "canton": "SO",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 149,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4193",
+   "slug": "parlch-4193",
+   "first_name": "Philippe",
+   "last_name": "Nantermod",
+   "canton": "VS",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 188,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10811",
+   "slug": "parlch-10811",
+   "first_name": "Reto",
+   "last_name": "Nause",
+   "canton": "BE",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 113,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4168",
+   "slug": "parlch-4168",
+   "first_name": "Jacques",
+   "last_name": "Nicolet",
+   "canton": "VD",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 58,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:1279",
+   "slug": "parlch-1279",
+   "first_name": "Roger",
+   "last_name": "Nordmann",
+   "canton": "VD",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": null,
+   "active": false,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:3899",
+   "slug": "parlch-3899",
+   "first_name": "Eric",
+   "last_name": "Nussbaumer",
+   "canton": "BL",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": null,
+   "active": false,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4222",
+   "slug": "parlch-4222",
+   "first_name": "Nicolò",
+   "last_name": "Paganini",
+   "canton": "SG",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 187,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4169",
+   "slug": "parlch-4169",
+   "first_name": "Pierre-André",
+   "last_name": "Page",
+   "canton": "FR",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 1,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10840",
+   "slug": "parlch-10840",
+   "first_name": "Yvan",
+   "last_name": "Pahud",
+   "canton": "VD",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 84,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10842",
+   "slug": "parlch-10842",
+   "first_name": "Paolo",
+   "last_name": "Pamini",
+   "canton": "TI",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 78,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:1109",
+   "slug": "parlch-1109",
+   "first_name": "Gerhard",
+   "last_name": "Pfister",
+   "canton": "ZG",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 191,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4109",
+   "slug": "parlch-4109",
+   "first_name": "Valérie",
+   "last_name": "Piller Carrard",
+   "canton": "FR",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 139,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4280",
+   "slug": "parlch-4280",
+   "first_name": "Léonore",
+   "last_name": "Porchet",
+   "canton": "VD",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 15,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:17101",
+   "slug": "parlch-17101",
+   "first_name": "Barbara",
+   "last_name": "Portmann",
+   "canton": "AG",
+   "party": "glp",
+   "parl_group": "GL",
+   "seat": 64,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4141",
+   "slug": "parlch-4141",
+   "first_name": "Hans-Peter",
+   "last_name": "Portmann",
+   "canton": "ZH",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 168,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:3999",
+   "slug": "parlch-3999",
+   "first_name": "Katharina",
+   "last_name": "Prelicz-Huber",
+   "canton": "ZH",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 59,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4281",
+   "slug": "parlch-4281",
+   "first_name": "Jon",
+   "last_name": "Pult",
+   "canton": "GR",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 143,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4046",
+   "slug": "parlch-4046",
+   "first_name": "Lorenzo",
+   "last_name": "Quadri",
+   "canton": "TI",
+   "party": "Lega",
+   "parl_group": "V",
+   "seat": 6,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:18118",
+   "slug": "parlch-18118",
+   "first_name": "Christian",
+   "last_name": "Rathgeb",
+   "canton": "GR",
+   "party": null,
+   "parl_group": null,
+   "seat": null,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4282",
+   "slug": "parlch-4282",
+   "first_name": "Thomas",
+   "last_name": "Rechsteiner",
+   "canton": "AI",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 193,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:3901",
+   "slug": "parlch-3901",
+   "first_name": "Lukas",
+   "last_name": "Reimann",
+   "canton": "SG",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 40,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10823",
+   "slug": "parlch-10823",
+   "first_name": "Estelle",
+   "last_name": "Revaz",
+   "canton": "GE",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 137,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10830",
+   "slug": "parlch-10830",
+   "first_name": "Katja",
+   "last_name": "Riem",
+   "canton": "BE",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 82,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10801",
+   "slug": "parlch-10801",
+   "first_name": "Christoph",
+   "last_name": "Riner",
+   "canton": "AG",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 46,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4313",
+   "slug": "parlch-4313",
+   "first_name": "Maja",
+   "last_name": "Riniker",
+   "canton": "AG",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 136,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4052",
+   "slug": "parlch-4052",
+   "first_name": "Markus",
+   "last_name": "Ritter",
+   "canton": "SG",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 199,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4220",
+   "slug": "parlch-4220",
+   "first_name": "Benjamin",
+   "last_name": "Roduit",
+   "canton": "VS",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 8,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10824",
+   "slug": "parlch-10824",
+   "first_name": "Anna",
+   "last_name": "Rosenwasser",
+   "canton": "ZH",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 107,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10821",
+   "slug": "parlch-10821",
+   "first_name": "David",
+   "last_name": "Roth",
+   "canton": "LU",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 131,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4284",
+   "slug": "parlch-4284",
+   "first_name": "Marie-France",
+   "last_name": "Roth Pasquier",
+   "canton": "FR",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 157,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4329",
+   "slug": "parlch-4329",
+   "first_name": "Daniel",
+   "last_name": "Ruch",
+   "canton": "VD",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 108,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:11506",
+   "slug": "parlch-11506",
+   "first_name": "Farah",
+   "last_name": "Rumy",
+   "canton": "SO",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 4,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4125",
+   "slug": "parlch-4125",
+   "first_name": "Gregor",
+   "last_name": "Rutz",
+   "canton": "ZH",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 166,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4286",
+   "slug": "parlch-4286",
+   "first_name": "Franziska",
+   "last_name": "Ryser",
+   "canton": "SG",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 81,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4285",
+   "slug": "parlch-4285",
+   "first_name": "Monika",
+   "last_name": "Rüegger",
+   "canton": "OW",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 120,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10852",
+   "slug": "parlch-10852",
+   "first_name": "Hans Jörg",
+   "last_name": "Rüegsegger",
+   "canton": "BE",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 88,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4202",
+   "slug": "parlch-4202",
+   "first_name": "Regine",
+   "last_name": "Sauter",
+   "canton": "ZH",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 184,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4287",
+   "slug": "parlch-4287",
+   "first_name": "Barbara",
+   "last_name": "Schaffner",
+   "canton": "ZH",
+   "party": "glp",
+   "parl_group": "GL",
+   "seat": 87,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4124",
+   "slug": "parlch-4124",
+   "first_name": "Peter",
+   "last_name": "Schilliger",
+   "canton": "LU",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 128,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4288",
+   "slug": "parlch-4288",
+   "first_name": "Marionna",
+   "last_name": "Schlatter",
+   "canton": "ZH",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 53,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10826",
+   "slug": "parlch-10826",
+   "first_name": "Nina",
+   "last_name": "Schläfli",
+   "canton": "TG",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 7,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4234",
+   "slug": "parlch-4234",
+   "first_name": "Therese",
+   "last_name": "Schläpfer",
+   "canton": "ZH",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 110,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:17401",
+   "slug": "parlch-17401",
+   "first_name": "Anna-Béatrice",
+   "last_name": "Schmaltz",
+   "canton": "ZH",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 29,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:14809",
+   "slug": "parlch-14809",
+   "first_name": "Ueli",
+   "last_name": "Schmezer",
+   "canton": "BE",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 47,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10843",
+   "slug": "parlch-10843",
+   "first_name": "Pascal",
+   "last_name": "Schmid",
+   "canton": "TG",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 116,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4060",
+   "slug": "parlch-4060",
+   "first_name": "Daniela",
+   "last_name": "Schneeberger",
+   "canton": "BL",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 176,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4289",
+   "slug": "parlch-4289",
+   "first_name": "Meret",
+   "last_name": "Schneider",
+   "canton": "ZH",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 49,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4040",
+   "slug": "parlch-4040",
+   "first_name": "Elisabeth",
+   "last_name": "Schneider-Schneiter",
+   "canton": "BL",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 195,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10841",
+   "slug": "parlch-10841",
+   "first_name": "Markus",
+   "last_name": "Schnyder",
+   "canton": "GL",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 80,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4199",
+   "slug": "parlch-4199",
+   "first_name": "Priska",
+   "last_name": "Seiler Graf",
+   "canton": "ZH",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 93,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4290",
+   "slug": "parlch-4290",
+   "first_name": "Andri",
+   "last_name": "Silberschmidt",
+   "canton": "ZH",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 182,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:18110",
+   "slug": "parlch-18110",
+   "first_name": "Roberta",
+   "last_name": "Soldati",
+   "canton": "TI",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 76,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4173",
+   "slug": "parlch-4173",
+   "first_name": "Sandra",
+   "last_name": "Sollberger",
+   "canton": "BL",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 148,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:11404",
+   "slug": "parlch-11404",
+   "first_name": "Daniel",
+   "last_name": "Sormanni",
+   "canton": "GE",
+   "party": "MCG",
+   "parl_group": "V",
+   "seat": 12,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4292",
+   "slug": "parlch-4292",
+   "first_name": "Simon",
+   "last_name": "Stadler",
+   "canton": "UR",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 161,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4174",
+   "slug": "parlch-4174",
+   "first_name": "Barbara",
+   "last_name": "Steinemann",
+   "canton": "ZH",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 124,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10847",
+   "slug": "parlch-10847",
+   "first_name": "Thomas",
+   "last_name": "Stettler",
+   "canton": "JU",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 70,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4312",
+   "slug": "parlch-4312",
+   "first_name": "Bruno",
+   "last_name": "Storni",
+   "canton": "TI",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 39,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4293",
+   "slug": "parlch-4293",
+   "first_name": "Manuel",
+   "last_name": "Strupler",
+   "canton": "TG",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 200,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:14810",
+   "slug": "parlch-14810",
+   "first_name": "Fabienne",
+   "last_name": "Stämpfli",
+   "canton": "BE",
+   "party": "glp",
+   "parl_group": "GL",
+   "seat": 62,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4295",
+   "slug": "parlch-4295",
+   "first_name": "Gabriela",
+   "last_name": "Suter",
+   "canton": "AG",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 75,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10849",
+   "slug": "parlch-10849",
+   "first_name": "Vroni",
+   "last_name": "Thalmann-Bieri",
+   "canton": "LU",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 5,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10808",
+   "slug": "parlch-10808",
+   "first_name": "Heinz",
+   "last_name": "Theiler",
+   "canton": "SZ",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 104,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4128",
+   "slug": "parlch-4128",
+   "first_name": "Aline",
+   "last_name": "Trede",
+   "canton": "BE",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": null,
+   "active": false,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10827",
+   "slug": "parlch-10827",
+   "first_name": "Jean",
+   "last_name": "Tschopp",
+   "canton": "VD",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 141,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4175",
+   "slug": "parlch-4175",
+   "first_name": "Mauro",
+   "last_name": "Tuena",
+   "canton": "ZH",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 50,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10825",
+   "slug": "parlch-10825",
+   "first_name": "Brenda",
+   "last_name": "Tuosto",
+   "canton": "VD",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 135,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4221",
+   "slug": "parlch-4221",
+   "first_name": "Michael",
+   "last_name": "Töngi",
+   "canton": "LU",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 25,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4065",
+   "slug": "parlch-4065",
+   "first_name": "Nadja",
+   "last_name": "Umbricht Pieren",
+   "canton": "BE",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 152,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10806",
+   "slug": "parlch-10806",
+   "first_name": "Kris",
+   "last_name": "Vietze",
+   "canton": "TG",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 102,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4296",
+   "slug": "parlch-4296",
+   "first_name": "Susanne",
+   "last_name": "Vincenz-Stauffacher",
+   "canton": "SG",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 180,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10838",
+   "slug": "parlch-10838",
+   "first_name": "Erich",
+   "last_name": "Vontobel",
+   "canton": "ZH",
+   "party": "EDU",
+   "parl_group": "V",
+   "seat": 22,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4297",
+   "slug": "parlch-4297",
+   "first_name": "Nicolas",
+   "last_name": "Walder",
+   "canton": "GE",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": null,
+   "active": false,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4177",
+   "slug": "parlch-4177",
+   "first_name": "Bruno",
+   "last_name": "Walliser",
+   "canton": "ZH",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 112,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4142",
+   "slug": "parlch-4142",
+   "first_name": "Beat",
+   "last_name": "Walti",
+   "canton": "ZH",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 186,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10834",
+   "slug": "parlch-10834",
+   "first_name": "Ernst",
+   "last_name": "Wandfluh",
+   "canton": "BE",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 26,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:3912",
+   "slug": "parlch-3912",
+   "first_name": "Christian",
+   "last_name": "Wasserfallen",
+   "canton": "BE",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 174,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4323",
+   "slug": "parlch-4323",
+   "first_name": "Céline",
+   "last_name": "Weber",
+   "canton": "VD",
+   "party": "glp",
+   "parl_group": "GL",
+   "seat": 89,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4194",
+   "slug": "parlch-4194",
+   "first_name": "Laurent",
+   "last_name": "Wehrli",
+   "canton": "VD",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 170,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4298",
+   "slug": "parlch-4298",
+   "first_name": "Manuela",
+   "last_name": "Weichelt",
+   "canton": "ZG",
+   "party": "Al",
+   "parl_group": "G",
+   "seat": 57,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4057",
+   "slug": "parlch-4057",
+   "first_name": "Cédric",
+   "last_name": "Wermuth",
+   "canton": "AG",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 169,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4299",
+   "slug": "parlch-4299",
+   "first_name": "Felix",
+   "last_name": "Wettstein",
+   "canton": "SO",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": null,
+   "active": false,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4300",
+   "slug": "parlch-4300",
+   "first_name": "Céline",
+   "last_name": "Widmer",
+   "canton": "ZH",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": null,
+   "active": false,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4305",
+   "slug": "parlch-4305",
+   "first_name": "Priska",
+   "last_name": "Wismer-Felder",
+   "canton": "LU",
+   "party": "M-E",
+   "parl_group": "M-E",
+   "seat": 159,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4318",
+   "slug": "parlch-4318",
+   "first_name": "Sarah",
+   "last_name": "Wyss",
+   "canton": "BS",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 99,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10846",
+   "slug": "parlch-10846",
+   "first_name": "Rémy",
+   "last_name": "Wyssmann",
+   "canton": "SO",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 32,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10851",
+   "slug": "parlch-10851",
+   "first_name": "Andrea",
+   "last_name": "Zryd",
+   "canton": "BE",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 61,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4179",
+   "slug": "parlch-4179",
+   "first_name": "David",
+   "last_name": "Zuberbühler",
+   "canton": "AR",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": null,
+   "active": false,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:10822",
+   "slug": "parlch-10822",
+   "first_name": "Ursula",
+   "last_name": "Zybach",
+   "canton": "BE",
+   "party": "SP",
+   "parl_group": "S",
+   "seat": 97,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4051",
+   "slug": "parlch-4051",
+   "first_name": "Thomas",
+   "last_name": "de Courten",
+   "canton": "BL",
+   "party": "SVP",
+   "parl_group": "V",
+   "seat": 160,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:17404",
+   "slug": "parlch-17404",
+   "first_name": "Andrea",
+   "last_name": "de Meuron",
+   "canton": "BE",
+   "party": "GRÜNE",
+   "parl_group": "G",
+   "seat": 33,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4256",
+   "slug": "parlch-4256",
+   "first_name": "Simone",
+   "last_name": "de Montmollin",
+   "canton": "GE",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 142,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4257",
+   "slug": "parlch-4257",
+   "first_name": "Jacqueline",
+   "last_name": "de Quattro",
+   "canton": "VD",
+   "party": "FDP-Liberale",
+   "parl_group": "RL",
+   "seat": 130,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  },
+  {
+   "person_id": "parlch:4324",
+   "slug": "parlch-4324",
+   "first_name": "Patricia",
+   "last_name": "von Falkenstein",
+   "canton": "BS",
+   "party": "LDP",
+   "parl_group": "RL",
+   "seat": 132,
+   "active": true,
+   "profile": {
+    "aussenpolitik_offen": {
+     "score": null,
+     "n": 0
+    },
+    "wirtschaft_liberal": {
+     "score": null,
+     "n": 0
+    },
+    "finanzen_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "law_order": {
+     "score": null,
+     "n": 0
+    },
+    "migration_restriktiv": {
+     "score": null,
+     "n": 0
+    },
+    "umwelt_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "sozialstaat_ausgebaut": {
+     "score": null,
+     "n": 0
+    },
+    "gesellschaft_liberal": {
+     "score": null,
+     "n": 0
+    }
+   },
+   "group_distance": null,
+   "drift": null
+  }
+ ]
+}

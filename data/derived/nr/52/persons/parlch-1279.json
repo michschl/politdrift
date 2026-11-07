@@ -1,0 +1,59 @@
+{
+ "person": {
+  "person_id": "parlch:1279",
+  "slug": "parlch-1279",
+  "first_name": "Roger",
+  "last_name": "Nordmann",
+  "canton": "VD",
+  "party": "SP",
+  "parl_group": "S",
+  "seat": null,
+  "active": false,
+  "profile": {
+   "aussenpolitik_offen": {
+    "score": null,
+    "n": 0
+   },
+   "wirtschaft_liberal": {
+    "score": null,
+    "n": 0
+   },
+   "finanzen_restriktiv": {
+    "score": null,
+    "n": 0
+   },
+   "law_order": {
+    "score": null,
+    "n": 0
+   },
+   "migration_restriktiv": {
+    "score": null,
+    "n": 0
+   },
+   "umwelt_ausgebaut": {
+    "score": null,
+    "n": 0
+   },
+   "sozialstaat_ausgebaut": {
+    "score": null,
+    "n": 0
+   },
+   "gesellschaft_liberal": {
+    "score": null,
+    "n": 0
+   }
+  },
+  "group_distance": null,
+  "drift": null
+ },
+ "memberships": [
+  {
+   "start": "2023-12-04",
+   "end": "2025-03-20",
+   "party": "SP",
+   "parl_group": "S"
+  }
+ ],
+ "profiles": {},
+ "ballots": []
+}

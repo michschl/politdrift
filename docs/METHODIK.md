@@ -39,7 +39,10 @@ Für die Zuordnung gelten diese Regeln:
    Nur so messen wir Wahlprofil und Abstimmungsverhalten mit demselben Massstab.
 2. **Konsistenz-Check gegen die Fraktionen.** Verläuft die Lagerbildung in einer Abstimmung entgegen der
    Reihenfolge der Fraktionen auf einer Achse, ist die Achse vermutlich falsch gewählt. Die Pipeline prüft
-   das automatisch und markiert solche Fälle.
+   das automatisch und markiert solche Fälle. Dazu vergleicht sie, wie stark jede Fraktion in dieser
+   Abstimmung in Achsenrichtung gestimmt hat, mit dem Fraktionsprofil auf dieser Achse aus allen
+   *anderen* zugeordneten Abstimmungen (Rangkorrelation nach Spearman). Ist die Korrelation bei
+   mindestens vier Fraktionen negativ, wird die Zuordnung markiert.
 3. **Nicht jede Abstimmung gehört in den Spider.** Verfahrensabstimmungen, Ordnungsanträge und
    Geschäfte ohne klaren Achsenbezug bleiben ohne Achse. Sie können in Themenratings geführt werden.
 4. **Nur geprüfte Zuordnungen zählen.** Vorschläge, die noch nicht von einem Menschen geprüft wurden,
@@ -73,6 +76,10 @@ Wert     = (S + 1) / 2 · 100
 
 ### Vergleiche
 
+- **Fraktionsprofil:** Jede Fraktion zählt pro Abstimmung einmal, mit ihrer Bilanz
+  (Ja minus Nein, geteilt durch die abgegebenen Ja- und Nein-Stimmen ihrer Mitglieder). So hängt das
+  Profil nicht von der Grösse der Fraktion ab, und die Mindestzahl von 8 gilt für Abstimmungen wie bei
+  Personen. Massgebend ist die Fraktion zum Zeitpunkt der Abstimmung.
 - **Fraktionsdrift:** mittlere Abweichung des Profils einer Person vom Profil ihrer Fraktion über alle
   Achsen. Das ist der Standardvergleich.
 - **Drift über die Zeit:** Veränderung des Profils zwischen zwei Zeitfenstern, pro Achse.

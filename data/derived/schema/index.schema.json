@@ -1,0 +1,276 @@
+{
+ "$defs": {
+  "Axis": {
+   "enum": [
+    "aussenpolitik_offen",
+    "wirtschaft_liberal",
+    "finanzen_restriktiv",
+    "law_order",
+    "migration_restriktiv",
+    "umwelt_ausgebaut",
+    "sozialstaat_ausgebaut",
+    "gesellschaft_liberal"
+   ],
+   "title": "Axis",
+   "type": "string"
+  },
+  "AxisValue": {
+   "additionalProperties": false,
+   "properties": {
+    "score": {
+     "anyOf": [
+      {
+       "maximum": 100,
+       "minimum": 0,
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "description": "0..100, null = too little data",
+     "title": "Score"
+    },
+    "n": {
+     "description": "Number of mapped, cast votes in the window",
+     "minimum": 0,
+     "title": "N",
+     "type": "integer"
+    }
+   },
+   "required": [
+    "score",
+    "n"
+   ],
+   "title": "AxisValue",
+   "type": "object"
+  },
+  "PersonSummary": {
+   "additionalProperties": false,
+   "properties": {
+    "person_id": {
+     "title": "Person Id",
+     "type": "string"
+    },
+    "slug": {
+     "title": "Slug",
+     "type": "string"
+    },
+    "first_name": {
+     "title": "First Name",
+     "type": "string"
+    },
+    "last_name": {
+     "title": "Last Name",
+     "type": "string"
+    },
+    "canton": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Canton"
+    },
+    "party": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Party"
+    },
+    "parl_group": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Parl Group"
+    },
+    "seat": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Seat"
+    },
+    "active": {
+     "title": "Active",
+     "type": "boolean"
+    },
+    "profile": {
+     "additionalProperties": {
+      "$ref": "#/$defs/AxisValue"
+     },
+     "description": "Rolling window over the last 4 sessions",
+     "propertyNames": {
+      "$ref": "#/$defs/Axis"
+     },
+     "title": "Profile",
+     "type": "object"
+    },
+    "group_distance": {
+     "anyOf": [
+      {
+       "maximum": 100,
+       "minimum": 0,
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "description": "Fraktionsdrift: mean |person - group| over axes",
+     "title": "Group Distance"
+    },
+    "drift": {
+     "anyOf": [
+      {
+       "maximum": 100,
+       "minimum": 0,
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "description": "Mean axis change between first and latest rolling window",
+     "title": "Drift"
+    }
+   },
+   "required": [
+    "person_id",
+    "slug",
+    "first_name",
+    "last_name",
+    "canton",
+    "party",
+    "parl_group",
+    "seat",
+    "active",
+    "profile",
+    "group_distance",
+    "drift"
+   ],
+   "title": "PersonSummary",
+   "type": "object"
+  },
+  "Window": {
+   "additionalProperties": false,
+   "properties": {
+    "id": {
+     "description": "session:<id>, rolling4:<last session id> or legislature:<n>",
+     "title": "Id",
+     "type": "string"
+    },
+    "kind": {
+     "$ref": "#/$defs/WindowKind"
+    },
+    "session_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "description": "Last session in the window",
+     "title": "Session Id"
+    },
+    "label": {
+     "title": "Label",
+     "type": "string"
+    },
+    "start": {
+     "format": "date",
+     "title": "Start",
+     "type": "string"
+    },
+    "end": {
+     "format": "date",
+     "title": "End",
+     "type": "string"
+    }
+   },
+   "required": [
+    "id",
+    "kind",
+    "session_id",
+    "label",
+    "start",
+    "end"
+   ],
+   "title": "Window",
+   "type": "object"
+  },
+  "WindowKind": {
+   "enum": [
+    "session",
+    "rolling4",
+    "legislature"
+   ],
+   "title": "WindowKind",
+   "type": "string"
+  }
+ },
+ "additionalProperties": false,
+ "properties": {
+  "body": {
+   "title": "Body",
+   "type": "string"
+  },
+  "legislature": {
+   "title": "Legislature",
+   "type": "integer"
+  },
+  "windows": {
+   "items": {
+    "$ref": "#/$defs/Window"
+   },
+   "title": "Windows",
+   "type": "array"
+  },
+  "current_window": {
+   "anyOf": [
+    {
+     "type": "string"
+    },
+    {
+     "type": "null"
+    }
+   ],
+   "title": "Current Window"
+  },
+  "persons": {
+   "items": {
+    "$ref": "#/$defs/PersonSummary"
+   },
+   "title": "Persons",
+   "type": "array"
+  }
+ },
+ "required": [
+  "body",
+  "legislature",
+  "windows",
+  "current_window",
+  "persons"
+ ],
+ "title": "Index",
+ "type": "object"
+}

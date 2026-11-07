@@ -84,3 +84,33 @@ def distance(a: Mapping[Axis, float | None], b: Mapping[Axis, float | None]) -> 
     """Mean absolute axis distance; used for Fraktionsdrift (person vs. parliamentary group)."""
     c = coverage(a, b)
     return None if c is None else 100 - c
+
+
+@dataclass(frozen=True, slots=True)
+class WeightedPosition:
+    """A collective position on one vote, e.g. a parliamentary group's balance.
+
+    value = (yes - no) / (yes + no) in [-1, 1]; one position counts as one vote for n_min.
+    """
+
+    value: float
+    direction: int
+    weight: float
+
+
+def position_score(positions: Iterable[WeightedPosition], n_min: int = N_MIN) -> AxisScore:
+    """Like axis_score, for collective positions: S = sum(w*d*x) / sum(w), score = (S+1)/2*100."""
+    num = 0.0
+    den = 0.0
+    n = 0
+    for p in positions:
+        if p.direction not in (-1, 1):
+            raise ValueError(f"direction must be -1 or 1, got {p.direction}")
+        if not -1.0 <= p.value <= 1.0:
+            raise ValueError(f"value must be in [-1, 1], got {p.value}")
+        num += p.weight * p.direction * p.value
+        den += p.weight
+        n += 1
+    if n < n_min or den == 0:
+        return AxisScore(score=None, n=n)
+    return AxisScore(score=(num / den + 1) / 2 * 100, n=n)

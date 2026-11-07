@@ -1,0 +1,138 @@
+{
+ "vote_id": 35460,
+ "session_id": "5211",
+ "date": "2025-12-19T10:28:18.577000Z",
+ "business": "25.024",
+ "title": "Kriegsmaterialgesetzes (Aufnahme einer Abweichungskompetenz für den Bundesrat). Änderung",
+ "subject": "Vote final",
+ "meaning_yes": "Adopter le projet",
+ "meaning_no": "Rejeter le projet",
+ "counts": {
+  "absent": 1,
+  "abstain": 6,
+  "excused": 2,
+  "no": 68,
+  "president": 1,
+  "yes": 122
+ },
+ "groups": [
+  {
+   "group": "G",
+   "counts": {
+    "no": 23
+   },
+   "majority": "no"
+  },
+  {
+   "group": "GL",
+   "counts": {
+    "abstain": 2,
+    "no": 3,
+    "yes": 6
+   },
+   "majority": "yes"
+  },
+  {
+   "group": "M-E",
+   "counts": {
+    "abstain": 4,
+    "no": 1,
+    "yes": 26
+   },
+   "majority": "yes"
+  },
+  {
+   "group": "RL",
+   "counts": {
+    "absent": 1,
+    "excused": 1,
+    "yes": 25
+   },
+   "majority": "yes"
+  },
+  {
+   "group": "S",
+   "counts": {
+    "excused": 1,
+    "no": 40
+   },
+   "majority": "no"
+  },
+  {
+   "group": "V",
+   "counts": {
+    "no": 1,
+    "president": 1,
+    "yes": 65
+   },
+   "majority": "yes"
+  }
+ ],
+ "dissenters": [
+  {
+   "person_id": "parlch:3901",
+   "group": "V",
+   "decision": "no",
+   "group_majority": "yes"
+  },
+  {
+   "person_id": "parlch:4059",
+   "group": "GL",
+   "decision": "no",
+   "group_majority": "yes"
+  },
+  {
+   "person_id": "parlch:4102",
+   "group": "GL",
+   "decision": "no",
+   "group_majority": "yes"
+  },
+  {
+   "person_id": "parlch:4287",
+   "group": "GL",
+   "decision": "no",
+   "group_majority": "yes"
+  },
+  {
+   "person_id": "parlch:4331",
+   "group": "M-E",
+   "decision": "no",
+   "group_majority": "yes"
+  }
+ ],
+ "axes": [
+  {
+   "axis": "wirtschaft_liberal",
+   "direction": 1,
+   "weight": 0.5
+  },
+  {
+   "axis": "law_order",
+   "direction": 1,
+   "weight": 0.3
+  }
+ ],
+ "topics": [
+  "sicherheit_neutralitaet"
+ ],
+ "source": "manual",
+ "confidence": 0.7,
+ "contested": true,
+ "reviewed_by": "michschl",
+ "reviewed_at": "2026-11-07",
+ "note": "Aussenpolitik bewusst nicht zugeordnet: Konsistenz-Check gegen Partei-Spider negativ (SVP Ja bei «geschlossenem», SP/Grüne Nein bei «offenem» Aussenpolitik-Profil).",
+ "consistency": [
+  {
+   "axis": "wirtschaft_liberal",
+   "rho": null,
+   "groups": 0,
+   "warning": false
+  },
+  {
+   "axis": "law_order",
+   "rho": null,
+   "groups": 0,
+   "warning": false
+  }
+ ]
+}

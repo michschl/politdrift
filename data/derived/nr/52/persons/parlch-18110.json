@@ -1,0 +1,59 @@
+{
+ "person": {
+  "person_id": "parlch:18110",
+  "slug": "parlch-18110",
+  "first_name": "Roberta",
+  "last_name": "Soldati",
+  "canton": "TI",
+  "party": "SVP",
+  "parl_group": "V",
+  "seat": 76,
+  "active": true,
+  "profile": {
+   "aussenpolitik_offen": {
+    "score": null,
+    "n": 0
+   },
+   "wirtschaft_liberal": {
+    "score": null,
+    "n": 0
+   },
+   "finanzen_restriktiv": {
+    "score": null,
+    "n": 0
+   },
+   "law_order": {
+    "score": null,
+    "n": 0
+   },
+   "migration_restriktiv": {
+    "score": null,
+    "n": 0
+   },
+   "umwelt_ausgebaut": {
+    "score": null,
+    "n": 0
+   },
+   "sozialstaat_ausgebaut": {
+    "score": null,
+    "n": 0
+   },
+   "gesellschaft_liberal": {
+    "score": null,
+    "n": 0
+   }
+  },
+  "group_distance": null,
+  "drift": null
+ },
+ "memberships": [
+  {
+   "start": "2026-09-28",
+   "end": null,
+   "party": "SVP",
+   "parl_group": "V"
+  }
+ ],
+ "profiles": {},
+ "ballots": []
+}

@@ -1,0 +1,343 @@
+{
+ "$defs": {
+  "Axis": {
+   "enum": [
+    "aussenpolitik_offen",
+    "wirtschaft_liberal",
+    "finanzen_restriktiv",
+    "law_order",
+    "migration_restriktiv",
+    "umwelt_ausgebaut",
+    "sozialstaat_ausgebaut",
+    "gesellschaft_liberal"
+   ],
+   "title": "Axis",
+   "type": "string"
+  },
+  "Consistency": {
+   "additionalProperties": false,
+   "properties": {
+    "axis": {
+     "$ref": "#/$defs/Axis"
+    },
+    "rho": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "description": "Spearman rank correlation, group yes-share vs profile",
+     "title": "Rho"
+    },
+    "groups": {
+     "title": "Groups",
+     "type": "integer"
+    },
+    "warning": {
+     "title": "Warning",
+     "type": "boolean"
+    }
+   },
+   "required": [
+    "axis",
+    "rho",
+    "groups",
+    "warning"
+   ],
+   "title": "Consistency",
+   "type": "object"
+  },
+  "Decision": {
+   "enum": [
+    "yes",
+    "no",
+    "abstain",
+    "absent",
+    "excused",
+    "president"
+   ],
+   "title": "Decision",
+   "type": "string"
+  },
+  "Dissenter": {
+   "additionalProperties": false,
+   "properties": {
+    "person_id": {
+     "title": "Person Id",
+     "type": "string"
+    },
+    "group": {
+     "title": "Group",
+     "type": "string"
+    },
+    "decision": {
+     "$ref": "#/$defs/Decision"
+    },
+    "group_majority": {
+     "$ref": "#/$defs/Decision"
+    }
+   },
+   "required": [
+    "person_id",
+    "group",
+    "decision",
+    "group_majority"
+   ],
+   "title": "Dissenter",
+   "type": "object"
+  },
+  "GroupResult": {
+   "additionalProperties": false,
+   "properties": {
+    "group": {
+     "title": "Group",
+     "type": "string"
+    },
+    "counts": {
+     "additionalProperties": {
+      "type": "integer"
+     },
+     "propertyNames": {
+      "$ref": "#/$defs/Decision"
+     },
+     "title": "Counts",
+     "type": "object"
+    },
+    "majority": {
+     "anyOf": [
+      {
+       "$ref": "#/$defs/Decision"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    }
+   },
+   "required": [
+    "group",
+    "counts",
+    "majority"
+   ],
+   "title": "GroupResult",
+   "type": "object"
+  },
+  "MappingRef": {
+   "additionalProperties": false,
+   "properties": {
+    "axis": {
+     "$ref": "#/$defs/Axis"
+    },
+    "direction": {
+     "enum": [
+      -1,
+      1
+     ],
+     "title": "Direction",
+     "type": "integer"
+    },
+    "weight": {
+     "title": "Weight",
+     "type": "number"
+    }
+   },
+   "required": [
+    "axis",
+    "direction",
+    "weight"
+   ],
+   "title": "MappingRef",
+   "type": "object"
+  },
+  "MappingSource": {
+   "enum": [
+    "smartvote",
+    "manual",
+    "llm"
+   ],
+   "title": "MappingSource",
+   "type": "string"
+  }
+ },
+ "additionalProperties": false,
+ "properties": {
+  "vote_id": {
+   "title": "Vote Id",
+   "type": "integer"
+  },
+  "session_id": {
+   "title": "Session Id",
+   "type": "string"
+  },
+  "date": {
+   "format": "date-time",
+   "title": "Date",
+   "type": "string"
+  },
+  "business": {
+   "anyOf": [
+    {
+     "type": "string"
+    },
+    {
+     "type": "null"
+    }
+   ],
+   "title": "Business"
+  },
+  "title": {
+   "title": "Title",
+   "type": "string"
+  },
+  "subject": {
+   "anyOf": [
+    {
+     "type": "string"
+    },
+    {
+     "type": "null"
+    }
+   ],
+   "title": "Subject"
+  },
+  "meaning_yes": {
+   "anyOf": [
+    {
+     "type": "string"
+    },
+    {
+     "type": "null"
+    }
+   ],
+   "title": "Meaning Yes"
+  },
+  "meaning_no": {
+   "anyOf": [
+    {
+     "type": "string"
+    },
+    {
+     "type": "null"
+    }
+   ],
+   "title": "Meaning No"
+  },
+  "counts": {
+   "additionalProperties": {
+    "type": "integer"
+   },
+   "propertyNames": {
+    "$ref": "#/$defs/Decision"
+   },
+   "title": "Counts",
+   "type": "object"
+  },
+  "groups": {
+   "items": {
+    "$ref": "#/$defs/GroupResult"
+   },
+   "title": "Groups",
+   "type": "array"
+  },
+  "dissenters": {
+   "items": {
+    "$ref": "#/$defs/Dissenter"
+   },
+   "title": "Dissenters",
+   "type": "array"
+  },
+  "axes": {
+   "items": {
+    "$ref": "#/$defs/MappingRef"
+   },
+   "title": "Axes",
+   "type": "array"
+  },
+  "topics": {
+   "items": {
+    "type": "string"
+   },
+   "title": "Topics",
+   "type": "array"
+  },
+  "source": {
+   "$ref": "#/$defs/MappingSource"
+  },
+  "confidence": {
+   "title": "Confidence",
+   "type": "number"
+  },
+  "contested": {
+   "title": "Contested",
+   "type": "boolean"
+  },
+  "reviewed_by": {
+   "anyOf": [
+    {
+     "type": "string"
+    },
+    {
+     "type": "null"
+    }
+   ],
+   "title": "Reviewed By"
+  },
+  "reviewed_at": {
+   "anyOf": [
+    {
+     "format": "date",
+     "type": "string"
+    },
+    {
+     "type": "null"
+    }
+   ],
+   "title": "Reviewed At"
+  },
+  "note": {
+   "anyOf": [
+    {
+     "type": "string"
+    },
+    {
+     "type": "null"
+    }
+   ],
+   "title": "Note"
+  },
+  "consistency": {
+   "items": {
+    "$ref": "#/$defs/Consistency"
+   },
+   "title": "Consistency",
+   "type": "array"
+  }
+ },
+ "required": [
+  "vote_id",
+  "session_id",
+  "date",
+  "business",
+  "title",
+  "subject",
+  "meaning_yes",
+  "meaning_no",
+  "counts",
+  "groups",
+  "dissenters",
+  "axes",
+  "topics",
+  "source",
+  "confidence",
+  "contested",
+  "reviewed_by",
+  "reviewed_at",
+  "note",
+  "consistency"
+ ],
+ "title": "VoteDetail",
+ "type": "object"
+}

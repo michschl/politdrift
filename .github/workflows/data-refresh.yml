@@ -51,7 +51,7 @@ jobs:
           uv run politdrift fetch --body nr --legislature 52
           uv run politdrift compute --body nr --legislature 52
           uv run politdrift export --body nr --legislature 52
-          uv run politdrift validate ../data/mappings
+          uv run politdrift validate ../data/mappings --derived ../data/derived
       - name: Open data PR if derived data changed
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}

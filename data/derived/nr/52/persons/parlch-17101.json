@@ -1,0 +1,59 @@
+{
+ "person": {
+  "person_id": "parlch:17101",
+  "slug": "parlch-17101",
+  "first_name": "Barbara",
+  "last_name": "Portmann",
+  "canton": "AG",
+  "party": "glp",
+  "parl_group": "GL",
+  "seat": 64,
+  "active": true,
+  "profile": {
+   "aussenpolitik_offen": {
+    "score": null,
+    "n": 0
+   },
+   "wirtschaft_liberal": {
+    "score": null,
+    "n": 0
+   },
+   "finanzen_restriktiv": {
+    "score": null,
+    "n": 0
+   },
+   "law_order": {
+    "score": null,
+    "n": 0
+   },
+   "migration_restriktiv": {
+    "score": null,
+    "n": 0
+   },
+   "umwelt_ausgebaut": {
+    "score": null,
+    "n": 0
+   },
+   "sozialstaat_ausgebaut": {
+    "score": null,
+    "n": 0
+   },
+   "gesellschaft_liberal": {
+    "score": null,
+    "n": 0
+   }
+  },
+  "group_distance": null,
+  "drift": null
+ },
+ "memberships": [
+  {
+   "start": "2026-06-01",
+   "end": null,
+   "party": "glp",
+   "parl_group": "GL"
+  }
+ ],
+ "profiles": {},
+ "ballots": []
+}

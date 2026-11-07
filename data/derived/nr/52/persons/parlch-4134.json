@@ -1,0 +1,59 @@
+{
+ "person": {
+  "person_id": "parlch:4134",
+  "slug": "parlch-4134",
+  "first_name": "Martina",
+  "last_name": "Munz",
+  "canton": "SH",
+  "party": "SP",
+  "parl_group": "S",
+  "seat": null,
+  "active": false,
+  "profile": {
+   "aussenpolitik_offen": {
+    "score": null,
+    "n": 0
+   },
+   "wirtschaft_liberal": {
+    "score": null,
+    "n": 0
+   },
+   "finanzen_restriktiv": {
+    "score": null,
+    "n": 0
+   },
+   "law_order": {
+    "score": null,
+    "n": 0
+   },
+   "migration_restriktiv": {
+    "score": null,
+    "n": 0
+   },
+   "umwelt_ausgebaut": {
+    "score": null,
+    "n": 0
+   },
+   "sozialstaat_ausgebaut": {
+    "score": null,
+    "n": 0
+   },
+   "gesellschaft_liberal": {
+    "score": null,
+    "n": 0
+   }
+  },
+  "group_distance": null,
+  "drift": null
+ },
+ "memberships": [
+  {
+   "start": "2023-12-04",
+   "end": "2024-12-01",
+   "party": "SP",
+   "parl_group": "S"
+  }
+ ],
+ "profiles": {},
+ "ballots": []
+}
