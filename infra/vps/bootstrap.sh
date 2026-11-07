@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
 # Idempotent base installation of the Politdrift VPS (Ubuntu 24.04 LTS, KONZEPT 8.2).
 #
-# Run as root from a checkout of this repository:
-#   ADMIN_PUBKEY="ssh-ed25519 AAAA… you@laptop" \
-#   DEPLOY_PUBKEY="ssh-ed25519 AAAA… github-actions-deploy" \
-#   ./infra/vps/bootstrap.sh
+# Run as root (e.g. via sudo from the image's default user) from a checkout of this repository:
+#   sudo ADMIN_PUBKEY="ssh-ed25519 AAAA… you@laptop" \
+#        DEPLOY_PUBKEY="ssh-ed25519 AAAA… github-actions-deploy" \
+#        ./infra/vps/bootstrap.sh
+# Step-by-step guide: docs/SETUP.md, part B.
 #
 # Safe to run again: every step checks or overwrites to a known state.
-# Before logging out, verify `ssh admin@<host>` works in a second terminal (root login is
-# disabled at the end).
+# Before logging out, verify `ssh admin@<host>` works in a second terminal: afterwards only
+# `admin` and `deploy` may log in via SSH.
 set -euo pipefail
 
 : "${ADMIN_PUBKEY:?set ADMIN_PUBKEY (ssh public key for the admin user)}"

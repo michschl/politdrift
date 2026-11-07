@@ -15,25 +15,7 @@ zustandslos. Alles kommt aus dem Image und diesem Repository. Deployments laufen
 
 ## Ersteinrichtung (Phase 1)
 
-1. VPS mit Ubuntu 24.04 LTS bei Infomaniak bestellen. Firewall im Infomaniak-Manager auf 22/80/443
-   (TCP) und 443 (UDP) begrenzen, wöchentliche Snapshots aktivieren.
-2. Deploy-Schlüssel lokal erzeugen (nur für GitHub Actions):
-   `ssh-keygen -t ed25519 -f politdrift-deploy -C github-actions-deploy -N ''`
-3. Als root auf dem VPS:
-   ```bash
-   git clone https://github.com/michschl/politdrift.git /root/politdrift
-   cd /root/politdrift
-   ADMIN_PUBKEY="$(cat ~/.ssh/authorized_keys | head -1)" \
-   DEPLOY_PUBKEY="ssh-ed25519 AAAA… github-actions-deploy" \
-   ./infra/vps/bootstrap.sh
-   ```
-4. In einem zweiten Terminal `ssh admin@<host>` testen, bevor die root-Sitzung geschlossen wird.
-5. DNS bei Infomaniak: `A`/`AAAA` für `politdrift.org` und `www` auf den VPS (TTL 300 s),
-   `CAA 0 issue "letsencrypt.org"`.
-6. GitHub: Environment `production` mit `VPS_HOST`, `VPS_SSH_KEY` (privater Deploy-Schlüssel),
-   `VPS_KNOWN_HOSTS` (Ausgabe von `bootstrap.sh`). Repository-Variable `DEPLOY_ENABLED=true`.
-7. GHCR-Package `politdrift-web` nach dem ersten Push auf **public** stellen.
-8. Einen Commit auf `main` mergen. Der Workflow deployt, `deploy.sh` startet beim ersten Mal auch Caddy.
+Schritt für Schritt in [SETUP.md](SETUP.md), Teile B und C.
 
 ## Rollback
 
@@ -71,6 +53,6 @@ blockiert, CAA-Record ohne passenden Issuer.
 
 ## Rebuild von null
 
-1. Neuen VPS gemäss «Ersteinrichtung» aufsetzen (Schritte 1–5).
+1. Neuen VPS gemäss [SETUP.md](SETUP.md) Teil B aufsetzen.
 2. `VPS_HOST` und `VPS_KNOWN_HOSTS` im Environment `production` aktualisieren.
 3. Workflow `CI/CD` auf `main` per `workflow_dispatch` neu starten.

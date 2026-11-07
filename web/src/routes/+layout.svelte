@@ -35,7 +35,7 @@
 	>
 		<p>{t('footer.sources')}</p>
 		<p>{t('footer.datastate')}</p>
-		<ul class="mt-2 flex gap-4">
+		<ul class="mt-2 flex flex-wrap gap-x-4 gap-y-1">
 			<li>
 				<a class="underline underline-offset-4" href={resolve('/impressum')}>{t('nav.impressum')}</a
 				>
@@ -43,6 +43,18 @@
 			<li>
 				<a class="underline underline-offset-4" href={resolve('/datenschutz')}
 					>{t('nav.datenschutz')}</a
+				>
+			</li>
+			<li>
+				<a class="underline underline-offset-4" href="https://github.com/michschl/politdrift"
+					>{t('footer.source')}</a
+				>
+			</li>
+			<li>
+				<a
+					class="underline underline-offset-4"
+					href="https://github.com/michschl/politdrift/blob/main/data/LICENSE"
+					>{t('footer.datalicense')}</a
 				>
 			</li>
 		</ul>

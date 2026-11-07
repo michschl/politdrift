@@ -10,6 +10,8 @@ export const de = {
 	'nav.datenschutz': 'Datenschutz',
 	'nav.main': 'Hauptnavigation',
 	'footer.sources': 'Quellen: Parlamentsdienste (parlament.ch) · OpenParlData.ch (CC BY 4.0)',
+	'footer.source': 'Quellcode (AGPL-3.0)',
+	'footer.datalicense': 'Daten: CC BY 4.0',
 	'footer.datastate': 'Datenstand: noch keine Daten publiziert',
 	'example.title': 'Beispiel-Spider',
 	'example.note':

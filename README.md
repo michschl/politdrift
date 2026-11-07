@@ -12,6 +12,7 @@ Status: **Phase 0**, Repository-Grundgerüst. Noch keine echten Daten.
 
 - Konzept (verbindlich): [docs/KONZEPT.md](docs/KONZEPT.md)
 - Methodik: [docs/METHODIK.md](docs/METHODIK.md)
+- Einrichtung GitHub und Infomaniak: [docs/SETUP.md](docs/SETUP.md)
 - Betrieb: [docs/RUNBOOK.md](docs/RUNBOOK.md)
 - Architekturentscheide: [docs/adr/](docs/adr/)
 
@@ -58,4 +59,12 @@ curl http://localhost:8080/healthz
 
 ## Lizenz
 
-Noch nicht festgelegt (siehe [LICENSE](LICENSE) und KONZEPT Abschnitt 11).
+- **Code:** [GNU Affero General Public License v3.0 oder später](LICENSE) (`AGPL-3.0-or-later`).
+  Wer Politdrift verändert und als Website betreibt, muss den geänderten Quellcode ebenfalls
+  offenlegen.
+- **Eigene Daten** (`data/mappings/`, `data/derived/`): [CC BY 4.0](data/LICENSE). Frei nutzbar für
+  Medien, Forschung und Civic Tech mit Quellenangabe «Politdrift (politdrift.org), CC BY 4.0».
+- **Daten Dritter** behalten ihre Bedingungen: Parlamentsdienste (parlament.ch), OpenParlData.ch
+  (CC BY 4.0). Smartvote-Daten sind nicht Teil der offenen Daten.
+
+Begründung: [ADR 0005](docs/adr/0005-licensing.md).
