@@ -16,6 +16,7 @@ politdrift.org {
 		Cross-Origin-Opener-Policy "same-origin"
 		Cross-Origin-Resource-Policy "same-origin"
 		-Server
+		-Via
 	}
 	reverse_proxy web:8080
 }

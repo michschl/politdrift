@@ -150,6 +150,13 @@ fi
 chown deploy:deploy "$APP_DIR/.env"
 chmod 640 "$APP_DIR/.env"
 
+# Deploys only swap the web image. Re-running this script is how compose.yml/Caddyfile
+# changes reach the server; recreate Caddy (and web) so they take effect. Caddy's
+# certificates live in a volume and survive this. Skipped before the first deploy.
+if [[ "$(sed -n 's/^IMAGE_TAG=//p' "$APP_DIR/.env")" =~ ^sha- ]]; then
+  (cd "$APP_DIR" && sudo -u deploy docker compose up -d --force-recreate --remove-orphans)
+fi
+
 log "7. Host key fingerprint for the GitHub secret VPS_KNOWN_HOSTS"
 HOST_IP="$(curl -fsS4 https://api.ipify.org || hostname -I | awk '{print $1}')"
 echo "VPS_KNOWN_HOSTS (paste into the production environment secret):"

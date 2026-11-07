@@ -1,0 +1,157 @@
+name: Acceptance
+
+# Phase 1 acceptance checks against production (KONZEPT 9): live headers and redirects,
+# TLS rating (testssl.sh, SSL Labs rating guide), Mozilla Observatory, and an optional
+# rollback drill that deploys a deliberately broken image and expects deploy.sh to roll back.
+
+on:
+  workflow_dispatch:
+    inputs:
+      rollback_drill:
+        description: "Run the rollback drill (deploys a broken image, expects automatic rollback)"
+        type: boolean
+        default: false
+  schedule:
+    - cron: "41 5 * * 1" # weekly, without rollback drill
+
+permissions:
+  contents: read
+
+concurrency:
+  group: acceptance
+  cancel-in-progress: false
+
+env:
+  HOST: politdrift.org
+
+jobs:
+  live:
+    name: live checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      live_sha: ${{ steps.sha.outputs.live_sha }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - id: sha
+        name: Live version
+        run: echo "live_sha=$(curl -fsS "https://${HOST}/version.json" | jq -r .sha)" >> "$GITHUB_OUTPUT"
+      - name: Headers, redirects, TLS basics
+        run: infra/acceptance/check-live.sh "${GITHUB_SHA::7}"
+
+  tls-rating:
+    name: TLS rating (testssl.sh)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Fetch testssl.sh v3.2.5 (pinned commit)
+        run: |
+          git init -q testssl && cd testssl
+          git fetch -q --depth 1 https://github.com/testssl/testssl.sh.git 4f17be931a9d60f3f987975aea8221f1a8eaf7aa
+          git checkout -q FETCH_HEAD
+      - name: Run testssl.sh
+        working-directory: testssl
+        run: ./testssl.sh --quiet --color 0 --warnings off --jsonfile "$RUNNER_TEMP/testssl.json" "$HOST" > "$RUNNER_TEMP/testssl.txt" || true
+      - name: Evaluate rating (target A+)
+        run: |
+          grade="$(jq -r '.[] | select(.id=="overall_grade") | .finding' "$RUNNER_TEMP/testssl.json")"
+          caps="$(jq -r '.[] | select(.id | test("^grade_cap_reason")) | .finding' "$RUNNER_TEMP/testssl.json")"
+          issues="$(jq -r '.[] | select(.severity=="HIGH" or .severity=="CRITICAL") | "\(.id): \(.finding)"' "$RUNNER_TEMP/testssl.json")"
+          {
+            echo "### TLS rating (testssl.sh, SSL Labs rating guide): ${grade:-n/a}"
+            if [ -n "$caps" ]; then echo; echo "Grade caps:"; printf -- '- %s\n' "$caps"; fi
+            if [ -n "$issues" ]; then echo; echo "HIGH/CRITICAL findings:"; printf -- '- %s\n' "$issues"; fi
+          } >> "$GITHUB_STEP_SUMMARY"
+          echo "grade: ${grade:-n/a}"
+          [ -n "$caps" ] && printf 'cap: %s\n' "$caps"
+          [ -n "$issues" ] && printf 'issue: %s\n' "$issues"
+          [ "$grade" = "A+" ]
+
+  observatory:
+    name: Mozilla Observatory
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Scan (target A or better)
+        run: |
+          res="$(curl -fsS -X POST "https://observatory-api.mdn.mozilla.net/api/v2/scan?host=${HOST}")"
+          echo "$res" | jq .
+          grade="$(echo "$res" | jq -r .grade)"
+          score="$(echo "$res" | jq -r .score)"
+          {
+            echo "### Mozilla Observatory: ${grade} (score ${score})"
+            echo
+            echo "Tests passed: $(echo "$res" | jq -r .tests_passed), failed: $(echo "$res" | jq -r .tests_failed)"
+            echo "Details: $(echo "$res" | jq -r .details_url)"
+          } >> "$GITHUB_STEP_SUMMARY"
+          case "$grade" in A+|A) ;; *) exit 1 ;; esac
+
+  rollback-drill:
+    name: rollback drill
+    if: github.event_name == 'workflow_dispatch' && inputs.rollback_drill
+    needs: live
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      packages: write
+    environment:
+      name: production
+      url: https://politdrift.org
+    concurrency:
+      group: deploy-production
+      cancel-in-progress: false
+    env:
+      IMAGE: ghcr.io/michschl/politdrift-web
+      BROKEN_TAG: sha-0bad0bad
+      BEFORE: ${{ needs.live.outputs.live_sha }}
+    steps:
+      - uses: docker/login-action@8aa5831fb8d48d8f76594c7ddde61ae58019f550 # v4.8.0
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build and push a broken image (no /healthz)
+        run: |
+          printf '%s\n' "FROM ${IMAGE}:sha-${BEFORE}" "USER root" \
+            "RUN rm /usr/share/nginx/html/healthz" "USER 101" > Dockerfile.broken
+          docker build -q -f Dockerfile.broken -t "${IMAGE}:${BROKEN_TAG}" .
+          docker push -q "${IMAGE}:${BROKEN_TAG}"
+      - name: Deploy the broken image (must fail and roll back)
+        env:
+          SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+          KNOWN_HOSTS: ${{ secrets.VPS_KNOWN_HOSTS }}
+          VPS: ${{ secrets.VPS_HOST }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+          set +e
+          out="$(ssh -o StrictHostKeyChecking=yes -o BatchMode=yes "deploy@${VPS}" "${BROKEN_TAG}" 2>&1)"
+          rc=$?
+          set -e
+          rm -f ~/.ssh/id_ed25519
+          echo "$out"
+          echo "deploy.sh exit code: $rc"
+          [ "$rc" -eq 1 ] || { echo "expected exit code 1" >&2; exit 1; }
+          grep -q "rolling back to sha-${BEFORE}" <<<"$out" || { echo "no rollback message" >&2; exit 1; }
+      - name: Previous version is live again
+        run: |
+          for _ in $(seq 1 12); do
+            live="$(curl -fsS "https://${HOST}/version.json" | jq -r .sha || true)"
+            health="$(curl -fsS "https://${HOST}/healthz" || true)"
+            if [ "$live" = "$BEFORE" ] && [ "$health" = "ok" ]; then
+              echo "live: $live, healthz: $health"
+              echo "### Rollback drill: ✅ broken \`${BROKEN_TAG}\` rejected, \`sha-${BEFORE}\` live again" >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "live=$live healthz=$health, expected $BEFORE/ok" >&2
+          exit 1
+      - name: Remove SSH key
+        if: always()
+        run: rm -f ~/.ssh/id_ed25519
