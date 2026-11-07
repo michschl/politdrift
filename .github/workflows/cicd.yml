@@ -90,6 +90,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     permissions:
+      actions: read # codeql-action reads the workflow run (required on private repos)
       contents: read
       security-events: write
     strategy:
@@ -133,6 +134,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     permissions:
+      actions: read # codeql-action/upload-sarif reads the workflow run
       contents: read
       packages: write
       id-token: write
