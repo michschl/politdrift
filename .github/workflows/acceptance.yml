@@ -67,7 +67,18 @@ jobs:
           echo "grade: ${grade:-n/a}"
           [ -n "$caps" ] && printf 'cap: %s\n' "$caps"
           [ -n "$issues" ] && printf 'issue: %s\n' "$issues"
+          echo "--- rating section ---"
+          sed -n '/Rating (experimental)/,$p' "$RUNNER_TEMP/testssl.txt"
           [ "$grade" = "A+" ]
+      - name: Upload testssl.sh report
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: testssl-report
+          path: |
+            ${{ runner.temp }}/testssl.json
+            ${{ runner.temp }}/testssl.txt
+          retention-days: 30
 
   observatory:
     name: Mozilla Observatory
@@ -90,7 +101,10 @@ jobs:
 
   rollback-drill:
     name: rollback drill
-    if: github.event_name == 'workflow_dispatch' && inputs.rollback_drill
+    # Runs even if a live check failed; it only needs the live version from that job.
+    if: >-
+      always() && github.event_name == 'workflow_dispatch' && inputs.rollback_drill &&
+      needs.live.outputs.live_sha != ''
     needs: live
     runs-on: ubuntu-latest
     timeout-minutes: 15
