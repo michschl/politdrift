@@ -1,7 +1,7 @@
 # Serves the prerendered SvelteKit build. No build stage on purpose: the build comes as an
 # artifact from the web-quality job (one build, one artifact, one image; KONZEPT 8.3).
 # Local: (cd web && npm ci && npm run build) && docker build -f infra/Dockerfile.web -t politdrift-web .
-FROM nginxinc/nginx-unprivileged:1.30.6-alpine@sha256:f5116ed4606f3eb015dd4a8e28cb9b351476dc0ad4bc6e9f93b19cec130cdf03
+FROM nginxinc/nginx-unprivileged:1.31.7-alpine@sha256:b5047b9b76845eac124358373c6852377c52e4b05834a47647e955dd91cb8f1e
 
 LABEL org.opencontainers.image.source="https://github.com/michschl/politdrift" \
       org.opencontainers.image.title="politdrift-web" \
