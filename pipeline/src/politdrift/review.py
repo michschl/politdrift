@@ -12,11 +12,13 @@ import subprocess
 import tempfile
 from enum import StrEnum
 from pathlib import Path
-from typing import Any
+from typing import Any, Literal
+from zoneinfo import ZoneInfo
 
+from pydantic import BaseModel, ConfigDict, Field
 from ruamel.yaml.comments import CommentedMap
 
-from politdrift.models import AxisMapping
+from politdrift.models import AxisAssignment, AxisMapping
 from politdrift.store import Store
 
 
@@ -59,6 +61,63 @@ def replace_with(node: CommentedMap, edited: dict[str, Any], reviewer: str, toda
             del node[key]
     for key, value in edited.items():
         node[key] = value
+
+
+class Decision(BaseModel):
+    """One review decision made outside the terminal (e.g. a review page), imported in batch."""
+
+    model_config = ConfigDict(extra="forbid")
+    vote_id: int
+    action: Literal["accept", "edit", "none"]
+    axes: list[AxisAssignment] | None = None
+    contested: bool | None = None
+    comment: str | None = Field(default=None, max_length=2000)
+    at: dt.datetime | None = None
+
+
+ZURICH = ZoneInfo("Europe/Zurich")
+
+
+def import_decisions(
+    data: list[Any], decisions: list[Decision], reviewer: str, today: dt.date
+) -> tuple[int, list[str]]:
+    """Apply decisions to pending nodes only. Returns (applied, messages)."""
+    by_id = {int(n["vote_id"]): n for n in pending(data)}
+    applied = 0
+    messages: list[str] = []
+    for d in decisions:
+        node = by_id.get(d.vote_id)
+        if node is None:
+            messages.append(f"vote {d.vote_id}: no pending proposal, skipped")
+            continue
+        day = d.at.astimezone(ZURICH).date() if d.at else today
+        try:
+            if d.action == "edit":
+                if not d.axes:
+                    raise ValueError("edit without axes")
+                edited = dict(node)
+                edited["axes"] = [a.model_dump(mode="json") for a in d.axes]
+                if d.contested is not None:
+                    edited["contested"] = d.contested
+                if d.comment:
+                    edited["note"] = _with_comment(node.get("note"), d.comment)
+                replace_with(node, edited, reviewer, day)
+            else:
+                if d.comment:
+                    node["note"] = _with_comment(node.get("note"), d.comment)
+                apply(
+                    node, Action.ACCEPT if d.action == "accept" else Action.NO_AXIS, reviewer, day
+                )
+        except ValueError as err:
+            messages.append(f"vote {d.vote_id}: {err}")
+            continue
+        applied += 1
+    return applied, messages
+
+
+def _with_comment(note: str | None, comment: str) -> str:
+    comment = " ".join(comment.split())
+    return f"{note} Prüfung: {comment}" if note else f"Prüfung: {comment}"
 
 
 def describe(node: CommentedMap, store: Store | None) -> str:

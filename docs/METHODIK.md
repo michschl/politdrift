@@ -59,6 +59,10 @@ Ein Sprachmodell kann Zuordnungen vorschlagen. Es erhält Titel, Gegenstand und 
 von Ja und Nein. Ein Vorschlag bleibt so lange ungeprüft, bis ein Mensch ihn annimmt, ändert oder
 ablehnt.
 
+Das Modell läuft bei Infomaniak in der Schweiz und erhält nur öffentliche Angaben zur Abstimmung,
+keine Personendaten und keine Stimmen. Bei jedem Vorschlag sind Modell, Prompt-Version und Datum
+vermerkt. Ändert die prüfende Person eine Achse, gilt die Zuordnung als manuell.
+
 ## Berechnung
 
 Für eine Person *p*, eine Achse *a* und ein Zeitfenster *w*:

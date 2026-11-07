@@ -120,17 +120,47 @@ def review(
     cache: CacheOpt = DEFAULT_CACHE,
     mappings: Annotated[Path, typer.Option("--mappings")] = Path("../data/mappings"),
     reviewer: Annotated[str, typer.Option(help="GitHub handle stored as reviewed_by")] = "michschl",
+    from_file: Annotated[
+        Path | None,
+        typer.Option(
+            "--from",
+            help="Import decisions made elsewhere (JSON list of {vote_id, action, ...})",
+            exists=True,
+            dir_okay=False,
+        ),
+    ] = None,
 ) -> None:
     """Accept, edit or reject proposed mappings, one by one. Saves after every decision."""
     import datetime as dt
 
     import yaml
+    from pydantic import TypeAdapter
 
     from politdrift import mapping_io
-    from politdrift.review import Action, apply, describe, edit_text, pending, replace_with
+    from politdrift.review import (
+        Action,
+        Decision,
+        apply,
+        describe,
+        edit_text,
+        import_decisions,
+        pending,
+        replace_with,
+    )
 
     path = mappings / body / f"{legislature}.yaml"
     data = mapping_io.load(path)
+    if from_file is not None:
+        decisions = TypeAdapter(list[Decision]).validate_json(from_file.read_bytes())
+        applied, messages = import_decisions(list(data), decisions, reviewer, dt.date.today())
+        for m in messages:
+            typer.secho(m, err=True, fg="yellow")
+        if applied:
+            mapping_io.save(path, data)
+        typer.secho(
+            f"{applied} decision(s) applied, {len(pending(list(data)))} still pending", fg="green"
+        )
+        return
     todo = pending(list(data))
     if not todo:
         typer.echo("nothing to review")

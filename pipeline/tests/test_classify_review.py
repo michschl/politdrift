@@ -22,7 +22,15 @@ from politdrift.classify import (
 )
 from politdrift.mappings import load_file, validate_tree
 from politdrift.models import MappingSource, Session, Vote
-from politdrift.review import Action, apply, describe, pending, replace_with
+from politdrift.review import (
+    Action,
+    Decision,
+    apply,
+    describe,
+    import_decisions,
+    pending,
+    replace_with,
+)
 from politdrift.store import Store
 
 REPO_MAPPING = Path(__file__).parents[2] / "data" / "mappings" / "nr" / "52.yaml"
@@ -203,3 +211,43 @@ def test_review_accept_no_axis_and_edit(tmp_path: Path) -> None:
     node = mapping_io.to_node(to_mapping(3, VOTE, parse_response(GOOD), "m"))
     apply(node, Action.NO_AXIS, "michschl", today)
     assert node["axes"] == [] and node["topics"] == ["landwirtschaft"]
+
+
+def test_import_decisions_from_review_page(tmp_path: Path) -> None:
+    path = tmp_path / "nr" / "52.yaml"
+    mapping_io.append(
+        path, [to_mapping(vid, VOTE, parse_response(GOOD), "m") for vid in (11, 12, 13, 14)]
+    )
+    data = mapping_io.load(path)
+    decisions = [
+        Decision(vote_id=11, action="accept", at=dt.datetime(2026, 11, 7, 23, 30, tzinfo=dt.UTC)),
+        Decision(
+            vote_id=12,
+            action="edit",
+            axes=[{"axis": "umwelt_ausgebaut", "direction": -1, "weight": 0.6}],  # pyright: ignore[reportArgumentType]
+            contested=True,
+            comment="Richtung\n umgekehrt",
+        ),
+        Decision(vote_id=13, action="none"),
+        Decision(vote_id=99, action="accept"),
+        Decision(vote_id=14, action="edit"),
+    ]
+    applied, messages = import_decisions(list(data), decisions, "michschl", dt.date(2026, 11, 8))
+    assert applied == 3
+    assert messages == ["vote 99: no pending proposal, skipped", "vote 14: edit without axes"]
+    by_id = {int(n["vote_id"]): n for n in data}
+    # 23:30 UTC on 7 Nov is already 8 Nov in Zurich
+    assert by_id[11]["reviewed_at"] == dt.date(2026, 11, 8) and by_id[11]["source"] == "llm"
+    assert by_id[12]["source"] == "manual" and by_id[12]["contested"] is True
+    assert by_id[12]["axes"] == [{"axis": "umwelt_ausgebaut", "direction": -1, "weight": 0.6}]
+    assert str(by_id[12]["note"]).endswith("Prüfung: Richtung umgekehrt")
+    assert by_id[13]["axes"] == [] and by_id[13]["reviewed"] is True
+    assert by_id[14]["reviewed"] is False
+
+    mapping_io.save(path, data)
+    assert validate_tree(tmp_path).ok
+    # a second import never overwrites a reviewed mapping
+    again, msgs = import_decisions(
+        list(mapping_io.load(path)), [Decision(vote_id=11, action="none")], "x", dt.date.today()
+    )
+    assert again == 0 and msgs == ["vote 11: no pending proposal, skipped"]

@@ -45,6 +45,9 @@ uv sync
 uv run pytest
 uv run politdrift validate ../data/mappings
 uv run politdrift fetch      # Nationalrat, Legislatur 52 -> .cache/politdrift.duckdb (~8 min)
+uv run politdrift classify   # LLM-Vorschläge (reviewed: false), Token in POLITDRIFT_LLM_API_KEY
+uv run politdrift review     # Vorschläge einzeln annehmen, bearbeiten oder ohne Achse markieren
+                             # --from entscheide.json übernimmt Entscheide einer Prüfseite
 uv run politdrift compute    # Profile berechnen, Abdeckung und Warnungen anzeigen
 uv run politdrift export     # JSON nach ../data/derived/ (inkl. Schema)
 
