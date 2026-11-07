@@ -186,6 +186,17 @@ def test_mapping_io_round_trip_preserves_comments(tmp_path: Path) -> None:
     assert [x.vote_id for x in load_file(path)] == [*before, 31570]
 
 
+def test_mapping_io_writes_no_trailing_spaces(tmp_path: Path) -> None:
+    path = tmp_path / "nr" / "52.yaml"
+    long_title = "Finanzierung der Gesundheitsleistungen aus einer Hand. Einführung des Monismus"
+    vote = VOTE.model_copy(update={"title": long_title, "subject": "Schlussabstimmung"})
+    m = to_mapping(31570, vote, parse_response(GOOD), "m")
+    mapping_io.append(path, [m])
+    text = path.read_text(encoding="utf-8")
+    assert not [line for line in text.split("\n") if line != line.rstrip()]
+    assert load_file(path)[0].title == m.title
+
+
 def test_review_accept_no_axis_and_edit(tmp_path: Path) -> None:
     path = tmp_path / "nr" / "52.yaml"
     m = to_mapping(31570, VOTE, parse_response(GOOD), "m")

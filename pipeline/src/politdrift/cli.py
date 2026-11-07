@@ -222,10 +222,19 @@ def compute(
     legislature: LegislatureOpt = 52,
     cache: CacheOpt = DEFAULT_CACHE,
     mappings: MappingsOpt = DEFAULT_MAPPINGS,
+    include_pending: Annotated[
+        bool,
+        typer.Option(
+            "--include-pending",
+            help="Review aid: treat unreviewed proposals as reviewed for the consistency check",
+        ),
+    ] = False,
 ) -> None:
     """Compute profiles from reviewed mappings and report coverage (no files written)."""
     with Store(cache) as store, tempfile.TemporaryDirectory() as tmp:
-        stats = run_export(store, mappings, Path(tmp), body, legislature)
+        stats = run_export(
+            store, mappings, Path(tmp), body, legislature, include_pending=include_pending
+        )
         index = Index.model_validate_json(
             (Path(tmp) / body / str(legislature) / "index.json").read_text()
         )

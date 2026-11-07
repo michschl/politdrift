@@ -49,6 +49,7 @@ uv run politdrift classify   # LLM-Vorschläge (reviewed: false), Token in POLIT
 uv run politdrift review     # Vorschläge einzeln annehmen, bearbeiten oder ohne Achse markieren
                              # --from entscheide.json übernimmt Entscheide einer Prüfseite
 uv run politdrift compute    # Profile berechnen, Abdeckung und Warnungen anzeigen
+                             # --include-pending: Konsistenz-Check über ungeprüfte Vorschläge
 uv run politdrift export     # JSON nach ../data/derived/ (inkl. Schema)
 
 # Image (nach npm run build)

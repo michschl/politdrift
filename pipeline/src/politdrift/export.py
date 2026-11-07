@@ -123,12 +123,16 @@ def run_export(
     *,
     today: dt.date | None = None,
     n_min: int = N_MIN,
+    include_pending: bool = False,
 ) -> ExportStats:
+    """Compute and write the export. include_pending is a review aid for `compute` only."""
     today = today or dt.datetime.now(dt.UTC).date()
     warnings: list[str] = []
     sessions = _sessions(store, body, legislature)
     all_mappings = load_mappings(mappings_dir, body, legislature)
     mapped = scored_mappings(all_mappings)
+    if include_pending:
+        mapped = {m.vote_id: m for m in all_mappings if m.axes}
     session_ids = [s.session_id for s in sessions]
     known_votes = {
         int(r[0])

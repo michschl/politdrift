@@ -38,8 +38,15 @@ def load(path: Path) -> CommentedSeq:
 
 
 def _dedent_top_level(text: str) -> str:
-    """ruamel indents the top-level sequence like nested ones; put its dashes at column 0."""
-    return "\n".join(line[2:] if line.startswith("  ") else line for line in text.split("\n"))
+    """Put the top-level dashes at column 0 and drop trailing spaces.
+
+    ruamel indents the top-level sequence like nested ones, and it can leave a space before a
+    line break when it folds a long plain scalar. YAML ignores that space in flow scalars, but
+    editors honouring .editorconfig would strip it and create noise in review diffs.
+    """
+    return "\n".join(
+        (line[2:] if line.startswith("  ") else line).rstrip() for line in text.split("\n")
+    )
 
 
 def save(path: Path, data: CommentedSeq) -> None:

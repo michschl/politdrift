@@ -4,7 +4,7 @@ Any OpenAI-compatible chat completions endpoint works (default: Infomaniak AI To
 Configuration only via environment variables, never in the repository:
 
 - POLITDRIFT_LLM_BASE_URL  e.g. https://api.infomaniak.com/2/ai/<product_id>/openai/v1
-- POLITDRIFT_LLM_MODEL     default mistralai/Ministral-3-14B-Instruct-2512 (ADR 0008)
+- POLITDRIFT_LLM_MODEL     default google/gemma-4-31B-it (ADR 0008)
 - POLITDRIFT_LLM_API_KEY   bearer token (in Claude Code cloud sessions the proxy injects it)
 
 Proposals are written with source: llm and reviewed: false. They never enter profiles until a
@@ -35,7 +35,7 @@ EXAMPLES_PATH = HERE / "examples.yaml"
 PROMPT_VERSION = "2026-11-07.2"
 
 DEFAULT_BASE_URL = "https://api.infomaniak.com/2/ai/112859/openai/v1"
-DEFAULT_MODEL = "mistralai/Ministral-3-14B-Instruct-2512"  # see ADR 0008
+DEFAULT_MODEL = "google/gemma-4-31B-it"  # see ADR 0008
 
 SCOPES: dict[str, str] = {
     "final": "subject IN ('Schlussabstimmung', 'Vote final')",
