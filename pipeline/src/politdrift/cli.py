@@ -8,7 +8,12 @@ from typing import Annotated
 import typer
 
 from politdrift import __version__
+from politdrift.fetch import run_fetch
 from politdrift.mappings import validate_tree
+from politdrift.sources.odata import ODataClient
+from politdrift.sources.parlament import ParlamentSource
+from politdrift.store import DEFAULT_PATH as DEFAULT_CACHE
+from politdrift.store import Store
 
 app = typer.Typer(
     name="politdrift",
@@ -35,10 +40,39 @@ def _root(
         raise typer.Exit
 
 
+CacheOpt = Annotated[Path, typer.Option("--cache", help="DuckDB cache file")]
+
+
 @app.command()
-def fetch(body: BodyOpt = "nr", legislature: LegislatureOpt = 52) -> None:
+def fetch(
+    body: BodyOpt = "nr",
+    legislature: LegislatureOpt = 52,
+    cache: CacheOpt = DEFAULT_CACHE,
+    concurrency: Annotated[int, typer.Option(min=1, max=8)] = 4,
+    max_sessions: Annotated[
+        int | None, typer.Option(help="Only the most recent N sessions (for testing)")
+    ] = None,
+) -> None:
     """Load persons, memberships, votes and ballots incrementally into the DuckDB cache."""
-    _not_implemented("fetch", "phase 2")
+    with ODataClient() as client, Store(cache) as store:
+        stats = run_fetch(
+            ParlamentSource(client, body),
+            store,
+            legislature,
+            concurrency=concurrency,
+            max_sessions=max_sessions,
+            log=typer.echo,
+        )
+        totals = {t: store.count(t) for t in ("persons", "sessions", "votes", "ballots")}
+    typer.echo(
+        f"fetched {stats.sessions_fetched} session(s), skipped {stats.sessions_skipped} "
+        f"complete; new votes {stats.votes}, ballots {stats.ballots}"
+    )
+    typer.echo("cache totals: " + ", ".join(f"{k} {v}" for k, v in totals.items()))
+    if stats.errors:
+        for err in stats.errors:
+            typer.secho(err, err=True, fg="red")
+        raise typer.Exit(code=1)
 
 
 @app.command()

@@ -1,0 +1,32 @@
+{
+ "d": [
+  {
+   "ID": 5214,
+   "Language": "DE",
+   "SessionNumber": 14,
+   "SessionName": "Sommersession 2026",
+   "Abbreviation": "SS 26",
+   "StartDate": "/Date(1780272000000)/",
+   "EndDate": "/Date(1781827200000)/",
+   "Title": "II/2026",
+   "Type": 2,
+   "TypeName": "Ordentliche Sessionen (je 3 Wochen)",
+   "Modified": "/Date(1781712634520)/",
+   "LegislativePeriodNumber": 52
+  },
+  {
+   "ID": 5215,
+   "Language": "DE",
+   "SessionNumber": 15,
+   "SessionName": "Herbstsession 2026",
+   "Abbreviation": "HS 26",
+   "StartDate": "/Date(1789344000000)/",
+   "EndDate": "/Date(1790899200000)/",
+   "Title": "III/2026",
+   "Type": 2,
+   "TypeName": "Ordentliche Sessionen (je 3 Wochen)",
+   "Modified": "/Date(1793974113780)/",
+   "LegislativePeriodNumber": 52
+  }
+ ]
+}

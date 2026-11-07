@@ -1,0 +1,4204 @@
+{
+ "d": [
+  {
+   "ID": 5966791,
+   "IdVote": 36310,
+   "PersonNumber": 3912,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966792,
+   "IdVote": 36310,
+   "PersonNumber": 3901,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966793,
+   "IdVote": 36310,
+   "PersonNumber": 3890,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966794,
+   "IdVote": 36310,
+   "PersonNumber": 1109,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966795,
+   "IdVote": 36310,
+   "PersonNumber": 1138,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966796,
+   "IdVote": 36310,
+   "PersonNumber": 3999,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966797,
+   "IdVote": 36310,
+   "PersonNumber": 4025,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966798,
+   "IdVote": 36310,
+   "PersonNumber": 4040,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966799,
+   "IdVote": 36310,
+   "PersonNumber": 4046,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966800,
+   "IdVote": 36310,
+   "PersonNumber": 4053,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966801,
+   "IdVote": 36310,
+   "PersonNumber": 4090,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966802,
+   "IdVote": 36310,
+   "PersonNumber": 4058,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966803,
+   "IdVote": 36310,
+   "PersonNumber": 4102,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966804,
+   "IdVote": 36310,
+   "PersonNumber": 4101,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966805,
+   "IdVote": 36310,
+   "PersonNumber": 4070,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966806,
+   "IdVote": 36310,
+   "PersonNumber": 4051,
+   "ParlGroupCode": "V",
+   "DecisionText": "Enthaltung"
+  },
+  {
+   "ID": 5966807,
+   "IdVote": 36310,
+   "PersonNumber": 4077,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966808,
+   "IdVote": 36310,
+   "PersonNumber": 4083,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966809,
+   "IdVote": 36310,
+   "PersonNumber": 4094,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966810,
+   "IdVote": 36310,
+   "PersonNumber": 4118,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966811,
+   "IdVote": 36310,
+   "PersonNumber": 4097,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966812,
+   "IdVote": 36310,
+   "PersonNumber": 4063,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966813,
+   "IdVote": 36310,
+   "PersonNumber": 4065,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966814,
+   "IdVote": 36310,
+   "PersonNumber": 4109,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966815,
+   "IdVote": 36310,
+   "PersonNumber": 4052,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966816,
+   "IdVote": 36310,
+   "PersonNumber": 4060,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966817,
+   "IdVote": 36310,
+   "PersonNumber": 4057,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966818,
+   "IdVote": 36310,
+   "PersonNumber": 4121,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966819,
+   "IdVote": 36310,
+   "PersonNumber": 4124,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966820,
+   "IdVote": 36310,
+   "PersonNumber": 4125,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966821,
+   "IdVote": 36310,
+   "PersonNumber": 4130,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966822,
+   "IdVote": 36310,
+   "PersonNumber": 4137,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966823,
+   "IdVote": 36310,
+   "PersonNumber": 4141,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966824,
+   "IdVote": 36310,
+   "PersonNumber": 4142,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Enthaltung"
+  },
+  {
+   "ID": 5966825,
+   "IdVote": 36310,
+   "PersonNumber": 4144,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966826,
+   "IdVote": 36310,
+   "PersonNumber": 4154,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966827,
+   "IdVote": 36310,
+   "PersonNumber": 4184,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966828,
+   "IdVote": 36310,
+   "PersonNumber": 4156,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966829,
+   "IdVote": 36310,
+   "PersonNumber": 4157,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966830,
+   "IdVote": 36310,
+   "PersonNumber": 4158,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966831,
+   "IdVote": 36310,
+   "PersonNumber": 4160,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966832,
+   "IdVote": 36310,
+   "PersonNumber": 4190,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966833,
+   "IdVote": 36310,
+   "PersonNumber": 4195,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966834,
+   "IdVote": 36310,
+   "PersonNumber": 4161,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966835,
+   "IdVote": 36310,
+   "PersonNumber": 4162,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966836,
+   "IdVote": 36310,
+   "PersonNumber": 4163,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966837,
+   "IdVote": 36310,
+   "PersonNumber": 4164,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966838,
+   "IdVote": 36310,
+   "PersonNumber": 4197,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966839,
+   "IdVote": 36310,
+   "PersonNumber": 4167,
+   "ParlGroupCode": "V",
+   "DecisionText": "Hat nicht teilgenommen"
+  },
+  {
+   "ID": 5966840,
+   "IdVote": 36310,
+   "PersonNumber": 4198,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966841,
+   "IdVote": 36310,
+   "PersonNumber": 4193,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966842,
+   "IdVote": 36310,
+   "PersonNumber": 4168,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966843,
+   "IdVote": 36310,
+   "PersonNumber": 4169,
+   "ParlGroupCode": "V",
+   "DecisionText": "Die Präsidentin/der Präsident stimmt nicht"
+  },
+  {
+   "ID": 5966844,
+   "IdVote": 36310,
+   "PersonNumber": 4202,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Hat nicht teilgenommen"
+  },
+  {
+   "ID": 5966845,
+   "IdVote": 36310,
+   "PersonNumber": 4199,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966846,
+   "IdVote": 36310,
+   "PersonNumber": 4173,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966847,
+   "IdVote": 36310,
+   "PersonNumber": 4174,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966848,
+   "IdVote": 36310,
+   "PersonNumber": 4175,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966849,
+   "IdVote": 36310,
+   "PersonNumber": 4177,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966850,
+   "IdVote": 36310,
+   "PersonNumber": 4194,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966851,
+   "IdVote": 36310,
+   "PersonNumber": 4208,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966852,
+   "IdVote": 36310,
+   "PersonNumber": 4213,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966853,
+   "IdVote": 36310,
+   "PersonNumber": 4214,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Entschuldigt gemäss Art. 57 Abs. 4"
+  },
+  {
+   "ID": 5966854,
+   "IdVote": 36310,
+   "PersonNumber": 4216,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966855,
+   "IdVote": 36310,
+   "PersonNumber": 4218,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966856,
+   "IdVote": 36310,
+   "PersonNumber": 4219,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966857,
+   "IdVote": 36310,
+   "PersonNumber": 4220,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966858,
+   "IdVote": 36310,
+   "PersonNumber": 4221,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966859,
+   "IdVote": 36310,
+   "PersonNumber": 4222,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966860,
+   "IdVote": 36310,
+   "PersonNumber": 4223,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966861,
+   "IdVote": 36310,
+   "PersonNumber": 4225,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966862,
+   "IdVote": 36310,
+   "PersonNumber": 4228,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966863,
+   "IdVote": 36310,
+   "PersonNumber": 4229,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966864,
+   "IdVote": 36310,
+   "PersonNumber": 4230,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966865,
+   "IdVote": 36310,
+   "PersonNumber": 4236,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966866,
+   "IdVote": 36310,
+   "PersonNumber": 4234,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966867,
+   "IdVote": 36310,
+   "PersonNumber": 4266,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966868,
+   "IdVote": 36310,
+   "PersonNumber": 4252,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966869,
+   "IdVote": 36310,
+   "PersonNumber": 4255,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966870,
+   "IdVote": 36310,
+   "PersonNumber": 4259,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966871,
+   "IdVote": 36310,
+   "PersonNumber": 4262,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966872,
+   "IdVote": 36310,
+   "PersonNumber": 4265,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966873,
+   "IdVote": 36310,
+   "PersonNumber": 4267,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966874,
+   "IdVote": 36310,
+   "PersonNumber": 4282,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Entschuldigt gemäss Art. 57 Abs. 4"
+  },
+  {
+   "ID": 5966875,
+   "IdVote": 36310,
+   "PersonNumber": 4290,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966876,
+   "IdVote": 36310,
+   "PersonNumber": 4292,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966877,
+   "IdVote": 36310,
+   "PersonNumber": 4295,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966878,
+   "IdVote": 36310,
+   "PersonNumber": 4245,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966879,
+   "IdVote": 36310,
+   "PersonNumber": 4247,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966880,
+   "IdVote": 36310,
+   "PersonNumber": 4263,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966881,
+   "IdVote": 36310,
+   "PersonNumber": 4268,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966882,
+   "IdVote": 36310,
+   "PersonNumber": 4298,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966883,
+   "IdVote": 36310,
+   "PersonNumber": 4288,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966884,
+   "IdVote": 36310,
+   "PersonNumber": 4253,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966885,
+   "IdVote": 36310,
+   "PersonNumber": 4256,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966886,
+   "IdVote": 36310,
+   "PersonNumber": 4280,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966887,
+   "IdVote": 36310,
+   "PersonNumber": 4281,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966888,
+   "IdVote": 36310,
+   "PersonNumber": 4305,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966889,
+   "IdVote": 36310,
+   "PersonNumber": 4254,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966890,
+   "IdVote": 36310,
+   "PersonNumber": 4272,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966891,
+   "IdVote": 36310,
+   "PersonNumber": 4285,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966892,
+   "IdVote": 36310,
+   "PersonNumber": 4286,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966893,
+   "IdVote": 36310,
+   "PersonNumber": 4293,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966894,
+   "IdVote": 36310,
+   "PersonNumber": 4278,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966895,
+   "IdVote": 36310,
+   "PersonNumber": 4284,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966896,
+   "IdVote": 36310,
+   "PersonNumber": 4296,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966897,
+   "IdVote": 36310,
+   "PersonNumber": 4246,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966898,
+   "IdVote": 36310,
+   "PersonNumber": 4271,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966899,
+   "IdVote": 36310,
+   "PersonNumber": 4287,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966900,
+   "IdVote": 36310,
+   "PersonNumber": 4289,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966901,
+   "IdVote": 36310,
+   "PersonNumber": 4257,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966902,
+   "IdVote": 36310,
+   "PersonNumber": 4310,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966903,
+   "IdVote": 36310,
+   "PersonNumber": 4275,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966904,
+   "IdVote": 36310,
+   "PersonNumber": 4311,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966905,
+   "IdVote": 36310,
+   "PersonNumber": 4312,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966906,
+   "IdVote": 36310,
+   "PersonNumber": 4315,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966907,
+   "IdVote": 36310,
+   "PersonNumber": 4314,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966908,
+   "IdVote": 36310,
+   "PersonNumber": 4317,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966909,
+   "IdVote": 36310,
+   "PersonNumber": 4313,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966910,
+   "IdVote": 36310,
+   "PersonNumber": 4318,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966911,
+   "IdVote": 36310,
+   "PersonNumber": 4319,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966912,
+   "IdVote": 36310,
+   "PersonNumber": 4320,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966913,
+   "IdVote": 36310,
+   "PersonNumber": 4323,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966914,
+   "IdVote": 36310,
+   "PersonNumber": 4324,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966915,
+   "IdVote": 36310,
+   "PersonNumber": 4326,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966916,
+   "IdVote": 36310,
+   "PersonNumber": 4327,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966917,
+   "IdVote": 36310,
+   "PersonNumber": 4329,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966918,
+   "IdVote": 36310,
+   "PersonNumber": 4331,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966919,
+   "IdVote": 36310,
+   "PersonNumber": 4333,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966920,
+   "IdVote": 36310,
+   "PersonNumber": 4334,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966921,
+   "IdVote": 36310,
+   "PersonNumber": 4335,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966922,
+   "IdVote": 36310,
+   "PersonNumber": 10816,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966923,
+   "IdVote": 36310,
+   "PersonNumber": 10813,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966924,
+   "IdVote": 36310,
+   "PersonNumber": 10848,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966925,
+   "IdVote": 36310,
+   "PersonNumber": 10810,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966926,
+   "IdVote": 36310,
+   "PersonNumber": 10842,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966927,
+   "IdVote": 36310,
+   "PersonNumber": 10821,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966928,
+   "IdVote": 36310,
+   "PersonNumber": 10826,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966929,
+   "IdVote": 36310,
+   "PersonNumber": 10841,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966930,
+   "IdVote": 36310,
+   "PersonNumber": 10834,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966931,
+   "IdVote": 36310,
+   "PersonNumber": 10845,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966932,
+   "IdVote": 36310,
+   "PersonNumber": 10833,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966933,
+   "IdVote": 36310,
+   "PersonNumber": 10807,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966934,
+   "IdVote": 36310,
+   "PersonNumber": 10847,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966935,
+   "IdVote": 36310,
+   "PersonNumber": 10849,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966936,
+   "IdVote": 36310,
+   "PersonNumber": 10806,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966937,
+   "IdVote": 36310,
+   "PersonNumber": 10819,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966938,
+   "IdVote": 36310,
+   "PersonNumber": 10831,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966939,
+   "IdVote": 36310,
+   "PersonNumber": 10832,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966940,
+   "IdVote": 36310,
+   "PersonNumber": 10846,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966941,
+   "IdVote": 36310,
+   "PersonNumber": 10843,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966942,
+   "IdVote": 36310,
+   "PersonNumber": 10822,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966943,
+   "IdVote": 36310,
+   "PersonNumber": 10801,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966944,
+   "IdVote": 36310,
+   "PersonNumber": 10828,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966945,
+   "IdVote": 36310,
+   "PersonNumber": 10809,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966946,
+   "IdVote": 36310,
+   "PersonNumber": 10814,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966947,
+   "IdVote": 36310,
+   "PersonNumber": 10817,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966948,
+   "IdVote": 36310,
+   "PersonNumber": 10827,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966949,
+   "IdVote": 36310,
+   "PersonNumber": 10803,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966950,
+   "IdVote": 36310,
+   "PersonNumber": 10818,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966951,
+   "IdVote": 36310,
+   "PersonNumber": 10838,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966952,
+   "IdVote": 36310,
+   "PersonNumber": 10840,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966953,
+   "IdVote": 36310,
+   "PersonNumber": 10830,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966954,
+   "IdVote": 36310,
+   "PersonNumber": 10808,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966955,
+   "IdVote": 36310,
+   "PersonNumber": 10850,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966956,
+   "IdVote": 36310,
+   "PersonNumber": 10820,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966957,
+   "IdVote": 36310,
+   "PersonNumber": 10804,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966958,
+   "IdVote": 36310,
+   "PersonNumber": 10852,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966959,
+   "IdVote": 36310,
+   "PersonNumber": 10836,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966960,
+   "IdVote": 36310,
+   "PersonNumber": 10811,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966961,
+   "IdVote": 36310,
+   "PersonNumber": 10829,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966962,
+   "IdVote": 36310,
+   "PersonNumber": 10835,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966963,
+   "IdVote": 36310,
+   "PersonNumber": 10851,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966964,
+   "IdVote": 36310,
+   "PersonNumber": 10844,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966965,
+   "IdVote": 36310,
+   "PersonNumber": 10824,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966966,
+   "IdVote": 36310,
+   "PersonNumber": 11505,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966967,
+   "IdVote": 36310,
+   "PersonNumber": 10825,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966968,
+   "IdVote": 36310,
+   "PersonNumber": 11508,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966969,
+   "IdVote": 36310,
+   "PersonNumber": 11507,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966970,
+   "IdVote": 36310,
+   "PersonNumber": 11404,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966971,
+   "IdVote": 36310,
+   "PersonNumber": 11506,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966972,
+   "IdVote": 36310,
+   "PersonNumber": 10812,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966973,
+   "IdVote": 36310,
+   "PersonNumber": 14105,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966974,
+   "IdVote": 36310,
+   "PersonNumber": 14803,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966975,
+   "IdVote": 36310,
+   "PersonNumber": 14809,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966976,
+   "IdVote": 36310,
+   "PersonNumber": 14810,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966977,
+   "IdVote": 36310,
+   "PersonNumber": 15004,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966978,
+   "IdVote": 36310,
+   "PersonNumber": 15304,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966979,
+   "IdVote": 36310,
+   "PersonNumber": 16109,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966980,
+   "IdVote": 36310,
+   "PersonNumber": 16804,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966981,
+   "IdVote": 36310,
+   "PersonNumber": 16706,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966982,
+   "IdVote": 36310,
+   "PersonNumber": 16902,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966983,
+   "IdVote": 36310,
+   "PersonNumber": 17101,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966984,
+   "IdVote": 36310,
+   "PersonNumber": 16905,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966985,
+   "IdVote": 36310,
+   "PersonNumber": 17401,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966986,
+   "IdVote": 36310,
+   "PersonNumber": 17301,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966987,
+   "IdVote": 36310,
+   "PersonNumber": 17201,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966988,
+   "IdVote": 36310,
+   "PersonNumber": 17404,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966989,
+   "IdVote": 36310,
+   "PersonNumber": 10815,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5966990,
+   "IdVote": 36310,
+   "PersonNumber": 10823,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939791,
+   "IdVote": 36584,
+   "PersonNumber": 3912,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939792,
+   "IdVote": 36584,
+   "PersonNumber": 3901,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939793,
+   "IdVote": 36584,
+   "PersonNumber": 3890,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939794,
+   "IdVote": 36584,
+   "PersonNumber": 1109,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Hat nicht teilgenommen"
+  },
+  {
+   "ID": 5939795,
+   "IdVote": 36584,
+   "PersonNumber": 1138,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939796,
+   "IdVote": 36584,
+   "PersonNumber": 3999,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939797,
+   "IdVote": 36584,
+   "PersonNumber": 4025,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939798,
+   "IdVote": 36584,
+   "PersonNumber": 4040,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939799,
+   "IdVote": 36584,
+   "PersonNumber": 4046,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939800,
+   "IdVote": 36584,
+   "PersonNumber": 4053,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939801,
+   "IdVote": 36584,
+   "PersonNumber": 4090,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939802,
+   "IdVote": 36584,
+   "PersonNumber": 4058,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939803,
+   "IdVote": 36584,
+   "PersonNumber": 4102,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939804,
+   "IdVote": 36584,
+   "PersonNumber": 4101,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939805,
+   "IdVote": 36584,
+   "PersonNumber": 4070,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939806,
+   "IdVote": 36584,
+   "PersonNumber": 4051,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939807,
+   "IdVote": 36584,
+   "PersonNumber": 4077,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939808,
+   "IdVote": 36584,
+   "PersonNumber": 4083,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939809,
+   "IdVote": 36584,
+   "PersonNumber": 4094,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939810,
+   "IdVote": 36584,
+   "PersonNumber": 4118,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939811,
+   "IdVote": 36584,
+   "PersonNumber": 4097,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939812,
+   "IdVote": 36584,
+   "PersonNumber": 4063,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939813,
+   "IdVote": 36584,
+   "PersonNumber": 4065,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939814,
+   "IdVote": 36584,
+   "PersonNumber": 4109,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939815,
+   "IdVote": 36584,
+   "PersonNumber": 4052,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939816,
+   "IdVote": 36584,
+   "PersonNumber": 4060,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939817,
+   "IdVote": 36584,
+   "PersonNumber": 4057,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939818,
+   "IdVote": 36584,
+   "PersonNumber": 4121,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939819,
+   "IdVote": 36584,
+   "PersonNumber": 4124,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939820,
+   "IdVote": 36584,
+   "PersonNumber": 4125,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939821,
+   "IdVote": 36584,
+   "PersonNumber": 4130,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939822,
+   "IdVote": 36584,
+   "PersonNumber": 4137,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939823,
+   "IdVote": 36584,
+   "PersonNumber": 4141,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939824,
+   "IdVote": 36584,
+   "PersonNumber": 4142,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939825,
+   "IdVote": 36584,
+   "PersonNumber": 4144,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939826,
+   "IdVote": 36584,
+   "PersonNumber": 4154,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939827,
+   "IdVote": 36584,
+   "PersonNumber": 4184,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939828,
+   "IdVote": 36584,
+   "PersonNumber": 4156,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939829,
+   "IdVote": 36584,
+   "PersonNumber": 4157,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939830,
+   "IdVote": 36584,
+   "PersonNumber": 4158,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939831,
+   "IdVote": 36584,
+   "PersonNumber": 4160,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939832,
+   "IdVote": 36584,
+   "PersonNumber": 4190,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939833,
+   "IdVote": 36584,
+   "PersonNumber": 4195,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939834,
+   "IdVote": 36584,
+   "PersonNumber": 4161,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939835,
+   "IdVote": 36584,
+   "PersonNumber": 4162,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939836,
+   "IdVote": 36584,
+   "PersonNumber": 4163,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939837,
+   "IdVote": 36584,
+   "PersonNumber": 4164,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939838,
+   "IdVote": 36584,
+   "PersonNumber": 4197,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939839,
+   "IdVote": 36584,
+   "PersonNumber": 4167,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939840,
+   "IdVote": 36584,
+   "PersonNumber": 4198,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939841,
+   "IdVote": 36584,
+   "PersonNumber": 4193,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939842,
+   "IdVote": 36584,
+   "PersonNumber": 4168,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939843,
+   "IdVote": 36584,
+   "PersonNumber": 4169,
+   "ParlGroupCode": "V",
+   "DecisionText": "Die Präsidentin/der Präsident stimmt nicht"
+  },
+  {
+   "ID": 5939844,
+   "IdVote": 36584,
+   "PersonNumber": 4202,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939845,
+   "IdVote": 36584,
+   "PersonNumber": 4199,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939846,
+   "IdVote": 36584,
+   "PersonNumber": 4173,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939847,
+   "IdVote": 36584,
+   "PersonNumber": 4174,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939848,
+   "IdVote": 36584,
+   "PersonNumber": 4175,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939849,
+   "IdVote": 36584,
+   "PersonNumber": 4177,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939850,
+   "IdVote": 36584,
+   "PersonNumber": 4194,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939851,
+   "IdVote": 36584,
+   "PersonNumber": 4208,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939852,
+   "IdVote": 36584,
+   "PersonNumber": 4213,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939853,
+   "IdVote": 36584,
+   "PersonNumber": 4214,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Entschuldigt gemäss Art. 57 Abs. 4"
+  },
+  {
+   "ID": 5939854,
+   "IdVote": 36584,
+   "PersonNumber": 4216,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939855,
+   "IdVote": 36584,
+   "PersonNumber": 4218,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939856,
+   "IdVote": 36584,
+   "PersonNumber": 4219,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939857,
+   "IdVote": 36584,
+   "PersonNumber": 4221,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939858,
+   "IdVote": 36584,
+   "PersonNumber": 4222,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939859,
+   "IdVote": 36584,
+   "PersonNumber": 4223,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939860,
+   "IdVote": 36584,
+   "PersonNumber": 4225,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939861,
+   "IdVote": 36584,
+   "PersonNumber": 4228,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939862,
+   "IdVote": 36584,
+   "PersonNumber": 4229,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939863,
+   "IdVote": 36584,
+   "PersonNumber": 4230,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939864,
+   "IdVote": 36584,
+   "PersonNumber": 4236,
+   "ParlGroupCode": "V",
+   "DecisionText": "Enthaltung"
+  },
+  {
+   "ID": 5939865,
+   "IdVote": 36584,
+   "PersonNumber": 4234,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939866,
+   "IdVote": 36584,
+   "PersonNumber": 4266,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939867,
+   "IdVote": 36584,
+   "PersonNumber": 4252,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939868,
+   "IdVote": 36584,
+   "PersonNumber": 4255,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939869,
+   "IdVote": 36584,
+   "PersonNumber": 4259,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939870,
+   "IdVote": 36584,
+   "PersonNumber": 4262,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939871,
+   "IdVote": 36584,
+   "PersonNumber": 4265,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939872,
+   "IdVote": 36584,
+   "PersonNumber": 4267,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939873,
+   "IdVote": 36584,
+   "PersonNumber": 4282,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939874,
+   "IdVote": 36584,
+   "PersonNumber": 4290,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939875,
+   "IdVote": 36584,
+   "PersonNumber": 4292,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939876,
+   "IdVote": 36584,
+   "PersonNumber": 4295,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939877,
+   "IdVote": 36584,
+   "PersonNumber": 4245,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939878,
+   "IdVote": 36584,
+   "PersonNumber": 4247,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939879,
+   "IdVote": 36584,
+   "PersonNumber": 4263,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939880,
+   "IdVote": 36584,
+   "PersonNumber": 4268,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939881,
+   "IdVote": 36584,
+   "PersonNumber": 4298,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939882,
+   "IdVote": 36584,
+   "PersonNumber": 4288,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939883,
+   "IdVote": 36584,
+   "PersonNumber": 4253,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939884,
+   "IdVote": 36584,
+   "PersonNumber": 4256,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939885,
+   "IdVote": 36584,
+   "PersonNumber": 4280,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939886,
+   "IdVote": 36584,
+   "PersonNumber": 4281,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939887,
+   "IdVote": 36584,
+   "PersonNumber": 4305,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939888,
+   "IdVote": 36584,
+   "PersonNumber": 4254,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939889,
+   "IdVote": 36584,
+   "PersonNumber": 4272,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939890,
+   "IdVote": 36584,
+   "PersonNumber": 4285,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939891,
+   "IdVote": 36584,
+   "PersonNumber": 4286,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939892,
+   "IdVote": 36584,
+   "PersonNumber": 4293,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939893,
+   "IdVote": 36584,
+   "PersonNumber": 4278,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939894,
+   "IdVote": 36584,
+   "PersonNumber": 4284,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939895,
+   "IdVote": 36584,
+   "PersonNumber": 4296,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939896,
+   "IdVote": 36584,
+   "PersonNumber": 4246,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939897,
+   "IdVote": 36584,
+   "PersonNumber": 4271,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939898,
+   "IdVote": 36584,
+   "PersonNumber": 4287,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939899,
+   "IdVote": 36584,
+   "PersonNumber": 4289,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939900,
+   "IdVote": 36584,
+   "PersonNumber": 4257,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939901,
+   "IdVote": 36584,
+   "PersonNumber": 4310,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939902,
+   "IdVote": 36584,
+   "PersonNumber": 4275,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939903,
+   "IdVote": 36584,
+   "PersonNumber": 4311,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939904,
+   "IdVote": 36584,
+   "PersonNumber": 4312,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939905,
+   "IdVote": 36584,
+   "PersonNumber": 4315,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939906,
+   "IdVote": 36584,
+   "PersonNumber": 4314,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939907,
+   "IdVote": 36584,
+   "PersonNumber": 4317,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939908,
+   "IdVote": 36584,
+   "PersonNumber": 4313,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939909,
+   "IdVote": 36584,
+   "PersonNumber": 4319,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939910,
+   "IdVote": 36584,
+   "PersonNumber": 4320,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939911,
+   "IdVote": 36584,
+   "PersonNumber": 4323,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939912,
+   "IdVote": 36584,
+   "PersonNumber": 4324,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939913,
+   "IdVote": 36584,
+   "PersonNumber": 4326,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939914,
+   "IdVote": 36584,
+   "PersonNumber": 4327,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939915,
+   "IdVote": 36584,
+   "PersonNumber": 4329,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939916,
+   "IdVote": 36584,
+   "PersonNumber": 4331,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939917,
+   "IdVote": 36584,
+   "PersonNumber": 4333,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939918,
+   "IdVote": 36584,
+   "PersonNumber": 4334,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939919,
+   "IdVote": 36584,
+   "PersonNumber": 4335,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939920,
+   "IdVote": 36584,
+   "PersonNumber": 10816,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939921,
+   "IdVote": 36584,
+   "PersonNumber": 10813,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939922,
+   "IdVote": 36584,
+   "PersonNumber": 10815,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939923,
+   "IdVote": 36584,
+   "PersonNumber": 10848,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939924,
+   "IdVote": 36584,
+   "PersonNumber": 10810,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939925,
+   "IdVote": 36584,
+   "PersonNumber": 10842,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939926,
+   "IdVote": 36584,
+   "PersonNumber": 10821,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939927,
+   "IdVote": 36584,
+   "PersonNumber": 10826,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939928,
+   "IdVote": 36584,
+   "PersonNumber": 10841,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939929,
+   "IdVote": 36584,
+   "PersonNumber": 10834,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939930,
+   "IdVote": 36584,
+   "PersonNumber": 10845,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939931,
+   "IdVote": 36584,
+   "PersonNumber": 10833,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939932,
+   "IdVote": 36584,
+   "PersonNumber": 10807,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939933,
+   "IdVote": 36584,
+   "PersonNumber": 10847,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939934,
+   "IdVote": 36584,
+   "PersonNumber": 10849,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939935,
+   "IdVote": 36584,
+   "PersonNumber": 10806,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939936,
+   "IdVote": 36584,
+   "PersonNumber": 10819,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939937,
+   "IdVote": 36584,
+   "PersonNumber": 10831,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939938,
+   "IdVote": 36584,
+   "PersonNumber": 10832,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939939,
+   "IdVote": 36584,
+   "PersonNumber": 10846,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939940,
+   "IdVote": 36584,
+   "PersonNumber": 10843,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939941,
+   "IdVote": 36584,
+   "PersonNumber": 10822,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939942,
+   "IdVote": 36584,
+   "PersonNumber": 10801,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939943,
+   "IdVote": 36584,
+   "PersonNumber": 10828,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939944,
+   "IdVote": 36584,
+   "PersonNumber": 10809,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939945,
+   "IdVote": 36584,
+   "PersonNumber": 10814,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939946,
+   "IdVote": 36584,
+   "PersonNumber": 10817,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939947,
+   "IdVote": 36584,
+   "PersonNumber": 10827,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939948,
+   "IdVote": 36584,
+   "PersonNumber": 10803,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939949,
+   "IdVote": 36584,
+   "PersonNumber": 10818,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939950,
+   "IdVote": 36584,
+   "PersonNumber": 10838,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939951,
+   "IdVote": 36584,
+   "PersonNumber": 10840,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939952,
+   "IdVote": 36584,
+   "PersonNumber": 10830,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939953,
+   "IdVote": 36584,
+   "PersonNumber": 10808,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939954,
+   "IdVote": 36584,
+   "PersonNumber": 10850,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939955,
+   "IdVote": 36584,
+   "PersonNumber": 10820,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939956,
+   "IdVote": 36584,
+   "PersonNumber": 10804,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939957,
+   "IdVote": 36584,
+   "PersonNumber": 10852,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939958,
+   "IdVote": 36584,
+   "PersonNumber": 10836,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939959,
+   "IdVote": 36584,
+   "PersonNumber": 10811,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939960,
+   "IdVote": 36584,
+   "PersonNumber": 10829,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939961,
+   "IdVote": 36584,
+   "PersonNumber": 10835,
+   "ParlGroupCode": "V",
+   "DecisionText": "Enthaltung"
+  },
+  {
+   "ID": 5939962,
+   "IdVote": 36584,
+   "PersonNumber": 10823,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939963,
+   "IdVote": 36584,
+   "PersonNumber": 10851,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939964,
+   "IdVote": 36584,
+   "PersonNumber": 10844,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939965,
+   "IdVote": 36584,
+   "PersonNumber": 10824,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939966,
+   "IdVote": 36584,
+   "PersonNumber": 11505,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939967,
+   "IdVote": 36584,
+   "PersonNumber": 10825,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939968,
+   "IdVote": 36584,
+   "PersonNumber": 11508,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939969,
+   "IdVote": 36584,
+   "PersonNumber": 11507,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939970,
+   "IdVote": 36584,
+   "PersonNumber": 11404,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939971,
+   "IdVote": 36584,
+   "PersonNumber": 11506,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939972,
+   "IdVote": 36584,
+   "PersonNumber": 10812,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939973,
+   "IdVote": 36584,
+   "PersonNumber": 14105,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939974,
+   "IdVote": 36584,
+   "PersonNumber": 14803,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939975,
+   "IdVote": 36584,
+   "PersonNumber": 14809,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939976,
+   "IdVote": 36584,
+   "PersonNumber": 14810,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939977,
+   "IdVote": 36584,
+   "PersonNumber": 15004,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939978,
+   "IdVote": 36584,
+   "PersonNumber": 15304,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939979,
+   "IdVote": 36584,
+   "PersonNumber": 16109,
+   "ParlGroupCode": "G",
+   "DecisionText": "Enthaltung"
+  },
+  {
+   "ID": 5939980,
+   "IdVote": 36584,
+   "PersonNumber": 16804,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939981,
+   "IdVote": 36584,
+   "PersonNumber": 16706,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939982,
+   "IdVote": 36584,
+   "PersonNumber": 16902,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939983,
+   "IdVote": 36584,
+   "PersonNumber": 17101,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939984,
+   "IdVote": 36584,
+   "PersonNumber": 16905,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939985,
+   "IdVote": 36584,
+   "PersonNumber": 17401,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939986,
+   "IdVote": 36584,
+   "PersonNumber": 17301,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939987,
+   "IdVote": 36584,
+   "PersonNumber": 17201,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939988,
+   "IdVote": 36584,
+   "PersonNumber": 17404,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939989,
+   "IdVote": 36584,
+   "PersonNumber": 4220,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939990,
+   "IdVote": 36584,
+   "PersonNumber": 4318,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939991,
+   "IdVote": 36585,
+   "PersonNumber": 3912,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939992,
+   "IdVote": 36585,
+   "PersonNumber": 3901,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939993,
+   "IdVote": 36585,
+   "PersonNumber": 3890,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939994,
+   "IdVote": 36585,
+   "PersonNumber": 1109,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Hat nicht teilgenommen"
+  },
+  {
+   "ID": 5939995,
+   "IdVote": 36585,
+   "PersonNumber": 1138,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939996,
+   "IdVote": 36585,
+   "PersonNumber": 3999,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5939997,
+   "IdVote": 36585,
+   "PersonNumber": 4025,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939998,
+   "IdVote": 36585,
+   "PersonNumber": 4040,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5939999,
+   "IdVote": 36585,
+   "PersonNumber": 4046,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940000,
+   "IdVote": 36585,
+   "PersonNumber": 4053,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940001,
+   "IdVote": 36585,
+   "PersonNumber": 4090,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940002,
+   "IdVote": 36585,
+   "PersonNumber": 4058,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940003,
+   "IdVote": 36585,
+   "PersonNumber": 4102,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940004,
+   "IdVote": 36585,
+   "PersonNumber": 4101,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940005,
+   "IdVote": 36585,
+   "PersonNumber": 4070,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940006,
+   "IdVote": 36585,
+   "PersonNumber": 4051,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940007,
+   "IdVote": 36585,
+   "PersonNumber": 4077,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940008,
+   "IdVote": 36585,
+   "PersonNumber": 4083,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940009,
+   "IdVote": 36585,
+   "PersonNumber": 4094,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940010,
+   "IdVote": 36585,
+   "PersonNumber": 4118,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940011,
+   "IdVote": 36585,
+   "PersonNumber": 4097,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940012,
+   "IdVote": 36585,
+   "PersonNumber": 4063,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940013,
+   "IdVote": 36585,
+   "PersonNumber": 4065,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940014,
+   "IdVote": 36585,
+   "PersonNumber": 4109,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940015,
+   "IdVote": 36585,
+   "PersonNumber": 4052,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940016,
+   "IdVote": 36585,
+   "PersonNumber": 4060,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940017,
+   "IdVote": 36585,
+   "PersonNumber": 4057,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940018,
+   "IdVote": 36585,
+   "PersonNumber": 4121,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940019,
+   "IdVote": 36585,
+   "PersonNumber": 4124,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940020,
+   "IdVote": 36585,
+   "PersonNumber": 4125,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940021,
+   "IdVote": 36585,
+   "PersonNumber": 4130,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940022,
+   "IdVote": 36585,
+   "PersonNumber": 4137,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940023,
+   "IdVote": 36585,
+   "PersonNumber": 4141,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940024,
+   "IdVote": 36585,
+   "PersonNumber": 4142,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940025,
+   "IdVote": 36585,
+   "PersonNumber": 4144,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940026,
+   "IdVote": 36585,
+   "PersonNumber": 4154,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940027,
+   "IdVote": 36585,
+   "PersonNumber": 4184,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940028,
+   "IdVote": 36585,
+   "PersonNumber": 4156,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940029,
+   "IdVote": 36585,
+   "PersonNumber": 4157,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940030,
+   "IdVote": 36585,
+   "PersonNumber": 4158,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940031,
+   "IdVote": 36585,
+   "PersonNumber": 4160,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940032,
+   "IdVote": 36585,
+   "PersonNumber": 4190,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940033,
+   "IdVote": 36585,
+   "PersonNumber": 4195,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940034,
+   "IdVote": 36585,
+   "PersonNumber": 4161,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940035,
+   "IdVote": 36585,
+   "PersonNumber": 4162,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940036,
+   "IdVote": 36585,
+   "PersonNumber": 4163,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940037,
+   "IdVote": 36585,
+   "PersonNumber": 4164,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940038,
+   "IdVote": 36585,
+   "PersonNumber": 4197,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940039,
+   "IdVote": 36585,
+   "PersonNumber": 4167,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940040,
+   "IdVote": 36585,
+   "PersonNumber": 4198,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940041,
+   "IdVote": 36585,
+   "PersonNumber": 4193,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940042,
+   "IdVote": 36585,
+   "PersonNumber": 4168,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940043,
+   "IdVote": 36585,
+   "PersonNumber": 4169,
+   "ParlGroupCode": "V",
+   "DecisionText": "Die Präsidentin/der Präsident stimmt nicht"
+  },
+  {
+   "ID": 5940044,
+   "IdVote": 36585,
+   "PersonNumber": 4202,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940045,
+   "IdVote": 36585,
+   "PersonNumber": 4199,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940046,
+   "IdVote": 36585,
+   "PersonNumber": 4173,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940047,
+   "IdVote": 36585,
+   "PersonNumber": 4174,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940048,
+   "IdVote": 36585,
+   "PersonNumber": 4175,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940049,
+   "IdVote": 36585,
+   "PersonNumber": 4177,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940050,
+   "IdVote": 36585,
+   "PersonNumber": 4194,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940051,
+   "IdVote": 36585,
+   "PersonNumber": 4208,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940052,
+   "IdVote": 36585,
+   "PersonNumber": 4213,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940053,
+   "IdVote": 36585,
+   "PersonNumber": 4214,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Entschuldigt gemäss Art. 57 Abs. 4"
+  },
+  {
+   "ID": 5940054,
+   "IdVote": 36585,
+   "PersonNumber": 4216,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940055,
+   "IdVote": 36585,
+   "PersonNumber": 4218,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940056,
+   "IdVote": 36585,
+   "PersonNumber": 4219,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940057,
+   "IdVote": 36585,
+   "PersonNumber": 4221,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940058,
+   "IdVote": 36585,
+   "PersonNumber": 4222,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940059,
+   "IdVote": 36585,
+   "PersonNumber": 4223,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940060,
+   "IdVote": 36585,
+   "PersonNumber": 4225,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940061,
+   "IdVote": 36585,
+   "PersonNumber": 4228,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940062,
+   "IdVote": 36585,
+   "PersonNumber": 4229,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940063,
+   "IdVote": 36585,
+   "PersonNumber": 4230,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940064,
+   "IdVote": 36585,
+   "PersonNumber": 4236,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940065,
+   "IdVote": 36585,
+   "PersonNumber": 4234,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940066,
+   "IdVote": 36585,
+   "PersonNumber": 4266,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940067,
+   "IdVote": 36585,
+   "PersonNumber": 4252,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940068,
+   "IdVote": 36585,
+   "PersonNumber": 4255,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940069,
+   "IdVote": 36585,
+   "PersonNumber": 4259,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940070,
+   "IdVote": 36585,
+   "PersonNumber": 4262,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940071,
+   "IdVote": 36585,
+   "PersonNumber": 4265,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940072,
+   "IdVote": 36585,
+   "PersonNumber": 4267,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940073,
+   "IdVote": 36585,
+   "PersonNumber": 4282,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940074,
+   "IdVote": 36585,
+   "PersonNumber": 4290,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940075,
+   "IdVote": 36585,
+   "PersonNumber": 4292,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940076,
+   "IdVote": 36585,
+   "PersonNumber": 4295,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940077,
+   "IdVote": 36585,
+   "PersonNumber": 4245,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940078,
+   "IdVote": 36585,
+   "PersonNumber": 4247,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940079,
+   "IdVote": 36585,
+   "PersonNumber": 4263,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940080,
+   "IdVote": 36585,
+   "PersonNumber": 4268,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940081,
+   "IdVote": 36585,
+   "PersonNumber": 4298,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940082,
+   "IdVote": 36585,
+   "PersonNumber": 4288,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940083,
+   "IdVote": 36585,
+   "PersonNumber": 4253,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940084,
+   "IdVote": 36585,
+   "PersonNumber": 4256,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940085,
+   "IdVote": 36585,
+   "PersonNumber": 4280,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940086,
+   "IdVote": 36585,
+   "PersonNumber": 4281,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940087,
+   "IdVote": 36585,
+   "PersonNumber": 4305,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940088,
+   "IdVote": 36585,
+   "PersonNumber": 4254,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940089,
+   "IdVote": 36585,
+   "PersonNumber": 4272,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940090,
+   "IdVote": 36585,
+   "PersonNumber": 4285,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940091,
+   "IdVote": 36585,
+   "PersonNumber": 4286,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940092,
+   "IdVote": 36585,
+   "PersonNumber": 4293,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940093,
+   "IdVote": 36585,
+   "PersonNumber": 4278,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940094,
+   "IdVote": 36585,
+   "PersonNumber": 4284,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940095,
+   "IdVote": 36585,
+   "PersonNumber": 4296,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940096,
+   "IdVote": 36585,
+   "PersonNumber": 4246,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940097,
+   "IdVote": 36585,
+   "PersonNumber": 4271,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940098,
+   "IdVote": 36585,
+   "PersonNumber": 4287,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940099,
+   "IdVote": 36585,
+   "PersonNumber": 4289,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940100,
+   "IdVote": 36585,
+   "PersonNumber": 4257,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940101,
+   "IdVote": 36585,
+   "PersonNumber": 4310,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940102,
+   "IdVote": 36585,
+   "PersonNumber": 4275,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940103,
+   "IdVote": 36585,
+   "PersonNumber": 4311,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940104,
+   "IdVote": 36585,
+   "PersonNumber": 4312,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940105,
+   "IdVote": 36585,
+   "PersonNumber": 4315,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940106,
+   "IdVote": 36585,
+   "PersonNumber": 4314,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940107,
+   "IdVote": 36585,
+   "PersonNumber": 4317,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940108,
+   "IdVote": 36585,
+   "PersonNumber": 4313,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940109,
+   "IdVote": 36585,
+   "PersonNumber": 4319,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940110,
+   "IdVote": 36585,
+   "PersonNumber": 4320,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940111,
+   "IdVote": 36585,
+   "PersonNumber": 4323,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940112,
+   "IdVote": 36585,
+   "PersonNumber": 4324,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940113,
+   "IdVote": 36585,
+   "PersonNumber": 4326,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940114,
+   "IdVote": 36585,
+   "PersonNumber": 4327,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940115,
+   "IdVote": 36585,
+   "PersonNumber": 4329,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940116,
+   "IdVote": 36585,
+   "PersonNumber": 4331,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940117,
+   "IdVote": 36585,
+   "PersonNumber": 4333,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940118,
+   "IdVote": 36585,
+   "PersonNumber": 4334,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940119,
+   "IdVote": 36585,
+   "PersonNumber": 4335,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940120,
+   "IdVote": 36585,
+   "PersonNumber": 10816,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940121,
+   "IdVote": 36585,
+   "PersonNumber": 10813,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940122,
+   "IdVote": 36585,
+   "PersonNumber": 10815,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940123,
+   "IdVote": 36585,
+   "PersonNumber": 10848,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940124,
+   "IdVote": 36585,
+   "PersonNumber": 10810,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940125,
+   "IdVote": 36585,
+   "PersonNumber": 10842,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940126,
+   "IdVote": 36585,
+   "PersonNumber": 10821,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940127,
+   "IdVote": 36585,
+   "PersonNumber": 10826,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940128,
+   "IdVote": 36585,
+   "PersonNumber": 10841,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940129,
+   "IdVote": 36585,
+   "PersonNumber": 10834,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940130,
+   "IdVote": 36585,
+   "PersonNumber": 10845,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940131,
+   "IdVote": 36585,
+   "PersonNumber": 10833,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940132,
+   "IdVote": 36585,
+   "PersonNumber": 10807,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940133,
+   "IdVote": 36585,
+   "PersonNumber": 10847,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940134,
+   "IdVote": 36585,
+   "PersonNumber": 10849,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940135,
+   "IdVote": 36585,
+   "PersonNumber": 10806,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940136,
+   "IdVote": 36585,
+   "PersonNumber": 10819,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940137,
+   "IdVote": 36585,
+   "PersonNumber": 10831,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940138,
+   "IdVote": 36585,
+   "PersonNumber": 10832,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940139,
+   "IdVote": 36585,
+   "PersonNumber": 10846,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940140,
+   "IdVote": 36585,
+   "PersonNumber": 10843,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940141,
+   "IdVote": 36585,
+   "PersonNumber": 10822,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940142,
+   "IdVote": 36585,
+   "PersonNumber": 10801,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940143,
+   "IdVote": 36585,
+   "PersonNumber": 10828,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940144,
+   "IdVote": 36585,
+   "PersonNumber": 10809,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940145,
+   "IdVote": 36585,
+   "PersonNumber": 10814,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940146,
+   "IdVote": 36585,
+   "PersonNumber": 10817,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940147,
+   "IdVote": 36585,
+   "PersonNumber": 10827,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940148,
+   "IdVote": 36585,
+   "PersonNumber": 10803,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940149,
+   "IdVote": 36585,
+   "PersonNumber": 10818,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940150,
+   "IdVote": 36585,
+   "PersonNumber": 10838,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940151,
+   "IdVote": 36585,
+   "PersonNumber": 10840,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940152,
+   "IdVote": 36585,
+   "PersonNumber": 10830,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940153,
+   "IdVote": 36585,
+   "PersonNumber": 10808,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940154,
+   "IdVote": 36585,
+   "PersonNumber": 10850,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940155,
+   "IdVote": 36585,
+   "PersonNumber": 10820,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940156,
+   "IdVote": 36585,
+   "PersonNumber": 10804,
+   "ParlGroupCode": "RL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940157,
+   "IdVote": 36585,
+   "PersonNumber": 10852,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940158,
+   "IdVote": 36585,
+   "PersonNumber": 10836,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940159,
+   "IdVote": 36585,
+   "PersonNumber": 10811,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940160,
+   "IdVote": 36585,
+   "PersonNumber": 10829,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940161,
+   "IdVote": 36585,
+   "PersonNumber": 10835,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940162,
+   "IdVote": 36585,
+   "PersonNumber": 10823,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940163,
+   "IdVote": 36585,
+   "PersonNumber": 10851,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940164,
+   "IdVote": 36585,
+   "PersonNumber": 10844,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940165,
+   "IdVote": 36585,
+   "PersonNumber": 10824,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940166,
+   "IdVote": 36585,
+   "PersonNumber": 11505,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940167,
+   "IdVote": 36585,
+   "PersonNumber": 10825,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940168,
+   "IdVote": 36585,
+   "PersonNumber": 11508,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940169,
+   "IdVote": 36585,
+   "PersonNumber": 11507,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940170,
+   "IdVote": 36585,
+   "PersonNumber": 11404,
+   "ParlGroupCode": "V",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940171,
+   "IdVote": 36585,
+   "PersonNumber": 11506,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940172,
+   "IdVote": 36585,
+   "PersonNumber": 10812,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940173,
+   "IdVote": 36585,
+   "PersonNumber": 14105,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940174,
+   "IdVote": 36585,
+   "PersonNumber": 14803,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940175,
+   "IdVote": 36585,
+   "PersonNumber": 14809,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940176,
+   "IdVote": 36585,
+   "PersonNumber": 14810,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940177,
+   "IdVote": 36585,
+   "PersonNumber": 15004,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940178,
+   "IdVote": 36585,
+   "PersonNumber": 15304,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940179,
+   "IdVote": 36585,
+   "PersonNumber": 16109,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940180,
+   "IdVote": 36585,
+   "PersonNumber": 16804,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940181,
+   "IdVote": 36585,
+   "PersonNumber": 16706,
+   "ParlGroupCode": "V",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940182,
+   "IdVote": 36585,
+   "PersonNumber": 16902,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940183,
+   "IdVote": 36585,
+   "PersonNumber": 17101,
+   "ParlGroupCode": "GL",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940184,
+   "IdVote": 36585,
+   "PersonNumber": 16905,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940185,
+   "IdVote": 36585,
+   "PersonNumber": 17401,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940186,
+   "IdVote": 36585,
+   "PersonNumber": 17301,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940187,
+   "IdVote": 36585,
+   "PersonNumber": 17201,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940188,
+   "IdVote": 36585,
+   "PersonNumber": 17404,
+   "ParlGroupCode": "G",
+   "DecisionText": "Ja"
+  },
+  {
+   "ID": 5940189,
+   "IdVote": 36585,
+   "PersonNumber": 4220,
+   "ParlGroupCode": "M-E",
+   "DecisionText": "Nein"
+  },
+  {
+   "ID": 5940190,
+   "IdVote": 36585,
+   "PersonNumber": 4318,
+   "ParlGroupCode": "S",
+   "DecisionText": "Ja"
+  }
+ ]
+}

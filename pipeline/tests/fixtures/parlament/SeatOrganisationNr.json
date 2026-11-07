@@ -1,0 +1,64 @@
+{
+ "d": [
+  {
+   "ID": 1000,
+   "SeatNumber": 1,
+   "PersonNumber": 4169,
+   "PersonIdCode": 3090,
+   "FirstName": "Pierre-André",
+   "LastName": "Page",
+   "CantonAbbreviation": "FR",
+   "ParlGroupNumber": 4,
+   "ParlGroupName": "Fraktion der Schweizerischen Volkspartei",
+   "Language": "DE"
+  },
+  {
+   "ID": 1001,
+   "SeatNumber": 2,
+   "PersonNumber": 4252,
+   "PersonIdCode": 3144,
+   "FirstName": "Katja",
+   "LastName": "Christ",
+   "CantonAbbreviation": "BS",
+   "ParlGroupNumber": 137,
+   "ParlGroupName": "Grünliberale Fraktion",
+   "Language": "DE"
+  },
+  {
+   "ID": 1002,
+   "SeatNumber": 3,
+   "PersonNumber": 4025,
+   "PersonIdCode": 2740,
+   "FirstName": "Roland Rino",
+   "LastName": "Büchel",
+   "CantonAbbreviation": "SG",
+   "ParlGroupNumber": 4,
+   "ParlGroupName": "Fraktion der Schweizerischen Volkspartei",
+   "Language": "DE"
+  },
+  {
+   "ID": 1003,
+   "SeatNumber": 4,
+   "PersonNumber": 11506,
+   "PersonIdCode": 11506,
+   "FirstName": "Farah",
+   "LastName": "Rumy",
+   "CantonAbbreviation": "SO",
+   "ParlGroupNumber": 2,
+   "ParlGroupName": "Sozialdemokratische Fraktion",
+   "Language": "DE"
+  },
+  {
+   "ID": 1004,
+   "SeatNumber": 5,
+   "PersonNumber": 10849,
+   "PersonIdCode": 10849,
+   "FirstName": "Vroni",
+   "LastName": "Thalmann-Bieri",
+   "CantonAbbreviation": "LU",
+   "ParlGroupNumber": 4,
+   "ParlGroupName": "Fraktion der Schweizerischen Volkspartei",
+   "Language": "DE"
+  }
+ ]
+}

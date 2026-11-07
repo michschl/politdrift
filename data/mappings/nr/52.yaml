@@ -2,10 +2,11 @@
 # Schema and rules: docs/METHODIK.md, docs/KONZEPT.md section 2.2.
 # Check with: cd pipeline && uv run politdrift validate ../data/mappings
 #
-# vote_id and business are taken from the concept example and must be verified
-# against ws.parlament.ch before the first export (phase 2).
+# vote_id is the ID of the Vote entity on ws.parlament.ch (field ID / Voting.IdVote).
 
-- vote_id: 31353
+# Verified 2026-11-07: the concept example used vote_id 31353, which does not exist in
+# legislature 52. The final vote (Schlussabstimmung, "Vote final") on 25.024 is 35460.
+- vote_id: 35460
   business: "25.024"
   title: "Kriegsmaterialgesetz – Abweichungskompetenz des Bundesrates (Schlussabstimmung)"
   axes:
