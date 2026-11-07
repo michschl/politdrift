@@ -1,0 +1,18 @@
+name: Uptime
+
+on:
+  # Enable in phase 1 once https://politdrift.org is live.
+  # schedule:
+  #   - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  healthz:
+    name: healthz
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check https://politdrift.org/healthz
+        run: curl -fsS --retry 3 --retry-delay 10 --max-time 10 https://politdrift.org/healthz

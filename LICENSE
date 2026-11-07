@@ -1,0 +1,11 @@
+TODO: License not yet chosen.
+
+The code license is an open decision (docs/KONZEPT.md, section 11, item 1:
+MIT, Apache-2.0 or AGPL-3.0). The license for our own axis mappings in
+data/mappings/ is open as well (item 7: CC BY 4.0 or CC BY-SA 4.0).
+
+Until a license is added here, all rights are reserved by the author.
+
+Third-party data keeps its own terms:
+- Parlamentsdienste (parlament.ch): terms of use of the Open Data Web Services
+- OpenParlData.ch: CC BY 4.0

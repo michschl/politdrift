@@ -1,0 +1,17 @@
+name: Achsen-Zuordnung hinterfragen
+description: Eine Abstimmung ist aus deiner Sicht falsch oder unvollständig einer Achse zugeordnet.
+labels: [data, mapping]
+body:
+  - type: input
+    id: vote
+    attributes:
+      label: Abstimmung (vote_id oder Link)
+    validations:
+      required: true
+  - type: textarea
+    id: begruendung
+    attributes:
+      label: Begründung
+      description: Welche Achse, welche Richtung, und warum? Quellen helfen.
+    validations:
+      required: true

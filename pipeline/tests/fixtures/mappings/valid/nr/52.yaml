@@ -1,0 +1,28 @@
+# Axis mappings, Nationalrat, 52nd legislature (2023–2027).
+# Schema and rules: docs/METHODIK.md, docs/KONZEPT.md section 2.2.
+# Check with: cd pipeline && uv run politdrift validate ../data/mappings
+#
+# vote_id and business are taken from the concept example and must be verified
+# against ws.parlament.ch before the first export (phase 2).
+
+- vote_id: 31353
+  business: "25.024"
+  title: "Kriegsmaterialgesetz – Abweichungskompetenz des Bundesrates (Schlussabstimmung)"
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1 # yes vote = in axis direction
+      weight: 0.5
+    - axis: law_order
+      direction: 1
+      weight: 0.3
+  topics: [sicherheit_neutralitaet] # topic ratings outside the spider
+  source: manual # smartvote | manual | llm
+  confidence: 0.7
+  contested: true # shown in the UI as «umstrittene Zuordnung»
+  reviewed: true
+  reviewed_by: michschl
+  reviewed_at: 2026-11-07
+  note: >
+    Aussenpolitik bewusst nicht zugeordnet: Konsistenz-Check gegen
+    Partei-Spider negativ (SVP Ja bei «geschlossenem», SP/Grüne Nein
+    bei «offenem» Aussenpolitik-Profil).

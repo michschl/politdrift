@@ -1,0 +1,25 @@
+# /opt/politdrift/Caddyfile
+#
+# CSP: the full policy (with hashes for SvelteKit's inline bootstrap script) ships as
+# <meta http-equiv> in every prerendered page, generated from web/vite.config.ts.
+# A header CSP would have to repeat those per-build hashes, so the header carries only
+# the directives a <meta> CSP cannot express. Browsers enforce both. See ADR 0003.
+politdrift.org {
+	encode zstd gzip
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+		Content-Security-Policy "frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'"
+		X-Frame-Options "DENY"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		Permissions-Policy "camera=(), microphone=(), geolocation=()"
+		Cross-Origin-Opener-Policy "same-origin"
+		Cross-Origin-Resource-Policy "same-origin"
+		-Server
+	}
+	reverse_proxy web:8080
+}
+
+www.politdrift.org {
+	redir https://politdrift.org{uri} permanent
+}

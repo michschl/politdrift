@@ -1,0 +1,77 @@
+name: Data refresh
+
+on:
+  # Enable in phase 2, once fetch/compute/export are implemented and the GitHub App exists.
+  # schedule:
+  #   - cron: "23 5 * * 1"        # weekly
+  #   - cron: "23 22 * * 1-5"     # daily during sessions (adjust per session calendar)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    name: refresh nr/52
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: read
+    steps:
+      # PRs opened with GITHUB_TOKEN trigger no workflows (no checks, no auto-merge), so the
+      # data PR is opened with a token of the politdrift-bot GitHub App (KONZEPT 7.3).
+      - id: app-token
+        uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
+        with:
+          app-id: ${{ secrets.DATA_BOT_APP_ID }}
+          private-key: ${{ secrets.DATA_BOT_PRIVATE_KEY }}
+          permission-contents: write
+          permission-pull-requests: write
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          enable-cache: true
+          cache-dependency-glob: pipeline/uv.lock
+      - name: Restore pipeline cache (DuckDB, raw API responses)
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: pipeline/.cache
+          key: pipeline-cache-nr-52-${{ github.run_id }}
+          restore-keys: pipeline-cache-nr-52-
+      - name: Run pipeline
+        working-directory: pipeline
+        run: |
+          uv sync --frozen
+          uv run politdrift fetch --body nr --legislature 52
+          uv run politdrift compute --body nr --legislature 52
+          uv run politdrift export --body nr --legislature 52
+          uv run politdrift validate ../data/mappings
+      - name: Open data PR if derived data changed
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          APP_SLUG: ${{ steps.app-token.outputs.app-slug }}
+        run: |
+          if git diff --quiet -- data/derived && [ -z "$(git ls-files --others --exclude-standard data/derived)" ]; then
+            echo "no data changes"
+            exit 0
+          fi
+          today="$(date -u +%F)"
+          branch="data/refresh-${today}"
+          bot_id="$(gh api "/users/${APP_SLUG}%5Bbot%5D" --jq .id)"
+          git config user.name "${APP_SLUG}[bot]"
+          git config user.email "${bot_id}+${APP_SLUG}[bot]@users.noreply.github.com"
+          gh auth setup-git # push via gh credential helper; token is not written to .git/config
+          git switch -c "$branch"
+          git add data/derived
+          git commit -m "data: refresh nr/52 (${today})"
+          git push --force-with-lease origin "$branch"
+          gh pr create --base main --head "$branch" \
+            --title "data: refresh nr/52 (${today})" \
+            --body "Automatic data refresh by the data-refresh workflow. Unmapped votes are listed by the pipeline output in the run log."
+          gh pr merge "$branch" --auto --squash
