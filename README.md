@@ -44,6 +44,7 @@ cd pipeline
 uv sync
 uv run pytest
 uv run politdrift validate ../data/mappings
+uv run politdrift fetch      # Nationalrat, Legislatur 52 -> .cache/politdrift.duckdb (~8 min)
 
 # Image (nach npm run build)
 docker build -f infra/Dockerfile.web -t politdrift-web .

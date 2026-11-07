@@ -1,0 +1,61 @@
+{
+ "d": [
+  {
+   "ID": 36310,
+   "Language": "DE",
+   "RegistrationNumber": 32570,
+   "BusinessNumber": 1,
+   "BusinessShortNumber": "00.000",
+   "BusinessTitle": "Ordnungsantrag",
+   "BusinessAuthor": null,
+   "BillNumber": null,
+   "BillTitle": null,
+   "IdLegislativePeriod": 52,
+   "IdSession": 5215,
+   "SessionName": "Herbstsession 2026",
+   "Subject": "",
+   "MeaningYes": "Adopter la motion d'ordre",
+   "MeaningNo": "Rejeter la motion d'ordre",
+   "VoteEnd": "/Date(1790021728541)/",
+   "VoteEndWithTimezone": "/Date(1790021728000+0120)/"
+  },
+  {
+   "ID": 36584,
+   "Language": "DE",
+   "RegistrationNumber": 32844,
+   "BusinessNumber": 20250082,
+   "BusinessShortNumber": "25.082",
+   "BusinessTitle": "Elektronisches Gesundheitsdossier. Bundesgesetz",
+   "BusinessAuthor": "",
+   "BillNumber": 1,
+   "BillTitle": "Bundesgesetz über das elektronische Gesundheitsdossier (EGDG)",
+   "IdLegislativePeriod": 52,
+   "IdSession": 5215,
+   "SessionName": "Herbstsession 2026",
+   "Subject": "Entrer en matière",
+   "MeaningYes": "Proposition de la majorité (entrer en matière)",
+   "MeaningNo": "Proposition de la minorité Glarner (ne pas entrer en matière)",
+   "VoteEnd": "/Date(1789403539659)/",
+   "VoteEndWithTimezone": "/Date(1789403539000+0120)/"
+  },
+  {
+   "ID": 36585,
+   "Language": "DE",
+   "RegistrationNumber": 32845,
+   "BusinessNumber": 20250082,
+   "BusinessShortNumber": "25.082",
+   "BusinessTitle": "Elektronisches Gesundheitsdossier. Bundesgesetz",
+   "BusinessAuthor": "",
+   "BillNumber": 1,
+   "BillTitle": "Bundesgesetz über das elektronische Gesundheitsdossier (EGDG)",
+   "IdLegislativePeriod": 52,
+   "IdSession": 5215,
+   "SessionName": "Herbstsession 2026",
+   "Subject": "Art. 2, let. a, chiff. 3 (vaut également pour l'art. 11, al. 2 let.d)",
+   "MeaningYes": "Proposition de la majorité",
+   "MeaningNo": "Proposition de la minorité Rechsteiner Thomas",
+   "VoteEnd": "/Date(1789403633158)/",
+   "VoteEndWithTimezone": "/Date(1789403633000+0120)/"
+  }
+ ]
+}

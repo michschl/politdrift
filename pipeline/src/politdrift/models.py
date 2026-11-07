@@ -99,6 +99,13 @@ class Ballot(Strict):
     vote_id: int
     person_id: str
     decision: Decision
+    parl_group: str | None = None  # parliamentary group at the time of the vote
+
+
+class Seat(Strict):
+    body_id: BodyId
+    seat: int = Field(ge=1)
+    person_id: str
 
 
 # --- Axis mappings (data/mappings/<body>/<legislature>.yaml) -------------------------------
