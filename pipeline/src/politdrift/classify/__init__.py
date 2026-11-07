@@ -32,7 +32,7 @@ from politdrift.store import Store
 HERE = Path(__file__).parent
 PROMPT_PATH = HERE / "prompt.md"
 EXAMPLES_PATH = HERE / "examples.yaml"
-PROMPT_VERSION = "2026-11-07"
+PROMPT_VERSION = "2026-11-07.2"
 
 DEFAULT_BASE_URL = "https://api.infomaniak.com/2/ai/112859/openai/v1"
 DEFAULT_MODEL = "mistralai/Ministral-3-14B-Instruct-2512"  # see ADR 0008
@@ -56,6 +56,8 @@ class VoteInput(BaseModel):
 
 class Proposal(BaseModel):
     model_config = ConfigDict(extra="ignore")
+    # First on purpose: the model states what a yes does before it picks directions.
+    yes_means: str = ""
     axes: list[AxisAssignment] = Field(default_factory=list[AxisAssignment], max_length=3)
     topics: list[Slug] = Field(default_factory=list[Slug])
     confidence: float = Field(ge=0, le=1)
@@ -180,8 +182,17 @@ def to_mapping(vote_id: int, vote: VoteInput, p: Proposal, model: str) -> AxisMa
         confidence=p.confidence,
         contested=p.contested,
         reviewed=False,
-        note=f"{p.rationale.strip()} [{model}, prompt {PROMPT_VERSION}, {dt.date.today()}]".strip(),
+        note=_note(p, model),
     )
+
+
+def _note(p: Proposal, model: str) -> str:
+    parts = [
+        f"Ja bedeutet: {p.yes_means.strip()}" if p.yes_means.strip() else "",
+        p.rationale.strip(),
+    ]
+    text = " ".join(x for x in parts if x)
+    return f"{text} [{model}, prompt {PROMPT_VERSION}, {dt.date.today()}]".strip()
 
 
 def select_votes(

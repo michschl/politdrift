@@ -172,6 +172,8 @@ def test_mapping_io_round_trip_preserves_comments(tmp_path: Path) -> None:
     path.parent.mkdir()
     shutil.copy(REPO_MAPPING, path)
     original = path.read_text(encoding="utf-8")
+    before = [x.vote_id for x in load_file(path)]
+    assert 31570 not in before
     mapping_io.save(path, mapping_io.load(path))
     assert path.read_text(encoding="utf-8") == original
 
@@ -181,7 +183,7 @@ def test_mapping_io_round_trip_preserves_comments(tmp_path: Path) -> None:
     text = path.read_text(encoding="utf-8")
     assert text.startswith(original.split("\n- vote_id")[0])  # header comments intact
     assert validate_tree(tmp_path).ok
-    assert [x.vote_id for x in load_file(path)] == [35460, 31570]
+    assert [x.vote_id for x in load_file(path)] == [*before, 31570]
 
 
 def test_review_accept_no_axis_and_edit(tmp_path: Path) -> None:
