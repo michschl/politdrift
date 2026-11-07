@@ -1,9 +1,8 @@
 name: Uptime
 
 on:
-  # Enable in phase 1 once https://politdrift.org is live.
-  # schedule:
-  #   - cron: "*/30 * * * *"
+  schedule:
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 permissions: {}

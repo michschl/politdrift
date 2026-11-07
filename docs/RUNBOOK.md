@@ -36,6 +36,22 @@ die defekte Version ausrollt.
 
 <!-- TODO Phase 1: Rollback mit absichtlich defektem Image einmal testen und hier dokumentieren. -->
 
+## Infra-Konfiguration ändern (Caddyfile, compose.yml, deploy.sh)
+
+Ein Deploy tauscht nur das Web-Image aus. Änderungen an Dateien unter `infra/` kommen über einen
+erneuten Lauf von `bootstrap.sh` auf den Server. Das Skript ist idempotent und erzeugt die
+Container danach neu (Zertifikate bleiben erhalten, kurzer Unterbruch von wenigen Sekunden):
+
+```bash
+ssh admin@<host>
+cd ~/politdrift && git pull
+sudo ADMIN_PUBKEY="$(head -1 ~/.ssh/authorized_keys)" \
+     DEPLOY_PUBKEY="$(sudo awk '{print $(NF-2), $(NF-1)}' /home/deploy/.ssh/authorized_keys)" \
+     ./infra/vps/bootstrap.sh
+```
+
+Danach den Workflow «Acceptance» starten (Actions → Acceptance → Run workflow).
+
 ## Logs
 
 ```bash
