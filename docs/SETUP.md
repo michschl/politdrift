@@ -204,7 +204,7 @@ Am Ende gibt das Skript eine Zeile `VPS_KNOWN_HOSTS` aus, z. B.
 
 ```bash
 ssh -i ~/.ssh/politdrift_admin admin@<IPv4>
-sudo -v   # muss ohne Passwort funktionieren
+sudo true && echo OK   # muss ohne Passwortabfrage «OK» ausgeben
 ```
 
 Ab jetzt ist nur noch `admin` und `deploy` per SSH erlaubt. Der Benutzer `ubuntu` kann sich nicht mehr
