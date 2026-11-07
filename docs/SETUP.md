@@ -102,7 +102,8 @@ Erst **nach** dem ersten Lauf auf `main`, damit GitHub die Check-Namen kennt.
    - Enforcement status: **Active**
    - Bypass list: **Repository admin**
    - Target: **Default branch**
-   - Required status checks: die fünf Checks aus A6 (ohne `dependency-review`). Werden sie nicht
+   - Required status checks: `web-quality`, `pipeline-quality`, die drei `codeql`-Checks und
+     `build-image` (Image-Build mit Trivy-Scan, auf PRs ohne Push). Werden sie nicht
      gefunden, über **Add checks** neu auswählen.
 4. **Create**.
 

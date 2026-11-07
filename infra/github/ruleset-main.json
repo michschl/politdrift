@@ -40,7 +40,8 @@
           { "context": "pipeline-quality", "integration_id": 15368 },
           { "context": "codeql (javascript-typescript)", "integration_id": 15368 },
           { "context": "codeql (python)", "integration_id": 15368 },
-          { "context": "codeql (actions)", "integration_id": 15368 }
+          { "context": "codeql (actions)", "integration_id": 15368 },
+          { "context": "build-image", "integration_id": 15368 }
         ]
       }
     }
