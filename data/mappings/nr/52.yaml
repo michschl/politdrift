@@ -27,3 +27,3835 @@
     Aussenpolitik bewusst nicht zugeordnet: Konsistenz-Check gegen
     Partei-Spider negativ (SVP Ja bei «geschlossenem», SP/Grüne Nein
     bei «offenem» Aussenpolitik-Profil).
+- vote_id: 31758
+  business: '09.528'
+  title: Finanzierung der Gesundheitsleistungen aus einer Hand. Einführung des Monismus –
+    Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.5
+  topics:
+    - gesundheit
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Finanzierung der Gesundheitsleistungen wird vereinheitlicht (Monismus), was
+    die staatliche Steuerung und Koordination erhöht. Der Monismus zielt auf eine effizientere, zentralere
+    Steuerung des Gesundheitssystems ab, was tendenziell den Service public stärkt, aber auch administrative
+    Umstrukturierungen bedeutet. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 31759
+  business: '20.034'
+  title: Bundesgesetz über das Internationale Privatrecht. Änderung – Schlussabstimmung
+  axes: []
+  topics:
+    - kein_achsenbezug
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderung des Internationalen Privatrechts wird angenommen. Es handelt sich
+    um eine technische Anpassung des Privatrechts ohne klaren Bezug zu den definierten politischen Achsen.
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 31760
+  business: '20.496'
+  title: Planungsbericht über die Zusammenarbeit mit der EU in den Bereichen ausserhalb des
+    Marktzugangs – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.7
+  topics:
+    - aussenpolitik
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Der Planungsbericht über die Zusammenarbeit mit der EU in nicht-marktwirtschaftlichen
+    Bereichen wird angenommen. Die Annahme eines Berichts zur Zusammenarbeit mit der EU fördert die
+    internationale Kooperation und Annäherung. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 31761
+  business: '21.065'
+  title: Gegen die Verbauung unserer Landschaft (Landschaftsinitiative). Volksinitiative –
+    Schlussabstimmung
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.8
+  topics:
+    - umwelt
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Der Rat empfiehlt, die Volksinitiative anzunehmen, um die Verbauung der Landschaft
+    zu verhindern. Die Annahme der Initiative (hier durch Ja-Stimme empfohlen) zielt auf einen stärkeren
+    Schutz der Natur und Landschaft vor baulichen Eingriffen ab. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 31762
+  business: '22.021'
+  title: Einführung eines vereinfachten Verfahrens zur Vernichtung von Kleinsendungen.
+    Bundesgesetz – Schlussabstimmung
+  axes:
+    - axis: law_order
+      direction: 1
+      weight: 0.4
+  topics:
+    - digitalisierung
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Zollbehörden können Kleinsendungen einfacher vernichten, wenn diese nicht
+    abgeholt werden oder illegal sind. Die Vereinfachung der Vernichtung dient der Effizienz der Zollverwaltung
+    und der Durchsetzung von Importregeln (Law & Order). [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 31763
+  business: '22.025'
+  title: Für die Zukunft unserer Natur und Landschaft (Biodiversitätsinitiative). Volksinitiative
+    und indirekter Gegenvorschlag – Schlussabstimmung
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: -1
+      weight: 0.8
+  topics:
+    - umwelt
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: "Ja bedeutet: Der Rat empfiehlt, die Biodiversitätsinitiative abzulehnen. Die Initiative fordert
+    einen massiven Ausbau des Naturschutzes. Die Empfehlung auf Ablehnung (Ja) bewegt sich somit weg
+    von der Achse 'umwelt_ausgebaut'. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]"
+- vote_id: 31764
+  business: '23.035'
+  title: Schutz von Investitionen. Abkommen mit Indonesien – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.6
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.5
+  topics: []
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Investitionsschutzabkommen mit Indonesien wird angenommen. Investitionsschutzabkommen
+    fördern die internationale Zusammenarbeit (offene Aussenpolitik) und schützen private Investitionen
+    vor staatlichen Eingriffen (wirtschaftsliberal). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 31766
+  business: '23.036'
+  title: Genehmigung des Strassburger Übereinkommens von 2012 über die Beschränkung der Haftung in
+    der Binnenschifffahrt und zu der Änderung des Seeschifffahrtsgesetzes und der Änderung des
+    Übereinkommens über Abfälle in der Rhein- und Binnenschifffahrt – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.3
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - verkehr
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das internationale Übereinkommen zur Beschränkung der Haftung in der Binnenschifffahrt
+    wird genehmigt. Die Genehmigung eines internationalen Abkommens ist ein Akt der internationalen
+    Zusammenarbeit (aussenpolitik_offen). Die Beschränkung der Haftung ist eine wirtschaftsliberale
+    Massnahme zur Risikominimierung für Unternehmen. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 31767
+  business: '23.036'
+  title: Genehmigung des Strassburger Übereinkommens von 2012 über die Beschränkung der Haftung in
+    der Binnenschifffahrt und zu der Änderung des Seeschifffahrtsgesetzes und der Änderung des
+    Übereinkommens über Abfälle in der Rhein- und Binnenschifffahrt – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.3
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - verkehr
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das internationale Übereinkommen zur Beschränkung der Haftung in der Binnenschifffahrt
+    wird genehmigt. Die Genehmigung eines internationalen Abkommens ist ein Akt der internationalen
+    Zusammenarbeit (aussenpolitik_offen). Die Beschränkung der Haftung ist eine wirtschaftsliberale
+    Massnahme zur Risikominimierung für Unternehmen. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 31768
+  business: '23.043'
+  title: Doppelbesteuerung. Abkommen mit den Vereinigten Arabischen Emiraten – Schlussabstimmung
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.6
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Abkommen zur Vermeidung der Doppelbesteuerung mit den VAE wird angenommen.
+    Doppelbesteuerungsabkommen fördern den internationalen Handel und Investitionen (wirtschaftsliberal)
+    und stärken die internationale Zusammenarbeit (offene Aussenpolitik). [google/gemma-4-31B-it, prompt
+    2026-11-07.2, 2026-11-07]'
+- vote_id: 31769
+  business: '23.045'
+  title: Haager Gerichtsstandsübereinkommen. Genehmigung und Umsetzung – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.6
+  topics: []
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Schweiz genehmigt und setzt das Haager Gerichtsstandsübereinkommen um. Die
+    Unterzeichnung internationaler Abkommen zur Harmonisierung des Zivilrechts fördert die internationale
+    Zusammenarbeit und die rechtliche Öffnung. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32288
+  business: '20.433'
+  title: Schweizer Kreislaufwirtschaft stärken – Schlussabstimmung
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.8
+  topics:
+    - umwelt
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Vorlage zur Stärkung der Kreislaufwirtschaft wird angenommen. Die Förderung
+    der Kreislaufwirtschaft zielt direkt auf Ressourcenschonung und Umweltschutz ab. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32289
+  business: '20.456'
+  title: Unnötige und schädliche Beschränkungen des Zweitwohnungsgesetzes in Sachen Abbruch und
+    Wiederaufbau von altrechtlichen Wohnungen aufheben – Schlussabstimmung
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.7
+  topics: []
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Beschränkungen des Zweitwohnungsgesetzes beim Abbruch und Wiederaufbau von
+    altrechtlichen Wohnungen werden aufgehoben. Die Aufhebung von gesetzlichen Beschränkungen im Bauwesen
+    stellt eine Deregulierung dar und entspricht einer liberalen Wirtschaftspolitik. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32290
+  business: '21.503'
+  title: Rechtsgrundlagen zur Budgetberatung. Änderungsbedarf – Schlussabstimmung
+  axes: []
+  topics:
+    - kein_achsenbezug
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die vorgeschlagenen Änderungen an den Rechtsgrundlagen zur Budgetberatung werden
+    angenommen. Es handelt sich um eine formale/prozedurale Anpassung der Budgetberatung ohne klare
+    politische Ausrichtung auf eine der acht Achsen. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32291
+  business: '22.061'
+  title: CO2-Gesetz für die Zeit nach 2024. Revision – Schlussabstimmung
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 1.0
+    - axis: wirtschaft_liberal
+      direction: -1
+      weight: 0.5
+  topics:
+    - energie
+    - umwelt
+  source: llm
+  confidence: 0.9
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Das revidierte CO2-Gesetz wird angenommen, um Klimaziele durch Lenkungsabgaben
+    und Anreize zu erreichen. Die Annahme des CO2-Gesetzes fördert den Klimaschutz (umwelt_ausgebaut).
+    Gleichzeitig bedeutet es staatliche Eingriffe in den Markt via Steuern/Abgaben (wirtschaft_liberal
+    direction -1). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32292
+  business: '22.078'
+  title: Patentgesetz. Änderung – Schlussabstimmung
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderung des Patentgesetzes wird angenommen. Patentgesetze betreffen den Schutz
+    von geistigem Eigentum und die Marktregulierung, was tendenziell in den Bereich der liberalen Wirtschaftspolitik
+    fällt, sofern es die Wettbewerbsfähigkeit stärkt. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32293
+  business: '23.030'
+  title: Bundesgesetz über den Wasserbau – Schlussabstimmung
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.4
+  topics:
+    - umwelt
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Das neue Bundesgesetz über den Wasserbau wird angenommen. Das Gesetz zielt auf
+    einen besseren Schutz von Gewässern und die ökologische Aufwertung ab, was in Richtung Umweltschutz
+    geht. Die Gewichtung ist moderat, da Wasserbau oft ein Kompromiss zwischen Schutz und Nutzung ist.
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32294
+  business: '23.050'
+  title: Familienzulagengesetz. Änderung (Einführung eines vollen Lastenausgleichs) –
+    Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.7
+  topics:
+    - sozialversicherung
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderung des Familienzulagengesetzes wird angenommen, um einen vollen Lastenausgleich
+    bei den Familienzulagen einzuführen. Ein voller Lastenausgleich stellt sicher, dass alle Arbeitgeber
+    gleichmässig an den Kosten der Familienzulagen beteiligt werden, was die soziale Absicherung stärkt
+    und die Lasten fairer verteilt. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32295
+  business: '23.053'
+  title: Weiterentwicklung des Schengen-Besitzstands (Überwachungsmechanismus) – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.8
+  topics:
+    - sicherheit_neutralitaet
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Schweiz akzeptiert den neuen Überwachungsmechanismus der EU zur Sicherstellung
+    des Schengen-Besitzstands. Die Annahme stärkt die Zusammenarbeit mit der EU und die Integration
+    in das Schengen-System, was einer offenen Aussenpolitik entspricht. [google/gemma-4-31B-it, prompt
+    2026-11-07.2, 2026-11-07]'
+- vote_id: 32297
+  business: '23.055'
+  title: Stand und Änderungen bei Ausbauprogrammen der Bahninfrastruktur und neue
+    Langfriststrategie «Perspektive Bahn 2050» – Schlussabstimmung
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.6
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.4
+  topics:
+    - verkehr
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Ausbauprogramme der Bahninfrastruktur und die Strategie «Perspektive Bahn
+    2050» werden angenommen. Der Ausbau der Bahn fördert den klimafreundlichen Verkehr (Umwelt) und
+    stärkt den Service public (Sozialstaat). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32298
+  business: '23.058'
+  title: Rechtshilfe in Strafsachen. Abkommen mit der Republik Panama – Schlussabstimmung
+  axes:
+    - axis: law_order
+      direction: 1
+      weight: 0.6
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.4
+  topics:
+    - sicherheit_neutralitaet
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Rechtshilfeabkommen in Strafsachen mit Panama wird genehmigt. Die internationale
+    Rechtshilfe stärkt die Strafverfolgung (Law & Order) und fördert die internationale Zusammenarbeit
+    (Offene Aussenpolitik). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32299
+  business: '23.059'
+  title: Weiterentwicklungen des Schengen-Besitzstands. Finanzielle Hilfe im Bereich
+    Grenzverwaltung und Visumpolitik – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.8
+  topics:
+    - sicherheit_neutralitaet
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Schweiz leistet finanzielle Hilfe im Bereich Grenzverwaltung und Visumpolitik
+    im Rahmen des Schengen-Besitzstands. Die finanzielle Unterstützung zur Sicherung des Schengen-Besitzstands
+    ist ein klarer Akt der internationalen Zusammenarbeit und EU-Annäherung. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32300
+  business: '23.061'
+  title: Revision EPDG (Übergangsfinanzierung und Einwilligung) – Schlussabstimmung
+  axes: []
+  topics:
+    - gesundheit
+    - digitalisierung
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Revision des EPDG wird angenommen, was die Finanzierung und die Einwilligungslösung
+    für das elektronische Patientendossier regelt. Es handelt sich primär um eine technische und finanzielle
+    Regelung zur Umsetzung eines bestehenden Systems ohne klaren Bezug zu den politischen Wertachsen.
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32301
+  business: '23.431'
+  title: Schaffung einer zusätzlichen Stelle für nebenamtliche Richter und Richterinnen am
+    Bundesstrafgericht – Schlussabstimmung
+  axes:
+    - axis: law_order
+      direction: 1
+      weight: 0.3
+    - axis: finanzen_restriktiv
+      direction: -1
+      weight: 0.2
+  topics:
+    - justiz
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Es wird eine zusätzliche Stelle für nebenamtliche Richter am Bundesstrafgericht
+    geschaffen. Die Stärkung der Justizkapazitäten im Strafbereich zahlt auf Law & Order ein, bedeutet
+    aber gleichzeitig eine geringfügige Erhöhung der Staatsausgaben. [google/gemma-4-31B-it, prompt
+    2026-11-07.2, 2026-11-07]'
+- vote_id: 32302
+  business: '23.449'
+  title: Erhöhung der Anzahl Richterstellen am Bundesverwaltungsgericht – Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.3
+  topics:
+    - justiz
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Anzahl der Richterstellen am Bundesverwaltungsgericht wird erhöht. Mehr Stellen
+    im Justizwesen stärken den Service public (Staat), sind aber kaum eine Kernfrage der Achsen. Die
+    Zuordnung ist schwach, da es primär eine administrative Kapazitätsfrage ist. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32978
+  business: '19.456'
+  title: Leistungen zur Prävention sind im heutigen Umfeld eine wichtige Aufgabe von
+    Wohlfahrtsfonds mit Ermessensleistungen – Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.4
+  topics:
+    - sozialwesen
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Wohlfahrtsfonds dürfen ihre Ermessensleistungen auch für Präventionsmassnahmen
+    einsetzen. Die Erweiterung der Nutzung von Sozialfonds für Prävention stärkt das soziale Sicherheitsnetz
+    und die staatliche/parastaatliche Vorsorge. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32979
+  business: '20.505'
+  title: Barrierefreiheit des Live-Streams der Parlamentsdebatten gewährleisten –
+    Schlussabstimmung
+  axes:
+    - axis: gesellschaft_liberal
+      direction: 1
+      weight: 0.4
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.3
+  topics: []
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Barrierefreiheit des Live-Streams der Parlamentsdebatten wird gewährleistet.
+    Die Förderung der Barrierefreiheit dient der Gleichstellung und Teilhabe (gesellschaft_liberal)
+    sowie dem Service public (sozialstaat_ausgebaut). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32980
+  business: '21.504'
+  title: Bei häuslicher Gewalt die Härtefallpraxis nach Artikel 50 AIG garantieren –
+    Schlussabstimmung
+  axes:
+    - axis: migration_restriktiv
+      direction: -1
+      weight: 0.6
+    - axis: gesellschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - migration
+    - gesundheit
+  source: llm
+  confidence: 0.8
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Härtefallpraxis wird gesetzlich garantiert, sodass Opfer häuslicher Gewalt
+    leichter eine Aufenthaltsbewilligung erhalten können. Die Garantie der Härtefallpraxis lockert die
+    strikte Migrationspolitik zugunsten des Opferschutzes (direction -1) und fördert die individuelle
+    Selbstbestimmung/Gleichstellung (direction 1). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32981
+  business: '22.071'
+  title: Strafgesetzbuch und Jugendstrafgesetz. Änderung – Schlussabstimmung
+  axes: []
+  topics:
+    - justiz
+  source: llm
+  confidence: 0.5
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderungen am Strafgesetzbuch und Jugendstrafgesetz werden angenommen. Ohne
+    Kenntnis der spezifischen Gesetzesänderungen (z.B. ob es um Verschärfungen oder Liberalisierungen
+    geht) ist eine Zuordnung zur Law & Order Achse nicht möglich. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 32982
+  business: '22.071'
+  title: Strafgesetzbuch und Jugendstrafgesetz. Änderung – Schlussabstimmung
+  axes: []
+  topics:
+    - kein_achsenbezug
+  source: llm
+  confidence: 0.5
+  contested: true
+  reviewed: false
+  note: "Ja bedeutet: Die Änderungen am Strafgesetzbuch und Jugendstrafgesetz werden angenommen. Ohne
+    Kenntnis der spezifischen inhaltlichen Änderungen (z.B. Verschärfung vs. Liberalisierung) ist eine
+    Zuordnung zu 'law_order' oder 'gesellschaft_liberal' nicht möglich. [google/gemma-4-31B-it, prompt
+    2026-11-07.2, 2026-11-07]"
+- vote_id: 32983
+  business: '22.084'
+  title: Bundesgesetz über die Entwicklungsfinanzierungsgesellschaft SIFEM – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.6
+  topics:
+    - aussenpolitik
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Gesetz über die SIFEM wird angenommen, womit die staatliche Entwicklungsfinanzierung
+    institutionalisiert wird. Die SIFEM fördert die internationale Zusammenarbeit und wirtschaftliche
+    Entwicklung in Partnerländern, was einer offenen Aussenpolitik entspricht. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32984
+  business: '23.021'
+  title: Bundesgesetz über die Zulassung als Strassentransportunternehmen (STUG). Änderung –
+    Schlussabstimmung
+  axes: []
+  topics:
+    - verkehr
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderung des Gesetzes über die Zulassung als Strassentransportunternehmen
+    wird angenommen. Es handelt sich um eine technische Gesetzesänderung zur Zulassung von Transportunternehmen
+    ohne klaren Bezug zu den definierten politischen Achsen. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 32985
+  business: '23.048'
+  title: Bundesgesetz über die Krankenversicherung. Änderung (Datenaustausch, Risikoausgleich) –
+    Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.4
+  topics:
+    - gesundheit
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderungen am Krankenversicherungsgesetz bezüglich Datenaustausch und Risikoausgleich
+    werden angenommen. Ein verbesserter Risikoausgleich dient der Stabilität des Sozialversicherungssystems
+    und verhindert die Benachteiligung kranker Versicherter, was in Richtung eines ausgebauten Sozialstaats
+    geht. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32696
+  business: '22.071'
+  title: Strafgesetzbuch und Jugendstrafgesetz. Änderung – Schlussabstimmung
+  axes: []
+  topics:
+    - kein_achsenbezug
+  source: llm
+  confidence: 0.5
+  contested: true
+  reviewed: false
+  note: "Ja bedeutet: Die Änderungen am Strafgesetzbuch und Jugendstrafgesetz werden angenommen. Ohne
+    Kenntnis der spezifischen inhaltlichen Änderungen (z.B. Verschärfung vs. Liberalisierung) ist eine
+    Zuordnung zu 'law_order' oder 'gesellschaft_liberal' nicht möglich. [google/gemma-4-31B-it, prompt
+    2026-11-07.2, 2026-11-07]"
+- vote_id: 32986
+  business: '23.057'
+  title: ZGB. Änderung (Massnahmen gegen Minderjährigenheiraten) – Schlussabstimmung
+  axes:
+    - axis: gesellschaft_liberal
+      direction: 1
+      weight: 0.6
+    - axis: law_order
+      direction: 1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Ehe von Minderjährigen wird gesetzlich verboten. Das Verbot von Minderjährigenheiraten
+    schützt die Selbstbestimmung und Rechte von Kindern/Jugendlichen (gesellschaft_liberal) und verschärft
+    den rechtlichen Schutz (law_order). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32987
+  business: '23.067'
+  title: Erwerbsersatzgesetz (Digitalisierung in der Erwerbsersatzordnung). Änderung –
+    Schlussabstimmung
+  axes: []
+  topics:
+    - digitalisierung
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Digitalisierung der Erwerbsersatzordnung wird gesetzlich verankert und umgesetzt.
+    Es handelt sich um eine administrative/technische Anpassung zur Effizienzsteigerung ohne klaren
+    Bezug zu den politischen Wertachsen des Spiders. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32989
+  business: '23.070'
+  title: Austausch von Daten betreffend gesperrte Spielerinnen und Spieler im Geldspielbereich.
+    Abkommen mit dem Fürstentum Liechtenstein – Schlussabstimmung
+  axes:
+    - axis: law_order
+      direction: 1
+      weight: 0.4
+  topics:
+    - gesundheit
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Abkommen mit Liechtenstein zum Datenaustausch über gesperrte Spieler im Glücksspiel
+    wird angenommen. Die Massnahme dient dem Spielerschutz und der Durchsetzung von Sperren, was unter
+    den Bereich der inneren Sicherheit/Regulierung (Law & Order) fällt. [google/gemma-4-31B-it, prompt
+    2026-11-07.2, 2026-11-07]'
+- vote_id: 32990
+  business: '23.077'
+  title: Abkommen zwischen der Schweiz und Slowenien zur Vermeidung der Doppelbesteuerung auf dem
+    Gebiet der Steuern vom Einkommen und vom Vermögen. Protokoll zur Änderung – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.4
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Abkommen zur Vermeidung der Doppelbesteuerung mit Slowenien wird angenommen.
+    Doppelbesteuerungsabkommen fördern die internationale Zusammenarbeit (offene Aussenpolitik) und
+    erleichtern den grenzüberschreitenden Wirtschaftsverkehr (wirtschaftsliberal). [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32991
+  business: '23.080'
+  title: Zusatzabkommen zum Abkommen vom 9. September 1966 zwischen der Schweiz und Frankreich zur
+    Vermeidung der Doppelbesteuerung auf dem Gebiet der Steuern vom Einkommen und vom Vermögen und
+    zur Vermeidung von Steuerbetrug und Steuerflucht. Genehmigung – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.4
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Zusatzabkommen zur Vermeidung der Doppelbesteuerung mit Frankreich wird genehmigt.
+    Die Genehmigung eines Steuerabkommens fördert die internationale Zusammenarbeit (offene Aussenpolitik)
+    und erleichtert den grenzüberschreitenden Wirtschaftsverkehr (wirtschaftsliberal). [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 32992
+  business: '23.084'
+  title: Arbeitslosenversicherungsgesetz (AVIG). Teilrevision – Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: -1
+      weight: 0.4
+  topics:
+    - sozialversicherung
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Teilrevision des Arbeitslosenversicherungsgesetzes wird angenommen. Teilrevisionen
+    des AVIG zielen oft auf eine Straffung der Bedingungen oder Effizienzsteigerung ab, was tendenziell
+    weg von einem maximal ausgebauten Sozialstaat geht. Da die konkreten Details der Revision hier nicht
+    vorliegen, ist die Zuordnung mit Vorbehalt (contested). [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 32993
+  business: '24.024'
+  title: Bundesgesetz über die Besteuerung der Telearbeit im internationalen Verhältnis –
+    Schlussabstimmung
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - steuern
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Das Gesetz zur Besteuerung von Telearbeit im internationalen Verhältnis wird angenommen.
+    Die Regelung soll die Attraktivität des Standorts Schweiz für internationale Arbeitnehmer erhöhen
+    und bürokratische Hürden bei der Besteuerung senken, was einer liberalen Wirtschaftspolitik entspricht.
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33452
+  business: '19.409'
+  title: Kein "David gegen Goliath" beim Verbandsbeschwerderecht – Schlussabstimmung
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: -1
+      weight: 0.7
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.5
+  topics: []
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Verbandsbeschwerderecht wird eingeschränkt, um die Klagemöglichkeiten von
+    Verbänden zu reduzieren. Die Einschränkung des Verbandsbeschwerderechts erschwert es Umwelt- und
+    Naturschutzorganisationen, Projekte zu stoppen (gegen Umweltschutz) und reduziert regulatorische
+    Hürden für Bau- und Wirtschaftsprojekte (liberal). [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 33453
+  business: '21.463'
+  title: Preisempfehlungen auch für Holz aus Schweizer Wäldern – Schlussabstimmung
+  axes:
+    - axis: wirtschaft_liberal
+      direction: -1
+      weight: 0.4
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.3
+  topics:
+    - landwirtschaft
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Es wird ermöglicht, Preisempfehlungen für Holz aus Schweizer Wäldern zu erlassen.
+    Preisempfehlungen sind ein staatlicher Eingriff in die Preisbildung (gegen wirtschaftliche Liberalisierung).
+    Gleichzeitig fördert es die heimische Waldwirtschaft und Nachhaltigkeit. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33454
+  business: '22.085'
+  title: Umweltschutzgesetz. Änderung – Schlussabstimmung
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.8
+  topics:
+    - umwelt
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderung des Umweltschutzgesetzes wird angenommen. Die Annahme einer Änderung
+    des Umweltschutzgesetzes zielt in der Regel auf die Stärkung oder Präzisierung von Umweltstandards
+    ab. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33455
+  business: '23.063'
+  title: Bundesgesetz über die Schweizerischen Bundesbahnen (SBBG). Änderung – Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.3
+  topics:
+    - verkehr
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderung des SBB-Gesetzes wird angenommen. SBB-Gesetzesänderungen betreffen
+    oft den Service public und die staatliche Steuerung des Bahnbetriebs. Die Gewichtung ist niedrig,
+    da die konkrete Änderung nicht spezifiziert ist. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33456
+  business: '23.472'
+  title: Behandlung von kantonalen oder kommunalen Solidaritätsbeiträgen gemäss AFZFG –
+    Schlussabstimmung
+  axes:
+    - axis: finanzen_restriktiv
+      direction: -1
+      weight: 0.4
+  topics:
+    - finanzen
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Vorlage zur Behandlung von Solidaritätsbeiträgen gemäss dem Gesetz über die
+    Finanzierung der AHV/IV (AFZFG) wird angenommen. Solidaritätsbeiträge implizieren eine Form der
+    Umverteilung oder zusätzliche Abgaben, was tendenziell gegen eine restriktive Finanzpolitik (tiefe
+    Abgaben) spricht. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33458
+  business: '23.478'
+  title: Verlängerung der Bundesbeiträge an die familienergänzende Kinderbetreuung bis Ende des
+    Jahres 2026 – Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.8
+    - axis: gesellschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - familie
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Bundesbeiträge an die familienergänzende Kinderbetreuung werden bis Ende 2026
+    verlängert. Die Finanzierung von Kinderbetreuung ist eine Kernmassnahme des Sozialstaats (direction
+    1) und fördert die Vereinbarkeit von Beruf und Familie, was die gesellschaftliche Selbstbestimmung
+    unterstützt. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33459
+  business: '24.016'
+  title: Bundesgesetz über die Massnahmen zur Entlastung des Haushaltes ab 2025 –
+    Schlussabstimmung
+  axes:
+    - axis: finanzen_restriktiv
+      direction: 1
+      weight: 1.0
+  topics: []
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Gesetz zur Entlastung des Bundeshaushalts wird angenommen, was Sparmassnahmen
+    vorsieht. Die Entlastung des Haushalts durch Sparmassnahmen ist eine Kernfrage der restriktiven
+    Finanzpolitik. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33460
+  business: '24.021'
+  title: «Für eine verantwortungsvolle Wirtschaft innerhalb der planetaren Grenzen
+    (Umweltverantwortungsinitiative)». Volksinitiative – Schlussabstimmung
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: -1
+      weight: 0.8
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.6
+  topics:
+    - umwelt
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Der Bundesrat empfiehlt, die Umweltverantwortungsinitiative abzulehnen. Die Initiative
+    fordert strengere Umweltauflagen für Unternehmen. Die Empfehlung auf Ablehnung (Ja) wirkt somit
+    gegen den ausgebauten Umweltschutz und für weniger staatliche Eingriffe in die Wirtschaft. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33461
+  business: '24.027'
+  title: Kulturbotschaft 2025–2028 – Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.3
+    - axis: finanzen_restriktiv
+      direction: -1
+      weight: 0.3
+  topics:
+    - kultur
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Kulturbotschaft 2025–2028 wird angenommen, womit die staatlichen Finanzierungen
+    für Kulturprojekte gesichert werden. Die Förderung von Kultur durch den Staat ist ein Teil des Service
+    public (sozialstaat_ausgebaut) und bedeutet Ausgaben statt Sparen (finanzen_restriktiv). [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33462
+  business: '24.029'
+  title: Förderung der Forschung und der Innovation (Sachplan und Plangenehmigungsverfahren) –
+    Schlussabstimmung
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - bildung
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Der Sachplan zur Förderung der Forschung und Innovation wird angenommen. Die Förderung
+    von Innovation stärkt die Wettbewerbsfähigkeit der Wirtschaft. Die Zuordnung ist jedoch schwach,
+    da staatliche Förderung auch als Intervention gesehen werden kann. [google/gemma-4-31B-it, prompt
+    2026-11-07.2, 2026-11-07]'
+- vote_id: 33463
+  business: '24.030'
+  title: Abkommen zwischen der Schweiz und dem Vereinigten Königreich über die Anerkennung von
+    Berufsqualifikationen sowie zur Kompetenzdelegation an den Bundesrat zum Abschluss
+    völkerrechtlicher Verträge. Genehmigung und Umsetzung – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.6
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Abkommen mit dem Vereinigten Königreich über die Anerkennung von Berufsqualifikationen
+    wird genehmigt. Die Genehmigung eines bilateralen Abkommens fördert die internationale Zusammenarbeit
+    (aussenpolitik_offen) und erleichtert den grenzüberschreitenden Dienstleistungsverkehr (wirtschaft_liberal).
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33464
+  business: '24.030'
+  title: Abkommen zwischen der Schweiz und dem Vereinigten Königreich über die Anerkennung von
+    Berufsqualifikationen sowie zur Kompetenzdelegation an den Bundesrat zum Abschluss
+    völkerrechtlicher Verträge. Genehmigung und Umsetzung – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.6
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - arbeit
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Abkommen mit dem Vereinigten Königreich zur gegenseitigen Anerkennung von
+    Berufsqualifikationen wird genehmigt. Die Anerkennung von Qualifikationen fördert die internationale
+    Zusammenarbeit (offene Aussenpolitik) und erleichtert den grenzüberschreitenden Arbeitsmarkt (wirtschaftsliberal).
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33465
+  business: '24.031'
+  title: Förderung von Bildung, Forschung und Innovation in den Jahren 2025–2028 –
+    Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.4
+  topics:
+    - bildung
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Finanzierung und Förderung von Bildung, Forschung und Innovation für den Zeitraum
+    2025–2028 wird genehmigt. Investitionen in Bildung und Forschung sind Teil des staatlichen Service
+    public und der Förderung des Humankapitals. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33466
+  business: '24.031'
+  title: Förderung von Bildung, Forschung und Innovation in den Jahren 2025–2028 –
+    Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.4
+  topics:
+    - bildung
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Finanzierung und Förderung von Bildung, Forschung und Innovation für den Zeitraum
+    2025–2028 wird genehmigt. Investitionen in Bildung und Forschung sind Teil des staatlichen Service
+    public und der Förderung des Humankapitals. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33467
+  business: '24.031'
+  title: Förderung von Bildung, Forschung und Innovation in den Jahren 2025–2028 –
+    Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.4
+  topics:
+    - bildung
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Finanzierung und Förderung von Bildung, Forschung und Innovation für den Zeitraum
+    2025–2028 wird bewilligt. Investitionen in Bildung und Forschung sind Teil des staatlichen Service
+    public und der Förderung des Humankapitals. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33468
+  business: '24.031'
+  title: Förderung von Bildung, Forschung und Innovation in den Jahren 2025–2028 –
+    Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.4
+  topics:
+    - bildung
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Finanzierung und Förderung von Bildung, Forschung und Innovation für den Zeitraum
+    2025–2028 wird bewilligt. Investitionen in Bildung und Forschung sind Teil des staatlichen Service
+    public und der Förderung des Gemeinwohls. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33469
+  business: '24.032'
+  title: Freihandelsabkommen zwischen den EFTA-Staaten und der Republik Moldau. Genehmigung –
+    Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.7
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.6
+  topics: []
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Freihandelsabkommen mit Moldau wird genehmigt. Freihandelsabkommen fördern
+    die internationale Zusammenarbeit (offene Aussenpolitik) und reduzieren Handelsbarrieren (liberale
+    Wirtschaftspolitik). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33883
+  business: '17.400'
+  title: Systemwechsel bei der Wohneigentumsbesteuerung – Schlussabstimmung
+  axes:
+    - axis: finanzen_restriktiv
+      direction: 1
+      weight: 0.5
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Der Systemwechsel bei der Wohneigentumsbesteuerung (Abschaffung des Eigenmietwerts
+    bei gleichzeitigem Wegfall von Abzügen) wird angenommen. Die Abschaffung des Eigenmietwerts wird
+    oft als Steuerentlastung und Deregulierung (liberal) wahrgenommen, ist aber steuertechnisch komplex
+    und führt zu unterschiedlichen Effekten je nach Eigentümer. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 33884
+  business: '22.066'
+  title: Obligationenrecht (Baumängel). Änderung – Schlussabstimmung
+  axes: []
+  topics:
+    - bauwesen
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die gesetzlichen Bestimmungen zur Haftung bei Baumängeln im Obligationenrecht
+    werden angepasst. Es handelt sich um eine technische Anpassung des Zivilrechts ohne klaren Bezug
+    zu den politischen Wertachsen des Spiders. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33885
+  business: '22.454'
+  title: Einführung einer Objektsteuer auf Zweitliegenschaften – Schlussabstimmung
+  axes:
+    - axis: finanzen_restriktiv
+      direction: -1
+      weight: 0.7
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Eine neue Steuer auf Zweitliegenschaften wird eingeführt. Die Einführung einer
+    neuen Steuer widerspricht einer restriktiven Finanzpolitik (höhere Abgaben). Sie dient der fiskalischen
+    Umverteilung bzw. Mehreinnahmen für Gemeinden. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33886
+  business: '23.022'
+  title: Bundesgesetz über die Plattformen für die elektronische Kommunikation in der Justiz –
+    Schlussabstimmung
+  axes: []
+  topics:
+    - digitalisierung
+    - justiz
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Gesetz zur Einführung elektronischer Kommunikationsplattformen in der Justiz
+    wird angenommen. Es handelt sich um eine technische/administrative Modernisierung der Justiz ohne
+    klaren Bezug zu den politischen Wertachsen des Spiders. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 33887
+  business: '23.073'
+  title: Bundesgesetz über den elektronischen Identitätsnachweis und andere elektronische
+    Nachweise – Schlussabstimmung
+  axes: []
+  topics:
+    - digitalisierung
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Gesetz über den elektronischen Identitätsnachweis (E-ID) wird angenommen.
+    Die Einführung einer staatlichen E-ID ist ein technisches/administratives Projekt ohne klaren Bezug
+    zu den definierten politischen Wertachsen. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33888
+  business: '24.033'
+  title: Stromversorgungsgesetz (Stromreserve). Änderung – Schlussabstimmung
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.4
+  topics:
+    - energie
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die gesetzlichen Grundlagen für die Schaffung einer nationalen Stromreserve werden
+    angenommen. Die Sicherung der Stromversorgung ist Teil der Energiestrategie. Die Zuordnung ist moderat,
+    da es primär um Versorgungssicherheit und weniger um ökologische Ziele geht. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33889
+  business: '24.035'
+  title: Einsatz elektronischer Kommunikationsmittel in grenzüberschreitenden Zivilprozessen –
+    Schlussabstimmung
+  axes: []
+  topics:
+    - digitalisierung
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Nutzung elektronischer Kommunikationsmittel in grenzüberschreitenden Zivilprozessen
+    wird ermöglicht. Es handelt sich um eine technische/prozessuale Anpassung im Justizwesen ohne klaren
+    Bezug zu den politischen Wertachsen des Spiders. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33890
+  business: '24.039'
+  title: Doppelbesteuerung. Abkommen mit Serbien – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.4
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Abkommen zur Vermeidung der Doppelbesteuerung mit Serbien wird angenommen.
+    Doppelbesteuerungsabkommen fördern die internationale Zusammenarbeit (offene Aussenpolitik) und
+    erleichtern den grenzüberschreitenden Handel und Investitionen (wirtschaftsliberal). [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33891
+  business: '24.044'
+  title: Hochwasserschutz am Rhein von der Illmündung bis zum Bodensee. Verbesserung –
+    Schlussabstimmung
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.4
+  topics:
+    - umwelt
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Vorlage zur Verbesserung des Hochwasserschutzes am Rhein wird angenommen.
+    Hochwasserschutz dient dem Schutz von Natur und Siedlungen vor Klimafolgen, was in die Achse des
+    ausgebauten Umweltschutzes fällt. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33892
+  business: '24.044'
+  title: Hochwasserschutz am Rhein von der Illmündung bis zum Bodensee. Verbesserung –
+    Schlussabstimmung
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.4
+  topics:
+    - umwelt
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Vorlage zur Verbesserung des Hochwasserschutzes am Rhein wird angenommen.
+    Hochwasserschutzmassnahmen dienen dem Schutz von Natur und Mensch vor Klimafolgen, was in die Achse
+    des ausgebauten Umweltschutzes fällt. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33893
+  business: '24.048'
+  title: Verlängerung und Änderung der Übergangsfrist nach Art. 99 Abs. 1 BZG – Schlussabstimmung
+  axes: []
+  topics:
+    - wirtschaft
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Übergangsfrist für die Anpassung des Bundesgesetzes über die Zölle (BZG) wird
+    verlängert und geändert. Es handelt sich primär um eine technische Anpassung von Übergangsfristen
+    in der Zollgesetzgebung ohne klaren Bezug zu den politischen Wertachsen. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 33894
+  business: '24.071'
+  title: Bundesgesetz über das Verbot der Hamas sowie verwandter Organisationen –
+    Schlussabstimmung
+  axes:
+    - axis: law_order
+      direction: 1
+      weight: 0.8
+  topics:
+    - sicherheit_neutralitaet
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Hamas sowie verwandte Organisationen werden in der Schweiz gesetzlich verboten.
+    Ein Verbot terroristischer Organisationen dient der inneren und äusseren Sicherheit und entspricht
+    einem Law & Order Ansatz. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34198
+  business: '22.062'
+  title: KVG. Änderung (Massnahmen zur Kostendämpfung – Paket 2) – Schlussabstimmung
+  axes:
+    - axis: finanzen_restriktiv
+      direction: 1
+      weight: 0.7
+    - axis: sozialstaat_ausgebaut
+      direction: -1
+      weight: 0.4
+  topics:
+    - gesundheit
+  source: llm
+  confidence: 0.8
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Massnahmen zur Kostendämpfung im Gesundheitswesen (KVG) werden angenommen.
+    Kostendämpfung zielt auf die Senkung von Ausgaben (finanzen_restriktiv) und schränkt potenziell
+    Leistungen oder den Zugang im Sozialsystem ein (sozialstaat_ausgebaut). [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34199
+  business: '22.400'
+  title: Keine Jahresfrist für die Möglichkeit der Nichtbekanntgabe von Betreibungseinträgen –
+    Schlussabstimmung
+  axes:
+    - axis: gesellschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Jahresfrist für die Nichtbekanntgabe von Betreibungseinträgen wird abgeschafft,
+    sodass Einträge dauerhaft nicht bekanntgegeben werden können. Die Massnahme schützt die Privatsphäre
+    und erleichtert den sozialen Neustart nach Schulden, was in Richtung gesellschaftlicher Liberalität/Selbstbestimmung
+    geht. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34200
+  business: '22.406'
+  title: Vorstösse mit mehreren Ratsmitgliedern als Urhebende ermöglichen – Schlussabstimmung
+  axes: []
+  topics:
+    - kein_achsenbezug
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Es wird ermöglicht, dass Vorstösse mit mehreren Ratsmitgliedern als Urhebende
+    eingereicht werden können. Es handelt sich um eine rein formale/prozedurale Änderung des Geschäftsreglements
+    ohne inhaltlichen Bezug zu den politischen Achsen. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 34201
+  business: '22.406'
+  title: Vorstösse mit mehreren Ratsmitgliedern als Urhebende ermöglichen – Schlussabstimmung
+  axes: []
+  topics:
+    - kein_achsenbezug
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Es wird ermöglicht, dass Vorstösse mit mehreren Ratsmitgliedern als Urhebende
+    eingereicht werden können. Es handelt sich um eine rein formale/prozedurale Änderung der Geschäftsregeln
+    ohne inhaltlichen Bezug zu den politischen Achsen. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 34202
+  business: '22.423'
+  title: Für eine unabhängige Presse sind die Beträge zur indirekten Förderung anzupassen –
+    Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.4
+    - axis: finanzen_restriktiv
+      direction: -1
+      weight: 0.3
+  topics:
+    - medien
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die finanziellen Beiträge zur indirekten Förderung der Presse werden erhöht bzw.
+    angepasst. Die Förderung der Presse ist eine Form von staatlichem Service public (sozialstaat_ausgebaut)
+    und bedeutet höhere Staatsausgaben (gegen finanzen_restriktiv). [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 34203
+  business: '23.051'
+  title: Energiegesetz. Änderung (Beschleunigungserlass) – Schlussabstimmung
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.8
+  topics:
+    - energie
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Energiegesetz wird geändert, um die Genehmigungsverfahren für erneuerbare
+    Energien zu beschleunigen. Die Beschleunigung des Ausbaus erneuerbarer Energien dient direkt dem
+    Klimaschutz und der Energiewende. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34204
+  business: '23.066'
+  title: Foltergütergesetz – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.5
+    - axis: law_order
+      direction: 1
+      weight: 0.4
+  topics:
+    - menschenrechte
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Gesetz zur Bekämpfung des Handels mit Foltergütern wird angenommen. Die Regulierung
+    von Foltergütern entspricht internationalen Menschenrechtsstandards (offene Aussenpolitik) und verschärft
+    die rechtliche Kontrolle (Law & Order). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34205
+  business: '23.079'
+  title: Flugpassagierdatengesetz – Schlussabstimmung
+  axes:
+    - axis: law_order
+      direction: 1
+      weight: 0.8
+    - axis: gesellschaft_liberal
+      direction: -1
+      weight: 0.5
+  topics:
+    - sicherheit_neutralitaet
+  source: llm
+  confidence: 0.9
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Das Gesetz zur Erfassung von Flugpassagierdaten (PNR) wird angenommen. Die Erfassung
+    von Passagierdaten dient der inneren Sicherheit und Terrorbekämpfung (Law & Order), schränkt jedoch
+    die Privatsphäre und Selbstbestimmung ein (gegen gesellschaftsliberale Werte). [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34206
+  business: '23.083'
+  title: Aufsicht und Transparenz in den Energiegrosshandelsmärkten (BATE). Bundesgesetz –
+    Schlussabstimmung
+  axes:
+    - axis: wirtschaft_liberal
+      direction: -1
+      weight: 0.5
+  topics:
+    - energie
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Das Gesetz zur Aufsicht und Transparenz in den Energiegrosshandelsmärkten wird
+    angenommen. Die Einführung einer staatlichen Aufsicht und Transparenzregeln stellt eine Regulierung
+    des Marktes dar, was der liberalen Wirtschaftspolitik (Deregulierung) entgegensteht. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34207
+  business: '24.017'
+  title: Gütertransportgesetz (Gütertransport durch Bahn- und Schifffahrtsunternehmen).
+    Totalrevision – Schlussabstimmung
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.4
+  topics:
+    - verkehr
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Totalrevision des Gütertransportgesetzes wird angenommen, was die Rahmenbedingungen
+    für den Transport per Bahn und Schiff anpasst. Die Förderung des Gütertransports auf Schiene und
+    Wasser dient in der Regel dem Umweltschutz gegenüber dem Strassentransport. Die Gewichtung ist niedrig,
+    da es sich primär um eine regulatorische Revision handelt. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 34208
+  business: '24.027'
+  title: Kulturbotschaft 2025–2028 – Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.3
+  topics:
+    - kultur
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Kulturbotschaft 2025–2028 wird angenommen, womit die staatlichen Finanzierungen
+    für Kulturprojekte gesichert werden. Die Förderung von Kultur durch den Staat ist ein Teil des Service
+    public/staatlichen Angebots. Die Gewichtung ist niedrig, da Kultur nicht der Kern des Sozialstaats
+    ist. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34209
+  business: '24.038'
+  title: Asylgesetz (Sicherheit und Betrieb in den Zentren des Bundes). Änderung –
+    Schlussabstimmung
+  axes:
+    - axis: law_order
+      direction: 1
+      weight: 0.6
+    - axis: migration_restriktiv
+      direction: 1
+      weight: 0.7
+  topics:
+    - migration
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die gesetzlichen Grundlagen zur Sicherheit und zum Betrieb in den Bundesasylzentren
+    werden verschärft/optimiert. Die Vorlage zielt auf eine bessere Durchsetzbarkeit von Regeln und
+    Sicherheit in Asylzentren ab, was sowohl Law & Order als auch eine restriktivere Migrationspolitik
+    widerspiegelt. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34210
+  business: '24.043'
+  title: Bevölkerungs- und Zivilschutzgesetz. Änderung – Schlussabstimmung
+  axes:
+    - axis: law_order
+      direction: 1
+      weight: 0.4
+  topics:
+    - sicherheit
+  source: llm
+  confidence: 0.6
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderung des Bevölkerungs- und Zivilschutzgesetzes wird angenommen. Die Stärkung
+    des Zivilschutzes und der inneren Sicherheit fällt unter die Achse Law & Order, wobei die Gewichtung
+    moderat ist, da es primär um organisatorische Anpassungen geht. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 34211
+  business: '24.043'
+  title: Bevölkerungs- und Zivilschutzgesetz. Änderung – Schlussabstimmung
+  axes:
+    - axis: law_order
+      direction: 1
+      weight: 0.4
+  topics:
+    - sicherheit
+  source: llm
+  confidence: 0.6
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderung des Bevölkerungs- und Zivilschutzgesetzes wird angenommen. Die Stärkung
+    des Zivilschutzes und der inneren Sicherheit fällt unter die Achse Law & Order, wobei die Gewichtung
+    moderat ist, da es primär um organisatorische Anpassungen geht. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 34212
+  business: '24.055'
+  title: KVAG. Änderung (Teilnahme der Kantone am Prämiengenehmigungsverfahren, Ausgleich von zu
+    hohen Prämieneinnahmen) – Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.6
+  topics:
+    - gesundheit
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Kantone werden stärker in das Prämiengenehmigungsverfahren einbezogen und
+    zu hohe Prämieneinnahmen der Versicherer werden ausgeglichen. Die Massnahme zielt darauf ab, die
+    Prämien zu kontrollieren und Überschüsse zurückzuführen, was eine stärkere staatliche Steuerung
+    des Gesundheitswesens (Service public) darstellt. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34213
+  business: '24.057'
+  title: Doppelbesteuerung. Abkommen mit Angola – Schlussabstimmung
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.3
+  topics: []
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Abkommen zur Vermeidung der Doppelbesteuerung mit Angola wird angenommen.
+    Doppelbesteuerungsabkommen fördern den internationalen Handel und Investitionen (wirtschaftsliberal)
+    und stärken die bilateralen Beziehungen (offene Aussenpolitik). [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 34214
+  business: '24.059'
+  title: Doppelbesteuerung. Abkommen mit Deutschland. Änderung – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.3
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das geänderte Abkommen zur Vermeidung der Doppelbesteuerung mit Deutschland wird
+    angenommen. Internationale Steuerabkommen fördern die wirtschaftliche Zusammenarbeit und den grenzüberschreitenden
+    Handel (wirtschaft_liberal) sowie die bilaterale Kooperation (aussenpolitik_offen). [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34215
+  business: '24.062'
+  title: Doppelbesteuerung. Abkommen mit Jordanien – Schlussabstimmung
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.3
+  topics: []
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Abkommen zur Vermeidung der Doppelbesteuerung mit Jordanien wird angenommen.
+    Doppelbesteuerungsabkommen fördern den internationalen Handel und Investitionen (wirtschaftsliberal)
+    und stärken die bilaterale Zusammenarbeit (offene Aussenpolitik). [google/gemma-4-31B-it, prompt
+    2026-11-07.2, 2026-11-07]'
+- vote_id: 34216
+  business: '24.066'
+  title: Bundesgesetz über die Invalidenversicherung IVG (Intensive Frühintervention bei
+    Autismus-Spektrum-Störungen, IFI). Änderung – Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.7
+  topics:
+    - gesundheit
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die gesetzliche Grundlage für eine intensive Frühintervention (IFI) bei Autismus-Spektrum-Störungen
+    in der IV wird geschaffen. Die Einführung einer spezifischen Frühintervention erweitert die Leistungen
+    der Invalidenversicherung und stärkt somit den Sozialstaat. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 34217
+  business: '24.067'
+  title: Abkommen zwischen der Schweizerischen Eidgenossenschaft und dem Vereinigten Königreich
+    von Grossbritannien und Nordirland über die gegenseitige Anerkennung im Bereich der
+    Finanzdienstleistungen. Genehmigung – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.6
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.5
+  topics:
+    - finanzen
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Abkommen über die gegenseitige Anerkennung von Finanzdienstleistungen mit
+    dem Vereinigten Königreich wird genehmigt. Die Genehmigung eines bilateralen Abkommens fördert die
+    internationale Zusammenarbeit (offene Aussenpolitik) und erleichtert den Marktzugang für Finanzdienstleister
+    (wirtschaftsliberal). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34218
+  business: '24.069'
+  title: Handels- und Wirtschaftspartnerschaftsabkommen zwischen den EFTA-Staaten und der Republik
+    Indien. Genehmigung – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.6
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.8
+  topics:
+    - wirtschaft
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Handelsabkommen mit Indien wird genehmigt. Ein Handelsabkommen fördert die
+    internationale Zusammenarbeit (offene Aussenpolitik) und den freien Marktzugang/Deregulierung (liberale
+    Wirtschaftspolitik). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34219
+  business: '24.072'
+  title: Notenaustausch zwischen der Schweiz und der EU betreffend die Übernahme der Richtlinie
+    (EU) 2023/977 über den Informationsaustausch zwischen Strafverfolgungsbehörden der
+    Mitgliedstaaten und zur Aufhebung des Rahmenbeschlusses 2006/960/JI des Rates
+    (Weiterentwicklung des Schengen-Besitzstands). Genehmigung und Umsetzung – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.6
+    - axis: law_order
+      direction: 1
+      weight: 0.6
+  topics:
+    - sicherheit_neutralitaet
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Schweiz übernimmt eine EU-Richtlinie zum Informationsaustausch zwischen Strafverfolgungsbehörden
+    im Rahmen des Schengen-Besitzstands. Die Übernahme von EU-Recht bedeutet eine Annäherung an die
+    EU (aussenpolitik_offen) und dient der Stärkung der inneren Sicherheit durch bessere polizeiliche
+    Zusammenarbeit (law_order). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34220
+  business: '24.073'
+  title: Umsetzung und Finanzierung der Initiative für eine 13. AHV-Rente – Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 1.0
+    - axis: finanzen_restriktiv
+      direction: -1
+      weight: 0.7
+  topics:
+    - sozialversicherung
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Umsetzung und Finanzierung der 13. AHV-Rente wird angenommen. Die 13. AHV-Rente
+    ist eine direkte Erweiterung des Sozialstaats (direction 1) und führt zu höheren Staatsausgaben
+    (direction -1 für restriktive Finanzpolitik). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34221
+  business: '24.075'
+  title: Abkommen über Solidaritätsmassnahmen zur Gewährleistung der sicheren Gasversorgung
+    zwischen der Schweiz, Deutschland und Italien. Genehmigung – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.6
+  topics:
+    - energie
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Abkommen zur Sicherung der Gasversorgung durch internationale Zusammenarbeit
+    wird genehmigt. Die Genehmigung eines internationalen Abkommens zur gegenseitigen Unterstützung
+    bei der Energieversorgung fördert die internationale Zusammenarbeit. [google/gemma-4-31B-it, prompt
+    2026-11-07.2, 2026-11-07]'
+- vote_id: 34222
+  business: '24.083'
+  title: Gebietsveränderung zwischen den Kantonen Bern und Jura (Kantonswechsel der bernischen
+    Gemeinde Moutier). Genehmigung – Schlussabstimmung
+  axes: []
+  topics:
+    - kein_achsenbezug
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Der Kantonswechsel der Gemeinde Moutier von Bern zum Jura wird genehmigt. Es handelt
+    sich um eine administrative Gebietsveränderung ohne Bezug zu den definierten politischen Achsen.
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34223
+  business: '24.442'
+  title: 'Bei Ausfall der Abstimmungsanlage im Nationalrat: Abstimmen ohne Namensaufruf wieder ermöglichen
+    – Schlussabstimmung'
+  axes: []
+  topics:
+    - kein_achsenbezug
+  source: llm
+  confidence: 1.0
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Es wird wieder ermöglicht, ohne Namensaufruf abzustimmen, wenn die Abstimmungsanlage
+    ausfällt. Reine Verfahrensabstimmung zur internen Organisation des Rates. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34669
+  business: '19.433'
+  title: StGB-Tatbestände mit Stalking ergänzen – Schlussabstimmung
+  axes:
+    - axis: law_order
+      direction: 1
+      weight: 0.8
+  topics:
+    - sicherheit
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Stalking wird als eigener Tatbestand im Strafgesetzbuch verankert und somit
+    strafbar gemacht. Die Einführung eines neuen Straftatbestands zur Bekämpfung von Stalking stärkt
+    die innere Sicherheit und verschärft die Strafmassnahmen. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 34670
+  business: '22.058'
+  title: Zollgesetz. Totalrevision – Schlussabstimmung
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - wirtschaft
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Totalrevision des Zollgesetzes wird angenommen. Eine Totalrevision des Zollgesetzes
+    zielt meist auf Modernisierung und Effizienzsteigerung ab, was tendenziell liberalen Wirtschaftsprinzipien
+    entspricht, ist aber inhaltlich oft sehr breit gefächert. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 34671
+  business: '22.058'
+  title: Zollgesetz. Totalrevision – Schlussabstimmung
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - wirtschaft
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Totalrevision des Zollgesetzes wird angenommen. Eine Totalrevision des Zollgesetzes
+    zielt meist auf Effizienzsteigerung und Modernisierung ab, was tendenziell liberalen Wirtschaftsprinzipien
+    entspricht, ist aber inhaltlich oft sehr detailliert und nicht eindeutig. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34672
+  business: '22.058'
+  title: Zollgesetz. Totalrevision – Schlussabstimmung
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - wirtschaft
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Totalrevision des Zollgesetzes wird angenommen. Eine Totalrevision des Zollgesetzes
+    zielt meist auf Modernisierung und Effizienzsteigerung ab, was tendenziell liberalen Wirtschaftsprinzipien
+    entspricht, ist aber inhaltlich oft sehr technisch. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 34673
+  business: '23.049'
+  title: Tabakproduktegesetz (TabPG). Teilrevision – Schlussabstimmung
+  axes:
+    - axis: gesellschaft_liberal
+      direction: -1
+      weight: 0.4
+    - axis: wirtschaft_liberal
+      direction: -1
+      weight: 0.3
+  topics:
+    - gesundheit
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Das Tabakproduktegesetz wird in der vorliegenden Teilrevision angenommen (u.a.
+    Werbeverbote, Jugendschutz). Die Revision schränkt die Selbstbestimmung (gesellschaftlich) und die
+    Marketingfreiheit der Industrie (wirtschaftlich) zugunsten des Gesundheitsschutzes ein. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34674
+  business: '23.085'
+  title: Schweizerisches Zivilgesetzbuch. Änderung (Besitzesschutz bei verbotener Eigenmacht an
+    Grundstücken) – Schlussabstimmung
+  axes: []
+  topics:
+    - kein_achsenbezug
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die gesetzlichen Bestimmungen zum Besitzesschutz bei verbotener Eigenmacht an
+    Grundstücken werden angepasst. Es handelt sich um eine technische Anpassung im Zivilgesetzbuch ohne
+    klaren Bezug zu den politischen Wertachsen des Spiders. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 34676
+  business: '24.026'
+  title: «Für eine zivilstandsunabhängige Individualbesteuerung
+    (Steuergerechtigkeits-Initiative)». Volksinitiative und indirekter Gegenvorschlag
+    (Bundesgesetz über die Individualbesteuerung) – Schlussabstimmung
+  axes:
+    - axis: gesellschaft_liberal
+      direction: 1
+      weight: 0.7
+    - axis: finanzen_restriktiv
+      direction: -1
+      weight: 0.4
+  topics:
+    - steuern
+  source: llm
+  confidence: 0.8
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Der Rat empfiehlt die Annahme der Volksinitiative für eine zivilstandsunabhängige
+    Individualbesteuerung. Die Individualbesteuerung fördert die finanzielle Selbstbestimmung unabhängig
+    vom Beziehungsstatus (gesellschaft_liberal). Da sie oft zu höheren Gesamteinnahmen oder komplexeren
+    Systemen führt, wirkt sie tendenziell gegen eine rein restriktive Finanzpolitik. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34677
+  business: '24.026'
+  title: «Für eine zivilstandsunabhängige Individualbesteuerung
+    (Steuergerechtigkeits-Initiative)». Volksinitiative und indirekter Gegenvorschlag
+    (Bundesgesetz über die Individualbesteuerung) – Schlussabstimmung
+  axes:
+    - axis: gesellschaft_liberal
+      direction: 1
+      weight: 0.7
+    - axis: finanzen_restriktiv
+      direction: -1
+      weight: 0.4
+  topics:
+    - steuern
+  source: llm
+  confidence: 0.8
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Der indirekte Gegenvorschlag zur Einführung der Individualbesteuerung wird angenommen.
+    Die Individualbesteuerung fördert die finanzielle Selbstbestimmung unabhängig vom Zivilstand (gesellschaft_liberal).
+    Sie führt oft zu einer Umverteilung oder höheren Gesamtabgaben im Vergleich zur Ehegattentarifierung
+    (finanzen_restriktiv -1). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34678
+  business: '24.027'
+  title: Kulturbotschaft 2025–2028 – Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.3
+    - axis: finanzen_restriktiv
+      direction: -1
+      weight: 0.3
+  topics:
+    - kultur
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Kulturbotschaft 2025–2028 wird angenommen, womit die staatlichen Finanzierungen
+    für Kulturprojekte gesichert werden. Die Finanzierung von Kultur durch den Staat ist ein Teil des
+    Service public (sozialstaat_ausgebaut) und steht im Gegensatz zu einer strikten Sparpolitik (finanzen_restriktiv).
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34679
+  business: '24.033'
+  title: Stromversorgungsgesetz (Stromreserve). Änderung – Schlussabstimmung
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.4
+  topics:
+    - energie
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die gesetzlichen Grundlagen für die Schaffung einer nationalen Stromreserve werden
+    angenommen. Die Sicherung der Stromversorgung ist Teil der Energiestrategie. Die Zuordnung ist mit
+    geringem Gewicht erfolgt, da die Reserve primär der Versorgungssicherheit dient, aber im Kontext
+    der Energiewende steht. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34688
+  business: '24.068'
+  title: Bundespersonalgesetz (BPG). Änderung – Schlussabstimmung
+  axes: []
+  topics:
+    - verwaltung
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderungen am Bundespersonalgesetz werden angenommen. Es handelt sich um eine
+    Anpassung des Personalgesetzes des Bundes. Ohne detaillierte Kenntnis der spezifischen Änderungen
+    (z.B. Lohn, Arbeitszeit) ist kein klarer Bezug zu den Smartspider-Achsen gegeben. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34680
+  business: '24.070'
+  title: Bundesgesetz über die Ergänzungsleistungen zur AHV/IV (Leistungen für Hilfe und Betreuung
+    zu Hause). Änderung – Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.8
+  topics:
+    - gesundheit
+    - sozialversicherung
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die gesetzliche Grundlage für Ergänzungsleistungen bei Hilfe und Betreuung zu
+    Hause wird angepasst/verbessert. Die Erweiterung oder Präzisierung von Ergänzungsleistungen zur
+    AHV/IV stärkt die soziale Absicherung und den Service public. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 34681
+  business: '24.074'
+  title: UVG (Finanzierung der Stiftung Entschädigungsfonds für Asbestopfer). Änderung –
+    Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.7
+  topics:
+    - gesundheit
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die gesetzliche Grundlage für die Finanzierung des Entschädigungsfonds für Asbestopfer
+    wird angenommen. Die Finanzierung eines Entschädigungsfonds für Opfer ist eine Massnahme der sozialen
+    Absicherung und Umverteilung zur Schadensbehebung. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 34682
+  business: '24.079'
+  title: «Für eine engagierte Schweiz (Service-citoyen-Initiative)». Volksinitiative –
+    Schlussabstimmung
+  axes:
+    - axis: gesellschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Der Rat empfiehlt, die Volksinitiative abzulehnen, welche einen obligatorischen
+    Dienst für junge Menschen (Zivildienst/Militär) einführen will. Die Initiative fordert eine Pflichtleistung.
+    Die Ablehnung (Ja) steht somit im Einklang mit gesellschaftlicher Selbstbestimmung (direction 1).
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34683
+  business: '24.082'
+  title: Für eine soziale Klimapolitik - steuerlich gerecht finanziert (Initiative für eine
+    Zukunft). Volksinitiative – Schlussabstimmung
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: -1
+      weight: 0.8
+    - axis: sozialstaat_ausgebaut
+      direction: -1
+      weight: 0.4
+  topics:
+    - energie
+    - klima
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Der Rat empfiehlt, die Volksinitiative abzulehnen, womit keine CO2-Abgabe mit
+    sozialem Ausgleich eingeführt wird. Die Initiative fordert Klimaschutz und soziale Umverteilung.
+    Die Empfehlung zur Ablehnung (Ja) wirkt somit gegen den Umweltschutz und gegen die soziale Komponente.
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34684
+  business: '24.088'
+  title: Doppelbesteuerung. Abkommen mit Ungarn. Änderung – Schlussabstimmung
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Abkommen zur Vermeidung der Doppelbesteuerung mit Ungarn wird angenommen.
+    Doppelbesteuerungsabkommen fördern den grenzüberschreitenden Handel und Investitionen durch Abbau
+    von steuerlichen Hürden, was einer liberalen Wirtschaftspolitik entspricht. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34685
+  business: '24.443'
+  title: Verlängerung des bestehenden Gentechnik-Moratoriums – Schlussabstimmung
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.7
+    - axis: wirtschaft_liberal
+      direction: -1
+      weight: 0.5
+  topics:
+    - landwirtschaft
+  source: llm
+  confidence: 0.8
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Das bestehende Moratorium für die Freisetzung von genetisch veränderten Organismen
+    wird verlängert. Die Verlängerung des Moratoriums schützt die Umwelt/Natur vor Gentechnik (direction
+    1) und stellt eine staatliche Regulierung/Einschränkung für die Agrarwirtschaft dar (direction -1).
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34686
+  business: '25.028'
+  title: Bundesgesetz über die wirtschaftliche Landesversorgung (Unbefristete Anstellung der oder
+    des Delegierten für wirtschaftliche Landesversorgung). Änderung – Schlussabstimmung
+  axes: []
+  topics:
+    - sicherheit_neutralitaet
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Anstellung der oder des Delegierten für wirtschaftliche Landesversorgung wird
+    unbefristet gestaltet. Es handelt sich um eine organisatorische/administrative Anpassung einer Stelle
+    innerhalb der Landesversorgung ohne klaren Bezug zu den politischen Wertachsen. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34687
+  business: '25.062'
+  title: Solidaritätsbeitrag für die Bevölkerung von Blatten im Zusammenhang mit dem Bergsturz vom
+    28. Mai 2025 – Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Der Bund gewährt einen Solidaritätsbeitrag zur Unterstützung der betroffenen Bevölkerung
+    von Blatten. Ein staatlicher Solidaritätsbeitrag zur Unterstützung von Opfern einer Naturkatastrophe
+    ist eine Form von staatlicher Hilfe/Umverteilung. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 34884
+  business: '24.063'
+  title: Ja zu einer unabhängigen, freien Schweizer Währung mit Münzen oder Banknoten (Bargeld ist
+    Freiheit). Volksinitiative und direkter Gegenentwurf – Schlussabstimmung
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+    - axis: gesellschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - finanzen
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Initiative (oder der Gegenentwurf) wird angenommen, was den gesetzlichen Schutz
+    des Bargelds stärkt. Der Schutz des Bargelds wird oft als Ausdruck individueller Freiheit (gesellschaft_liberal)
+    und als Schutz vor staatlicher/bankentechnischer Kontrolle (wirtschaft_liberal) gewertet. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35029
+  business: '23.051'
+  title: Energiegesetz. Änderung (Beschleunigungserlass) – Schlussabstimmung
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.8
+  topics:
+    - energie
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Energiegesetz wird geändert, um die Genehmigungsverfahren für erneuerbare
+    Energien zu beschleunigen. Die Beschleunigung des Ausbaus erneuerbarer Energien dient direkt dem
+    Klimaschutz und der Energiewende. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35030
+  business: '24.046'
+  title: Bundesgesetz über die Transparenz juristischer Personen und die Identifikation der
+    wirtschaftlich berechtigten Personen – Schlussabstimmung
+  axes:
+    - axis: wirtschaft_liberal
+      direction: -1
+      weight: 0.6
+  topics:
+    - finanzen
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Gesetz zur Transparenz juristischer Personen und Identifikation der wirtschaftlich
+    Berechtigten wird angenommen. Die Einführung eines Transparenzregisters erhöht die staatliche Regulierung
+    und Überwachung von Unternehmen, was einer liberalen Wirtschaftspolitik (Deregulierung) entgegensteht.
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35031
+  business: '24.046'
+  title: Bundesgesetz über die Transparenz juristischer Personen und die Identifikation der
+    wirtschaftlich berechtigten Personen – Schlussabstimmung
+  axes:
+    - axis: wirtschaft_liberal
+      direction: -1
+      weight: 0.6
+    - axis: law_order
+      direction: 1
+      weight: 0.5
+  topics:
+    - finanzen
+  source: llm
+  confidence: 0.8
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Das Gesetz zur Transparenz juristischer Personen und Identifikation der wirtschaftlich
+    Berechtigten wird angenommen. Die Identifikationspflicht erhöht die staatliche Kontrolle und Regulierung
+    (gegen wirtschaftliche Liberalität) und dient der Bekämpfung von Geldwäsche/Kriminalität (Law &
+    Order). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35033
+  business: '24.056'
+  title: UVG (Umsetzung der Motion 11.3811 Darbellay «Rechtslücke in der Unfallversicherung
+    schliessen»). Änderung – Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.7
+  topics:
+    - gesundheit
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Rechtslücke in der Unfallversicherung wird geschlossen, um den Versicherungsschutz
+    zu verbessern. Das Schliessen einer Rechtslücke zur Verbesserung des Versicherungsschutzes stärkt
+    die soziale Absicherung und den Sozialstaat. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35034
+  business: '24.060'
+  title: «200 Franken sind genug! (SRG-Initiative)». Volksinitiative – Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.4
+    - axis: finanzen_restriktiv
+      direction: -1
+      weight: 0.4
+  topics:
+    - medien
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Der Rat empfiehlt, die Initiative zur Senkung der Radio- und Fernsehgebühren abzulehnen.
+    Die Initiative will die Gebühren senken (finanzen_restriktiv). Die Ablehnung (Ja) bewahrt die Finanzierung
+    des Service public (sozialstaat_ausgebaut) und lehnt die Sparmassnahme ab (finanzen_restriktiv direction
+    -1). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35035
+  business: '24.063'
+  title: Ja zu einer unabhängigen, freien Schweizer Währung mit Münzen oder Banknoten (Bargeld ist
+    Freiheit). Volksinitiative und direkter Gegenentwurf – Schlussabstimmung
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - finanzen
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Volksinitiative wird abgelehnt, aber der direkte Gegenentwurf (der den gesetzlichen
+    Schutz des Bargelds stärkt) wird angenommen. Der Schutz des Bargelds wird oft als Ausdruck individueller
+    Freiheit und Ablehnung staatlicher/zentralbankgesteuerter Kontrolle (CBDC) gesehen, was tendenziell
+    liberal ist. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35036
+  business: '24.077'
+  title: Zivilgesetzbuch (Gewaltfreie Erziehung). Änderung – Schlussabstimmung
+  axes:
+    - axis: gesellschaft_liberal
+      direction: 1
+      weight: 0.6
+    - axis: law_order
+      direction: 1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Verbot von körperlicher Züchtigung und seelischer Gewalt in der Erziehung
+    wird im Zivilgesetzbuch verankert. Das Verbot von Gewalt in der Erziehung stärkt die Rechte des
+    Individuums (gesellschaft_liberal) und verschärft den rechtlichen Rahmen gegen Gewalt (law_order).
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35037
+  business: '24.086'
+  title: Verordnung (EU) 2022/1190 zur Änderung der Verordnung (EU) 2018/1862 in Bezug auf die
+    Eingabe von Informationsausschreibungen zu Drittstaatsangehörigen im Interesse der Union in
+    das Schengener Informationssystem (SIS). Übernahme und Umsetzung – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.6
+    - axis: law_order
+      direction: 1
+      weight: 0.6
+    - axis: migration_restriktiv
+      direction: 1
+      weight: 0.5
+  topics:
+    - sicherheit_neutralitaet
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die EU-Verordnung zur besseren Informationsaustausch über Drittstaatsangehörige
+    im SIS wird übernommen und umgesetzt. Die Umsetzung einer EU-Verordnung ist ein Schritt der Annäherung
+    (aussenpolitik_offen). Die Nutzung des SIS zur Überwachung von Drittstaatsangehörigen dient der
+    inneren Sicherheit (law_order) und der Migrationskontrolle (migration_restriktiv). [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35038
+  business: '24.087'
+  title: Weiterentwicklung des Schengen-Besitzstands. Digitalisierung des Visumverfahrens.
+    Genehmigung und Umsetzung – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.7
+    - axis: migration_restriktiv
+      direction: 1
+      weight: 0.4
+  topics:
+    - migration
+    - digitalisierung
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Digitalisierung des Visumverfahrens im Rahmen des Schengen-Besitzstands wird
+    genehmigt und umgesetzt. Die Umsetzung von Schengen-Abkommen ist ein Zeichen der internationalen
+    Zusammenarbeit (aussenpolitik_offen). Die Digitalisierung des Visumverfahrens dient zudem einer
+    effizienteren Grenzkontrolle und Steuerung (migration_restriktiv). [google/gemma-4-31B-it, prompt
+    2026-11-07.2, 2026-11-07]'
+- vote_id: 35039
+  business: '24.094'
+  title: Landwirtschaftsgesetz (Entschädigung im Scheidungsfall). Änderung – Schlussabstimmung
+  axes: []
+  topics:
+    - landwirtschaft
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die gesetzliche Regelung zur Entschädigung bei der Aufteilung des landwirtschaftlichen
+    Betriebs im Scheidungsfall wird angepasst. Es handelt sich um eine spezifische zivilrechtliche Regelung
+    für Landwirtschaftsbetriebe ohne klaren Bezug zu den allgemeinen politischen Achsen des Spiders.
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35040
+  business: '24.097'
+  title: Bundesgesetz über die Allgemeinverbindlicherklärung von Gesamtarbeitsverträgen. Änderung
+    (Einsicht in die Jahresrechnung der für die gemeinsame Durchführung verantwortlichen Organe) –
+    Schlussabstimmung
+  axes:
+    - axis: wirtschaft_liberal
+      direction: -1
+      weight: 0.3
+  topics:
+    - arbeit
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Organe, die für die Durchführung allgemeinverbindlicher Gesamtarbeitsverträge
+    zuständig sind, müssen ihre Jahresrechnung zur Einsicht stellen. Die Einführung von Transparenz-
+    und Kontrollpflichten für diese Organe stellt eine leichte Regulierung dar, was der liberalen Wirtschaftspolitik
+    entgegensteht. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35041
+  business: '25.022'
+  title: '«Für eine gerechte Energie- und Klimapolitik: Investieren für Wohlstand, Arbeit und Umwelt
+    (Klimafonds-Initiative)». Volksinitiative – Schlussabstimmung'
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: -1
+      weight: 0.8
+    - axis: finanzen_restriktiv
+      direction: 1
+      weight: 0.4
+  topics:
+    - energie
+    - umwelt
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Der Bundesrat empfiehlt, die Volksinitiative abzulehnen (kein Klimafonds). Da
+    es sich um die Schlussabstimmung zu einer Volksinitiative handelt und die Empfehlung in der Regel
+    auf Ablehnung geht, bedeutet Ja hier: gegen das Anliegen der Initiative (gegen Klimafonds/Umweltschutz
+    und für finanzielle Zurückhaltung). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35042
+  business: '25.023'
+  title: Bundesgesetz über die Zustellung von Sendungen an Wochenenden und Feiertagen –
+    Schlussabstimmung
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - verkehr
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die gesetzliche Grundlage für die Zustellung von Sendungen an Wochenenden und
+    Feiertagen wird angenommen. Die Ausweitung der Zustelltage ist eine Deregulierung des Postbetriebs
+    zugunsten der Marktwirtschaft. Die Zuordnung ist strittig, da es auch Fragen des Arbeitnehmerschutzes
+    (sozialstaat) berührt. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35043
+  business: '25.029'
+  title: Genehmigung des Addendums zur multilateralen Vereinbarung der zuständigen Behörden über
+    den AIA über Finanzkonten und der multilateralen Vereinbarung der zuständigen Behörden über
+    den AIA nach dem Melderahmen für Kryptowerte sowie Änderung des Bundesgesetzes über den
+    internationalen AIA in Steuersachen (AIAG) – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.5
+    - axis: finanzen_restriktiv
+      direction: -1
+      weight: 0.3
+  topics:
+    - finanzen
+    - digitalisierung
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Schweiz genehmigt die Erweiterung des automatischen Informationsaustauschs
+    (AIA) auf Kryptowerte. Die Teilnahme an multilateralen Steuerabkommen ist ein Zeichen internationaler
+    Zusammenarbeit (aussenpolitik_offen). Die Erhöhung der Transparenz und Kontrolle wirkt tendenziell
+    gegen eine rein liberale/restriktive Finanzpolitik (weniger Steuergeheimnis). [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35044
+  business: '25.029'
+  title: Genehmigung des Addendums zur multilateralen Vereinbarung der zuständigen Behörden über
+    den AIA über Finanzkonten und der multilateralen Vereinbarung der zuständigen Behörden über
+    den AIA nach dem Melderahmen für Kryptowerte sowie Änderung des Bundesgesetzes über den
+    internationalen AIA in Steuersachen (AIAG) – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.5
+    - axis: finanzen_restriktiv
+      direction: -1
+      weight: 0.3
+  topics:
+    - finanzen
+    - digitalisierung
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Schweiz genehmigt die Erweiterung des automatischen Informationsaustauschs
+    (AIA) auf Kryptowerte. Die Teilnahme an multilateralen Steuerabkommen ist ein Zeichen internationaler
+    Kooperation (aussenpolitik_offen). Es erhöht die staatliche Kontrolle/Transparenz gegenüber dem
+    Steuerzahler (gegen finanzen_restriktiv). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35045
+  business: '25.031'
+  title: Änderungsprotokoll zur Modernisierung des Freihandelsabkommens zwischen den EFTA-Staaten
+    und Chile. Genehmigung – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.6
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.7
+  topics:
+    - aussenhandel
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das modernisierte Freihandelsabkommen mit Chile wird genehmigt. Freihandelsabkommen
+    fördern die internationale Zusammenarbeit (offene Aussenpolitik) und reduzieren Handelsbarrieren
+    (liberale Wirtschaftspolitik). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35046
+  business: '25.032'
+  title: Verordnung (EU) 2024/1717 zur Änderung der Verordnung (EU) 2016/399 über einen
+    Unionskodex für das Überschreiten der Grenzen durch Personen (Schengen-Weiterentwicklung).
+    Übernahme und Umsetzung sowie Ausländer- und Integrationsgesetz. Änderung – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.7
+    - axis: migration_restriktiv
+      direction: 1
+      weight: 0.4
+  topics:
+    - migration
+  source: llm
+  confidence: 0.8
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die EU-Verordnung zur Schengen-Weiterentwicklung (Grenzkontrollen/Personenverkehr)
+    wird übernommen und im nationalen Recht umgesetzt. Die Übernahme von EU-Recht ist ein Zeichen der
+    Annäherung (aussenpolitik_offen). Da es um den Unionskodex für Grenzübertritte geht, dient dies
+    auch der Sicherheit und Kontrolle (migration_restriktiv). [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 35047
+  business: '25.032'
+  title: Verordnung (EU) 2024/1717 zur Änderung der Verordnung (EU) 2016/399 über einen
+    Unionskodex für das Überschreiten der Grenzen durch Personen (Schengen-Weiterentwicklung).
+    Übernahme und Umsetzung sowie Ausländer- und Integrationsgesetz. Änderung – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.7
+    - axis: migration_restriktiv
+      direction: 1
+      weight: 0.4
+  topics:
+    - migration
+  source: llm
+  confidence: 0.8
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die EU-Verordnung zur Schengen-Weiterentwicklung (Grenzkontrollen/Personenverkehr)
+    wird übernommen und im nationalen Recht umgesetzt. Die Übernahme von EU-Recht ist ein Zeichen der
+    Annäherung (aussenpolitik_offen). Da es um den Unionskodex für Grenzübertritte geht, dient es auch
+    der Sicherheit und Kontrolle (migration_restriktiv). [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 35048
+  business: '25.032'
+  title: Verordnung (EU) 2024/1717 zur Änderung der Verordnung (EU) 2016/399 über einen
+    Unionskodex für das Überschreiten der Grenzen durch Personen (Schengen-Weiterentwicklung).
+    Übernahme und Umsetzung sowie Ausländer- und Integrationsgesetz. Änderung – Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.7
+    - axis: migration_restriktiv
+      direction: 1
+      weight: 0.4
+  topics:
+    - migration
+  source: llm
+  confidence: 0.8
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die EU-Verordnung zur Schengen-Weiterentwicklung (Grenzüberschreitungen) wird
+    in Schweizer Recht übernommen und umgesetzt. Die Übernahme von EU-Recht ist ein Zeichen der Annäherung
+    (aussenpolitik_offen). Da es um die Kontrolle von Grenzübertritten geht, dient es auch der Sicherheit/Migration,
+    wobei die Richtung je nach Detail der Verordnung variieren kann. [google/gemma-4-31B-it, prompt
+    2026-11-07.2, 2026-11-07]'
+- vote_id: 35049
+  business: '25.033'
+  title: Zivildienstgesetz. Änderung – Schlussabstimmung
+  axes: []
+  topics:
+    - sicherheit_neutralitaet
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderungen am Zivildienstgesetz werden angenommen. Ohne detaillierte Kenntnis
+    der spezifischen Gesetzesänderungen (z.B. ob es um strengere Kontrollen oder Erleichterungen geht)
+    ist eine Zuordnung zu Law & Order oder anderen Achsen zu spekulativ. [google/gemma-4-31B-it, prompt
+    2026-11-07.2, 2026-11-07]'
+- vote_id: 35050
+  business: '25.037'
+  title: Notenaustausche zwischen der Schweiz und der EU betreffend die Übernahme der Verordnungen
+    (EU) 2024/1351, (EU) 2024/1359, (EU) 2024/1349, (EU) 2024/1358 und (EU) 2024/1356
+    (EU-Migrations- und -Asylpakt) (Weiterentwicklungen des Schengen- und des
+    Dublin-/Eurodac-Besitzstands). Genehmigung und Umsetzung ; Gesetzesänderungen –
+    Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.7
+    - axis: migration_restriktiv
+      direction: 1
+      weight: 0.4
+  topics:
+    - migration
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Schweiz übernimmt die Verordnungen des EU-Migrations- und Asylpakts zur Weiterentwicklung
+    des Schengen- und Dublin-Besitzstands. Die Übernahme von EU-Recht ist ein Akt der Annäherung (aussenpolitik_offen).
+    Da der EU-Asylpakt auf eine stärkere Kontrolle und Steuerung der Migration abzielt, wirkt dies tendenziell
+    in Richtung migration_restriktiv, wobei die politische Einordnung in der Schweiz oft strittig ist.
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35051
+  business: '25.037'
+  title: Notenaustausche zwischen der Schweiz und der EU betreffend die Übernahme der Verordnungen
+    (EU) 2024/1351, (EU) 2024/1359, (EU) 2024/1349, (EU) 2024/1358 und (EU) 2024/1356
+    (EU-Migrations- und -Asylpakt) (Weiterentwicklungen des Schengen- und des
+    Dublin-/Eurodac-Besitzstands). Genehmigung und Umsetzung ; Gesetzesänderungen –
+    Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.7
+    - axis: migration_restriktiv
+      direction: 1
+      weight: 0.4
+  topics:
+    - migration
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Schweiz übernimmt die Verordnungen des EU-Migrations- und Asylpakts zur Weiterentwicklung
+    des Schengen- und Dublin-Besitzstands. Die Übernahme von EU-Recht ist ein Akt der Annäherung (aussenpolitik_offen).
+    Da der EU-Asylpakt auf eine stärkere Steuerung und Grenzschutz abzielt, wirkt dies tendenziell restriktiv,
+    ist aber politisch oft umstritten. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35052
+  business: '25.037'
+  title: Notenaustausche zwischen der Schweiz und der EU betreffend die Übernahme der Verordnungen
+    (EU) 2024/1351, (EU) 2024/1359, (EU) 2024/1349, (EU) 2024/1358 und (EU) 2024/1356
+    (EU-Migrations- und -Asylpakt) (Weiterentwicklungen des Schengen- und des
+    Dublin-/Eurodac-Besitzstands). Genehmigung und Umsetzung ; Gesetzesänderungen –
+    Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.7
+    - axis: migration_restriktiv
+      direction: 1
+      weight: 0.4
+  topics:
+    - migration
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Schweiz übernimmt die Verordnungen des EU-Migrations- und Asylpakts zur Weiterentwicklung
+    des Schengen- und Dublin-Besitzstands. Die Übernahme von EU-Recht ist ein Akt der Annäherung (aussenpolitik_offen).
+    Der EU-Asylpakt zielt auf eine strengere Steuerung und Rückführung ab, was tendenziell restriktiv
+    ist, wobei die politische Einordnung in der Schweiz oft komplex ist. [google/gemma-4-31B-it, prompt
+    2026-11-07.2, 2026-11-07]'
+- vote_id: 35053
+  business: '25.037'
+  title: Notenaustausche zwischen der Schweiz und der EU betreffend die Übernahme der Verordnungen
+    (EU) 2024/1351, (EU) 2024/1359, (EU) 2024/1349, (EU) 2024/1358 und (EU) 2024/1356
+    (EU-Migrations- und -Asylpakt) (Weiterentwicklungen des Schengen- und des
+    Dublin-/Eurodac-Besitzstands). Genehmigung und Umsetzung ; Gesetzesänderungen –
+    Schlussabstimmung
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.7
+    - axis: migration_restriktiv
+      direction: 1
+      weight: 0.4
+  topics:
+    - migration
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Schweiz übernimmt die Verordnungen des EU-Migrations- und Asylpakts zur Weiterentwicklung
+    des Schengen- und Dublin-Besitzstands. Die Übernahme von EU-Recht ist ein Akt der Annäherung (aussenpolitik_offen).
+    Da der EU-Asylpakt auf eine strengere Steuerung und schnellere Verfahren abzielt, wirkt dies tendenziell
+    restriktiv, ist aber politisch oft umstritten. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35054
+  business: '25.441'
+  title: Die Höchstbezugsdauer bei Kurzarbeit soll um zwölf statt um sechs Abrechnungsperioden
+    verlängert werden können – Schlussabstimmung
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.7
+  topics:
+    - wirtschaft
+    - sozialversicherung
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die maximale Bezugsdauer von Kurzarbeitsentschädigungen wird stärker verlängert
+    (um 12 statt 6 Perioden). Die Verlängerung der Kurzarbeitsentschädigung ist eine sozialpolitische
+    Massnahme zur Absicherung von Arbeitsplätzen und Einkommen. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 35453
+  business: '21.403'
+  title: Überführung der Anstossfinanzierung in eine zeitgemässe Lösung – Vote final
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.3
+  topics:
+    - kultur
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Anstossfinanzierung für Kulturprojekte wird in eine neue, zeitgemässe Form
+    überführt. Die Finanzierung von Kultur durch den Staat ist ein Element des Service public/Sozialstaats.
+    Die Gewichtung ist niedrig, da es sich primär um eine administrative Anpassung der Finanzierung
+    handelt. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35454
+  business: '22.407'
+  title: Verteilung der Radio- und Fernsehabgabe – Vote final
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.3
+  topics:
+    - medien
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Verteilung der Radio- und Fernsehabgabe wird gemäss dem vorliegenden Projekt
+    festgelegt. Die Finanzierung des Service public (SRG) ist ein Teil des ausgebauten Sozial-/Kulturstaates.
+    Die Zuordnung ist jedoch schwach, da es primär um die Verteilung der Mittel geht. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35455
+  business: '22.407'
+  title: Verteilung der Radio- und Fernsehabgabe – Vote final
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.3
+  topics:
+    - medien
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Verteilung der Radio- und Fernsehabgabe wird gemäss dem vorliegenden Projekt
+    beschlossen. Die Finanzierung des Service public (SRG) ist ein Teil des ausgebauten Sozial-/Staatsverständnisses,
+    wobei die Gewichtung gering ist, da es primär um die Verteilung geht. [google/gemma-4-31B-it, prompt
+    2026-11-07.2, 2026-11-07]'
+- vote_id: 35456
+  business: '23.047'
+  title: Kartellgesetz (KG). Änderung – Vote final
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.6
+  topics:
+    - wirtschaft
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderung des Kartellgesetzes wird angenommen, was in der Regel eine Anpassung
+    der Wettbewerbsregeln zur Förderung des Marktes bedeutet. Kartellgesetzänderungen zielen meist auf
+    eine effizientere Marktregulierung ab, was im Sinne einer liberalen Wirtschaftspolitik steht. Da
+    die konkrete Änderung nicht vorliegt, ist die Zuordnung mit Vorbehalt (contested). [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35457
+  business: '23.086'
+  title: Investitionsprüfgesetz – Vote final
+  axes:
+    - axis: finanzen_restriktiv
+      direction: 1
+      weight: 0.7
+  topics: []
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Gesetz zur Prüfung von Investitionen mit öffentlichen Mitteln wird angenommen.
+    Das Gesetz zielt darauf ab, die Effizienz öffentlicher Ausgaben zu steigern und Investitionen strenger
+    zu prüfen, was einer restriktiven Finanzpolitik entspricht. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 35458
+  business: '23.477'
+  title: Solidarbürgschaften zugunsten des Autoverlads – Vote final
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.4
+  topics:
+    - verkehr
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Der Bund gewährt Solidarbürgschaften zur finanziellen Unterstützung des Autoverlads.
+    Die staatliche Unterstützung eines Infrastrukturprojekts (Service public/Verkehr) entspricht einer
+    Ausweitung staatlicher Interventionen, ist aber ein spezifisches Wirtschaftsprojekt. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35459
+  business: '24.091'
+  title: Erstreckung der Verlustverrechnungen – Vote final
+  axes:
+    - axis: finanzen_restriktiv
+      direction: 1
+      weight: 0.6
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.5
+  topics: []
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Frist für die steuerliche Verlustverrechnung wird verlängert. Eine Erstreckung
+    der Verlustverrechnung entlastet Unternehmen steuerlich, was sowohl einer liberalen Wirtschaftspolitik
+    als auch einer steuerreduzierenden Finanzpolitik entspricht. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 35461
+  business: '25.026'
+  title: «Keine 10-Millionen-Schweiz! (Nachhaltigkeitsinitiative)». Volksinitiative – Vote final
+  axes:
+    - axis: migration_restriktiv
+      direction: -1
+      weight: 0.7
+  topics:
+    - migration
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Der Bundesrat empfiehlt, die Volksinitiative abzulehnen, welche eine Begrenzung
+    des Bevölkerungswachstums fordert. Die Initiative fordert eine restriktive Migrationspolitik zur
+    Begrenzung der Einwohnerzahl. Da Ja die Ablehnung der Initiative bedeutet, wirkt es weg von der
+    restriktiven Achse. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35462
+  business: '25.036'
+  title: Militärgesetz, Verordnung der Bundesversammlung über die Verwaltung der Armee und
+    Armeeorganisation. Änderung – Vote final
+  axes:
+    - axis: law_order
+      direction: 1
+      weight: 0.4
+  topics:
+    - sicherheit_neutralitaet
+  source: llm
+  confidence: 0.6
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderungen am Militärgesetz und der Verordnung über die Armeeorganisation
+    werden angenommen. Die Stärkung und Organisation der Armee fällt unter den Bereich der inneren und
+    äusseren Sicherheit (Law & Order). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35463
+  business: '25.036'
+  title: Militärgesetz, Verordnung der Bundesversammlung über die Verwaltung der Armee und
+    Armeeorganisation. Änderung – Vote final
+  axes:
+    - axis: law_order
+      direction: 1
+      weight: 0.4
+  topics:
+    - sicherheit_neutralitaet
+  source: llm
+  confidence: 0.6
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderungen am Militärgesetz und der Verordnung über die Armeeorganisation
+    werden angenommen. Die Stärkung und Organisation der Armee fällt unter den Bereich der inneren und
+    äusseren Sicherheit (Law & Order). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35464
+  business: '25.036'
+  title: Militärgesetz, Verordnung der Bundesversammlung über die Verwaltung der Armee und
+    Armeeorganisation. Änderung – Vote final
+  axes:
+    - axis: law_order
+      direction: 1
+      weight: 0.4
+  topics:
+    - sicherheit_neutralitaet
+  source: llm
+  confidence: 0.6
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderung des Militärgesetzes zur Verwaltung der Armee und Armeeorganisation
+    wird angenommen. Die Stärkung und Organisation der Armee fällt unter den Bereich der inneren und
+    äusseren Sicherheit (Law & Order). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35465
+  business: '25.039'
+  title: Bundesgesetz über den Erwerbsersatz (Angleichung der EO-Leistungen). Änderung – Vote
+    final
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.4
+  topics:
+    - sozialversicherung
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Leistungen des Erwerbsersatzes (EO) werden angeglichen, was in der Regel eine
+    Harmonisierung der Entschädigungen bedeutet. Die Angleichung von Sozialleistungen zielt meist auf
+    eine bessere Abdeckung oder Gleichstellung ab, was den Sozialstaat stärkt. Da die konkrete Richtung
+    der Angleichung (Erhöhung vs. Senkung) im Titel nicht explizit steht, ist die Zuordnung vorsichtig.
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35466
+  business: '25.046'
+  title: Bundesgesetz über die Berufsbildung (Berufsbildungsgesetz, BBG). Änderung – Vote final
+  axes: []
+  topics:
+    - bildung
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderungen am Berufsbildungsgesetz werden angenommen. Es handelt sich um eine
+    technische Anpassung des Berufsbildungsgesetzes ohne klaren Bezug zu den politischen Wertachsen
+    des Spiders. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35467
+  business: '25.048'
+  title: Abkommen zwischen der Schweiz und Argentinien über Soziale Sicherheit. Genehmigung – Vote
+    final
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.4
+  topics:
+    - sozialversicherung
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das bilaterale Abkommen über die soziale Sicherheit mit Argentinien wird genehmigt.
+    Die Genehmigung eines internationalen Abkommens zur sozialen Sicherheit fördert die internationale
+    Zusammenarbeit und Öffnung. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35468
+  business: '25.051'
+  title: Internationaler automatischer Informationsaustausch betreffend Lohndaten. Bundesgesetz –
+    Vote final
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.6
+  topics:
+    - finanzen
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Schweiz nimmt am internationalen automatischen Informationsaustausch über
+    Lohndaten teil. Die Teilnahme an einem internationalen Standard zur Transparenz und Zusammenarbeit
+    ist ein Zeichen einer offenen Aussenpolitik. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35469
+  business: '25.056'
+  title: Hochschulförderungs- und -koordinationsgesetz. Änderung – Vote final
+  axes: []
+  topics:
+    - bildung
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderung des Hochschulförderungs- und -koordinationsgesetzes wird angenommen.
+    Es handelt sich um eine technische/organisatorische Anpassung im Bereich der Hochschulförderung
+    ohne klaren Bezug zu den definierten politischen Achsen. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 35470
+  business: '25.060'
+  title: Bundesgesetz über die Verrechnungssteuer (Too-big-to-fail-Instrumente). Änderung – Vote
+    final
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - finanzen
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderung des Verrechnungssteuergesetzes zur Behandlung von Too-big-to-fail-Instrumenten
+    wird angenommen. Es geht um die steuerliche Behandlung von Finanzinstrumenten zur Risikominimierung
+    bei Grossbanken. Dies betrifft die Regulierung des Finanzmarktes, wobei eine Anpassung zur Attraktivität/Funktionalität
+    dieser Instrumente tendenziell liberal ist. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35942
+  business: '17.523'
+  title: Ermöglichung von Doppelnamen bei der Heirat – Vote final
+  axes:
+    - axis: gesellschaft_liberal
+      direction: 1
+      weight: 0.7
+  topics: []
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die gesetzlichen Bestimmungen werden so geändert, dass Ehepartner die Führung
+    von Doppelnamen ermöglichen. Die Einführung von Doppelnamen fördert die individuelle Selbstbestimmung
+    und Gleichstellung in der Namensführung. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35943
+  business: '22.415'
+  title: Faire Teilnahme der SRG am audiovisuellen Produktionsmarkt – Vote final
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.6
+    - axis: sozialstaat_ausgebaut
+      direction: -1
+      weight: 0.4
+  topics:
+    - medien
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die SRG wird verpflichtet, ihre Produktionspraktiken anzupassen, um den Wettbewerb
+    für private Anbieter zu verbessern. Die Massnahme zielt auf mehr Wettbewerb und weniger Marktbeherrschung
+    durch den öffentlich-rechtlichen Rundfunk (wirtschaft_liberal). Gleichzeitig ist es eine Einschränkung
+    des Service public/Staatsauftrags der SRG (sozialstaat_ausgebaut). [google/gemma-4-31B-it, prompt
+    2026-11-07.2, 2026-11-07]'
+- vote_id: 35944
+  business: '23.039'
+  title: Bundesgesetz über das nationale System zur Abfrage von Adressen natürlicher Personen
+    (Adressdienstgesetz, ADG) – Vote final
+  axes:
+    - axis: law_order
+      direction: 1
+      weight: 0.4
+  topics:
+    - digitalisierung
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Das Gesetz zur Einführung eines nationalen Adressdienstes wird angenommen. Die
+    Zentralisierung von Adressdaten dient der Effizienz der Verwaltung und Sicherheit (Law & Order),
+    kann aber datenschutzrechtlich (gesellschaft_liberal) kontrovers sein. [google/gemma-4-31B-it, prompt
+    2026-11-07.2, 2026-11-07]'
+- vote_id: 35945
+  business: '24.092'
+  title: «Wahrung der schweizerischen Neutralität (Neutralitätsinitiative)», Volksinitiative –
+    Vote final
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.7
+  topics:
+    - sicherheit_neutralitaet
+  source: llm
+  confidence: 0.8
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Der Bundesrat empfiehlt, die Neutralitätsinitiative abzulehnen, um die Flexibilität
+    in der Aussenpolitik zu bewahren. Die Initiative fordert eine striktere Neutralität. Die Ablehnung
+    (Ja zum Bundesbeschluss) ermöglicht eine offenere, flexiblere Aussenpolitik und internationale Zusammenarbeit.
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35946
+  business: '25.027'
+  title: Strafgesetzbuch (Reform der lebenslangen Freiheitsstrafe). Änderung – Vote final
+  axes:
+    - axis: law_order
+      direction: -1
+      weight: 0.7
+    - axis: gesellschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - justiz
+  source: llm
+  confidence: 0.8
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Reform zur lebenslangen Freiheitsstrafe wird angenommen, was in der Regel
+    eine bessere Perspektive auf eine bedingte Entlassung schafft. Eine Reform der lebenslangen Haft
+    weg von der absoluten Strafe hin zu einer Resozialisierungschance widerspricht dem Law & Order Prinzip
+    (direction -1) und entspricht liberalen gesellschaftlichen Werten (direction 1). [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35947
+  business: '25.063'
+  title: Entlastungspaket 27 für den Bundeshaushalt (EP 27) – Vote final
+  axes:
+    - axis: finanzen_restriktiv
+      direction: 1
+      weight: 0.9
+  topics: []
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Entlastungspaket zur Reduktion der Staatsausgaben für den Haushalt 2027 wird
+    angenommen. Ein Entlastungspaket zielt direkt auf Ausgabensenkungen und eine restriktive Finanzpolitik
+    ab. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35948
+  business: '25.066'
+  title: Freihandelsabkommen zwischen den EFTA-Staaten und Thailand. Genehmigung – Vote final
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.7
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.8
+  topics:
+    - aussenhandel
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Freihandelsabkommen mit Thailand wird genehmigt. Freihandelsabkommen fördern
+    die internationale Zusammenarbeit (offene Aussenpolitik) und reduzieren Handelsbarrieren (liberale
+    Wirtschaftspolitik). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35949
+  business: '25.067'
+  title: «Für eine sichere Ernährung – durch Stärkung einer nachhaltigen inländischen Produktion,
+    mehr pflanzliche Lebensmittel und sauberes Trinkwasser (Ernährungsinitiative)».
+    Volksinitiative – Vote final
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: -1
+      weight: 0.6
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - landwirtschaft
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Der Bundesrat empfiehlt, die Ernährungsinitiative abzulehnen. Die Initiative fordert
+    mehr Nachhaltigkeit und pflanzliche Lebensmittel. Die Empfehlung zur Ablehnung (Ja) wirkt somit
+    gegen den ausgebauten Umweltschutz und gegen staatliche Lenkung der Produktion. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35950
+  business: '25.070'
+  title: Freihandelsabkommen zwischen den EFTA-Staaten und Kosovo. Genehmigung – Vote final
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.6
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.7
+  topics:
+    - aussenhandel
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Freihandelsabkommen mit dem Kosovo wird genehmigt. Freihandelsabkommen fördern
+    die internationale Zusammenarbeit (offene Aussenpolitik) und reduzieren Handelsbarrieren (liberale
+    Wirtschaftspolitik). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35951
+  business: '25.072'
+  title: Multilaterale Vereinbarung der zuständigen Behörden über den Austausch von Global
+    Anti-Base Erosion (GloBE)-Erklärungen. Genehmigung – Vote final
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.6
+    - axis: finanzen_restriktiv
+      direction: -1
+      weight: 0.4
+  topics:
+    - steuern
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Schweiz genehmigt die multilaterale Vereinbarung zum automatischen Austausch
+    von Informationen über die globale Mindestbesteuerung (GloBE). Die Genehmigung ist ein Akt internationaler
+    Zusammenarbeit (aussenpolitik_offen). Da es um die Umsetzung der Mindestbesteuerung geht, wirkt
+    dies gegen die Tendenz zu immer tieferen Steuern (finanzen_restriktiv). [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 35952
+  business: '26.022'
+  title: Bundesgesetz über die Unterstützung der Opfer der Brandkatastrophe von Crans-Montana vom
+    1. Januar 2026 – Vote final
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.4
+  topics:
+    - gesundheit
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Gesetz zur finanziellen Unterstützung der Opfer der Brandkatastrophe von Crans-Montana
+    wird angenommen. Die Gewährung von staatlichen Unterstützungsleistungen an Opfer einer Katastrophe
+    ist eine Form von staatlicher Fürsorge/Sozialleistung. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 36536
+  business: '20.406'
+  title: Unternehmerinnen und Unternehmer, welche Beiträge an die Arbeitslosenversicherung
+    bezahlen, sollen auch gegen Arbeitslosigkeit versichert sein – Vote final
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.6
+    - axis: wirtschaft_liberal
+      direction: -1
+      weight: 0.4
+  topics:
+    - sozialversicherung
+  source: llm
+  confidence: 0.8
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Unternehmer, die Beiträge an die ALV zahlen, erhalten ebenfalls Anspruch auf Arbeitslosenentschädigung.
+    Die Ausweitung des Versicherungsschutzes auf Unternehmer ist eine Erweiterung des Sozialstaats.
+    Gleichzeitig bedeutet es eine stärkere staatliche Regulierung/Absicherung im unternehmerischen Bereich.
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 36537
+  business: '21.472'
+  title: Rehabilitierung der Schweizerinnen und Schweizer, die in der französischen Résistance
+    gekämpft haben – Vote final
+  axes:
+    - axis: gesellschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Personen, die in der französischen Résistance gekämpft haben, werden offiziell
+    rehabilitiert. Die Rehabilitierung ist ein Akt der Anerkennung von individueller Selbstbestimmung
+    und moralischem Handeln gegen ein totalitäres Regime, was tendenziell in die gesellschaftsliberale
+    Richtung geht. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 36538
+  business: '22.441'
+  title: Modernen Pflanzenschutz in der Schweiz ermöglichen – Vote final
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: -1
+      weight: 0.8
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - landwirtschaft
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die gesetzlichen Hürden für die Zulassung von Pflanzenschutzmitteln werden gesenkt,
+    um die Anwendung modernerer Mittel zu erleichtern. Die Lockerung der Zulassungsregeln für Pestizide
+    steht im Gegensatz zu einem ausgebauten Umweltschutz und begünstigt die Agrarwirtschaft (Deregulierung).
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 36539
+  business: '24.065'
+  title: Bundesgesetz über Schuldbetreibung und Konkurs (Betreibungsauskunft, elektronische
+    Zustellungen und Online-Versteigerung). Änderung – Vote final
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - digitalisierung
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Gesetz wird geändert, um die Digitalisierung der Betreibungsauskunft, Zustellungen
+    und Versteigerungen voranzutreiben. Die Digitalisierung von Verwaltungsprozessen und die Effizienzsteigerung
+    im Inkassowesen fördern die wirtschaftliche Effizienz (Deregulierung/Modernisierung). [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 36540
+  business: '24.073'
+  title: Umsetzung und Finanzierung der Initiative für eine 13. AHV-Rente – Vote final
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 1.0
+    - axis: finanzen_restriktiv
+      direction: -1
+      weight: 0.7
+  topics:
+    - sozialversicherung
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Umsetzung der 13. AHV-Rente wird beschlossen und finanziert. Die 13. AHV-Rente
+    ist eine klassische Ausweitung des Sozialstaats (direction 1) und führt zu höheren Staatsausgaben,
+    was der restriktiven Finanzpolitik widerspricht (direction -1). [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 36541
+  business: '24.080'
+  title: «Für eine Einschränkung von Feuerwerk». Volksinitiative – Vote final
+  axes:
+    - axis: gesellschaft_liberal
+      direction: 1
+      weight: 0.3
+  topics: []
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Der Rat empfiehlt, die Volksinitiative zur Einschränkung von Feuerwerk abzulehnen.
+    Die Initiative will die persönliche Freiheit (Feuerwerk) einschränken. Die Empfehlung zur Ablehnung
+    (Ja) steht somit für die Beibehaltung der aktuellen Freiheit (gesellschaft_liberal). [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 36542
+  business: '24.090'
+  title: Strahlenschutzgesetz (StSG). Änderung – Vote final
+  axes: []
+  topics:
+    - gesundheit
+  source: llm
+  confidence: 0.6
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderung des Strahlenschutzgesetzes wird angenommen. Technische Anpassungen
+    im Strahlenschutzgesetz haben in der Regel keinen klaren Bezug zu den politischen Wertachsen des
+    Spiders. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 36543
+  business: '24.096'
+  title: Bundesgesetz über die Allgemeinverbindlicherklärung von Gesamtarbeitsverträgen. Änderung
+    (Allgemeinverbindlicherklärung von Mindestlöhnen, die unter kantonalen Mindestlöhnen liegen) –
+    Vote final
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.6
+    - axis: sozialstaat_ausgebaut
+      direction: -1
+      weight: 0.5
+  topics:
+    - arbeit
+  source: llm
+  confidence: 0.8
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Es wird ermöglicht, Gesamtarbeitsverträge mit Mindestlöhnen allgemeinverbindlich
+    zu erklären, auch wenn diese unter den kantonalen Mindestlöhnen liegen. Die Aufweichung kantonaler
+    Mindestlöhnsstandards zugunsten von GAVs ist eine Deregulierung/Liberalisierung des Arbeitsmarktes
+    (direction 1) und eine Schwächung des sozialen Schutzniveaus (direction -1). [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 36544
+  business: '25.018'
+  title: «Ja zu fairen Bundessteuern auch für Ehepaare — Diskriminierung der Ehe endlich
+    abschaffen!». Volksinitiative – Vote final
+  axes:
+    - axis: finanzen_restriktiv
+      direction: 1
+      weight: 0.4
+    - axis: gesellschaft_liberal
+      direction: -1
+      weight: 0.3
+  topics:
+    - steuern
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Der Rat empfiehlt, die Volksinitiative abzulehnen, welche die steuerliche Gleichbehandlung
+    von Ehepaaren (Abschaffung der Heiratstrafe) fordert. Ja bedeutet Ablehnung der Initiative. Damit
+    wird an der bestehenden Steuerstruktur festgehalten (finanzen_restriktiv) und die Forderung nach
+    steuerlicher Gleichstellung von Paaren abgelehnt (gesellschaft_liberal). [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 36545
+  business: '25.019'
+  title: Bundesgesetz über Schuldbetreibung und Konkurs (Sanierungsverfahren für natürliche
+    Personen); Änderung – Vote final
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.4
+    - axis: wirtschaft_liberal
+      direction: -1
+      weight: 0.3
+  topics: []
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Das Gesetz wird geändert, um ein Sanierungsverfahren für natürliche Personen (Privatpersonen)
+    einzuführen. Ein Sanierungsverfahren für Privatpersonen ist eine soziale Flankierung zur Vermeidung
+    dauerhafter Schuldenfallen (sozialstaat_ausgebaut), greift aber in die strikte Durchsetzung von
+    Gläubigerrechten ein (wirtschaft_liberal). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 36546
+  business: '25.047'
+  title: Bundesgesetz über die politischen Rechte. Änderung – Vote final
+  axes: []
+  topics:
+    - politik
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderung des Gesetzes über die politischen Rechte wird angenommen. Ohne Kenntnis
+    der spezifischen Änderung (z.B. E-Voting, Stimmrechtsalter) ist keine Zuordnung zu den Achsen möglich.
+    Es handelt sich primär um eine formale/organisatorische Anpassung der politischen Rechte. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 36547
+  business: '25.068'
+  title: «Jederzeit Strom für alle (Blackout stoppen)» Volksinitiative und indirekter Gegenentwurf
+    – Vote final
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: -1
+      weight: 0.4
+  topics:
+    - energie
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Der indirekte Gegenentwurf wird angenommen, was eine gesetzliche Grundlage zur
+    Sicherung der Stromversorgung schafft, ohne die strikten Vorgaben der Initiative. Indirekte Gegenentwürfe
+    zielen oft darauf ab, die radikalen Forderungen einer Initiative (hier oft Fokus auf fossile Reserve/Kernkraft)
+    zu entschärfen, bewegen sich aber meist weg von einem rein ökologischen Ansatz hin zur Versorgungssicherheit.
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 36548
+  business: '25.068'
+  title: «Jederzeit Strom für alle (Blackout stoppen)» Volksinitiative und indirekter Gegenentwurf
+    – Vote final
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: -1
+      weight: 0.4
+  topics:
+    - energie
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Volksinitiative wird abgelehnt und stattdessen der indirekte Gegenentwurf
+    (der weniger weitreichend ist) angenommen. Die Initiative fordert oft eine sehr spezifische Energieversorgungssicherheit,
+    die im Konflikt mit ökologischen Zielen stehen kann. Die Ablehnung der Initiative (Ja) bewegt sich
+    tendenziell weg von den radikalen Forderungen der Initiative, ist aber komplex, da der Gegenentwurf
+    ebenfalls Energieziele verfolgt. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 36549
+  business: '25.071'
+  title: Finanzmarktaufsichtsgesetz und weitere Erlasse. Änderung im Hinblick auf die
+    Zusammenarbeit mit ausländischen Stellen – Vote final
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.5
+  topics:
+    - finanzen
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die gesetzlichen Grundlagen für die Zusammenarbeit der FINMA mit ausländischen
+    Aufsichtsbehörden werden verbessert. Die Stärkung der internationalen Zusammenarbeit und Kooperation
+    mit ausländischen Stellen entspricht einer offenen Aussenpolitik. [google/gemma-4-31B-it, prompt
+    2026-11-07.2, 2026-11-07]'
+- vote_id: 36550
+  business: '25.084'
+  title: Modernisiertes Freihandelsabkommen zwischen den EFTA-Staaten und der Ukraine. Genehmigung
+    – Vote final
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.8
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.6
+  topics:
+    - aussenhandel
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das modernisierte Freihandelsabkommen mit der Ukraine wird genehmigt. Ein Freihandelsabkommen
+    fördert die internationale Zusammenarbeit (offene Aussenpolitik) und den Abbau von Handelshemmnissen
+    (liberale Wirtschaftspolitik). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 36551
+  business: '25.085'
+  title: Landesversorgungsgesetz. Änderung – Vote final
+  axes:
+    - axis: law_order
+      direction: 1
+      weight: 0.4
+  topics:
+    - sicherheit_neutralitaet
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Änderung des Landesversorgungsgesetzes wird angenommen, was die staatliche
+    Vorsorge und Versorgungssicherheit im Krisenfall stärkt. Die Stärkung der Landesversorgung dient
+    der inneren Sicherheit und staatlichen Resilienz, was in die Richtung von Law & Order (Sicherheit)
+    passt. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 36552
+  business: '25.090'
+  title: Doppelbesteuerungsabkommen zwischen der Schweiz und Kroatien. Änderung – Vote final
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.4
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Doppelbesteuerungsabkommen mit Kroatien wird angenommen. Steuerabkommen fördern
+    die internationale Zusammenarbeit (offene Aussenpolitik) und erleichtern den grenzüberschreitenden
+    Wirtschaftsverkehr (wirtschaftsliberal). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 36553
+  business: '25.091'
+  title: Doppelbesteuerungsabkommen zwischen der Schweiz und Belgien. Änderung – Vote final
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.3
+  topics: []
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das geänderte Doppelbesteuerungsabkommen mit Belgien wird angenommen. Steuerabkommen
+    fördern den internationalen Handel und reduzieren bürokratische Hürden für Unternehmen (wirtschaftsliberal)
+    und stärken die internationale Zusammenarbeit (aussenpolitik_offen). [google/gemma-4-31B-it, prompt
+    2026-11-07.2, 2026-11-07]'
+- vote_id: 36554
+  business: '25.092'
+  title: Bilaterales Abkommen zwischen der Schweiz und Chile über die Förderung und den Schutz von
+    Investitionen. Genehmigung – Vote final
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.6
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.5
+  topics: []
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das bilaterale Investitionsschutzabkommen mit Chile wird genehmigt. Investitionsschutzabkommen
+    fördern die internationale Zusammenarbeit (offene Aussenpolitik) und den liberalen Handel durch
+    Rechtssicherheit für Investoren. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 36555
+  business: '25.402'
+  title: Indirekter Gegenentwurf zur Feuerwerks-Initiative – Vote final
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.4
+    - axis: gesellschaft_liberal
+      direction: -1
+      weight: 0.3
+  topics: []
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Der indirekte Gegenentwurf wird angenommen, was eine moderate Einschränkung von
+    Feuerwerken vorsieht, statt eines Totalverbots. Die Annahme eines Gegenentwurfs ist ein Kompromiss:
+    Er stärkt den Umweltschutz gegenüber dem Status quo (direction 1), schränkt aber die individuelle
+    Freiheit/Selbstbestimmung ein (direction -1). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 36556
+  business: '25.440'
+  title: Abgeltungen für PFAS-Sanierungen rückwirkend zulassen – Vote final
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.5
+    - axis: finanzen_restriktiv
+      direction: -1
+      weight: 0.4
+  topics:
+    - umwelt
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Es wird zugelassen, dass Abgeltungen für die Sanierung von PFAS-Kontaminationen
+    rückwirkend gewährt werden. Die Sanierung von PFAS fördert den Umweltschutz, während die rückwirkenden
+    Abgeltungen staatliche Ausgaben bedeuten (gegen restriktive Finanzpolitik). [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 36557
+  business: '26.018'
+  title: Wirtschaftspartnerschaftsabkommen zwischen den EFTA-Staaten und Malaysia. Genehmigung –
+    Vote final
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.7
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.8
+  topics:
+    - aussenhandel
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Wirtschaftspartnerschaftsabkommen mit Malaysia wird genehmigt. Ein Handelsabkommen
+    fördert die internationale Zusammenarbeit (offene Aussenpolitik) und den freien Marktzugang (liberale
+    Wirtschaftspolitik). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 36558
+  business: '26.028'
+  title: Abkommen zwischen dem Schweizerischen Bundesrat und dem Ministerkabinett der Ukraine über
+    die Zusammenarbeit im Wiederaufbauprozess der Ukraine. Genehmigung – Vote final
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.8
+  topics:
+    - sicherheit_neutralitaet
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Abkommen über die Zusammenarbeit beim Wiederaufbau der Ukraine wird genehmigt.
+    Die Unterstützung beim Wiederaufbau der Ukraine ist ein Akt internationaler Zusammenarbeit und eine
+    Öffnung der Aussenpolitik. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 38947
+  business: '19.300'
+  title: Keine Verjährungsfristen für Schwerstverbrecher – Vote final
+  axes:
+    - axis: law_order
+      direction: 1
+      weight: 0.9
+  topics:
+    - sicherheit
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Verjährungsfristen für bestimmte Schwerstverbrechen werden aufgehoben. Die
+    Aufhebung von Verjährungsfristen für Schwerstverbrechen dient der härteren Bestrafung und der inneren
+    Sicherheit. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 38948
+  business: '23.432'
+  title: Keine Abgangsentschädigungen ans Topkader der Bundesverwaltung und bundesnaher
+    Unternehmen – Vote final
+  axes:
+    - axis: finanzen_restriktiv
+      direction: 1
+      weight: 0.6
+    - axis: sozialstaat_ausgebaut
+      direction: -1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.8
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Abgangsentschädigungen für das Topkader der Bundesverwaltung und bundesnaher Unternehmen
+    werden abgeschafft. Die Abschaffung von Sonderzahlungen entspricht einer restriktiven Finanzpolitik
+    (Sparen). Gleichzeitig ist es eine Einschränkung von Privilegien im öffentlichen Sektor (weg von
+    sozialstaatlichen Absicherungen für Kader). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 38949
+  business: '23.439'
+  title: Begründungspflicht beim Erlass von Notrecht – Vote final
+  axes:
+    - axis: gesellschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Der Bundesrat wird verpflichtet, den Erlass von Notrecht detaillierter zu begründen.
+    Die Begründungspflicht stärkt die demokratische Kontrolle und Rechtsstaatlichkeit gegenüber staatlicher
+    Macht, was im Sinne einer liberalen Gesellschaft (Selbstbestimmung/Kontrolle) steht. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 38950
+  business: '24.089'
+  title: «Ja zum Importverbot für Stopfleber (Stopfleber-Initiative)». Volksinitiative – Vote
+    final
+  axes:
+    - axis: gesellschaft_liberal
+      direction: -1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: "Ja bedeutet: Der Bundesrat empfiehlt, die Stopfleber-Initiative abzulehnen, womit kein Importverbot
+    eingeführt wird. Die Initiative zielt auf Tierschutz/Ethik ab. Ein Ja zum Bundesbeschluss bedeutet
+    Ablehnung des Verbots. Die Zuordnung zu 'gesellschaft_liberal' ist schwach, da Tierschutzfragen
+    oft quer zu dieser Achse verlaufen. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]"
+- vote_id: 38951
+  business: '25.057'
+  title: Elektrizitätsgesetz (Beschleunigung beim Aus- und Umbau der Stromnetze). Änderung – Vote
+    final
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.6
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - energie
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Das Gesetz wird angenommen, was den Aus- und Umbau der Stromnetze beschleunigt.
+    Die Beschleunigung dient der Energiewende (umwelt_ausgebaut), beinhaltet aber oft eine Deregulierung
+    von Planungsverfahren (wirtschaft_liberal). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 38952
+  business: '25.058'
+  title: Leistungsabhängige Schwerverkehrsabgabe LSVA. Weiterentwicklung. Teilrevision SVAG – Vote
+    final
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.4
+    - axis: finanzen_restriktiv
+      direction: -1
+      weight: 0.3
+  topics:
+    - verkehr
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Teilrevision des Schwerverkehrsabgabegesetzes wird angenommen, um die LSVA
+    weiterzuentwickeln. Die LSVA dient primär der Lenkung hin zu umweltfreundlicheren Fahrzeugen (umwelt_ausgebaut).
+    Da es sich um eine Abgabe handelt, wirkt eine Weiterentwicklung tendenziell gegen eine strikte Steuerreduktion
+    (finanzen_restriktiv). [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 38953
+  business: '25.059'
+  title: «Ja zum Importverbot für tierquälerisch erzeugte Pelzprodukte (Pelzinitiative)».
+    Volksinitiative und indirekter Gegenvorschlag (Änderung des Tierschutzgesetzes) – Vote final
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.4
+  topics:
+    - tierschutz
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Der Rat empfiehlt, die Pelzinitiative abzulehnen und stattdessen den indirekten
+    Gegenvorschlag (Änderung des Tierschutzgesetzes) anzunehmen. Ein Ja bedeutet die Ablehnung der strikten
+    Initiative zugunsten eines moderateren Gegenvorschlags. Da der Gegenvorschlag dennoch den Tierschutz
+    stärkt, ist die Richtung positiv, aber das Gewicht geringer als bei der Initiative selbst. [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 38954
+  business: '25.059'
+  title: «Ja zum Importverbot für tierquälerisch erzeugte Pelzprodukte (Pelzinitiative)».
+    Volksinitiative und indirekter Gegenvorschlag (Änderung des Tierschutzgesetzes) – Vote final
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.6
+  topics:
+    - tierschutz
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Der indirekte Gegenvorschlag wird angenommen, was zu einer Verschärfung des Tierschutzgesetzes
+    führt, aber die Volksinitiative hinfällig macht. Ein Ja zum indirekten Gegenvorschlag stärkt den
+    Tierschutz (umwelt_ausgebaut), ist aber weniger radikal als die Initiative selbst. Die Zuordnung
+    ist strittig, da es ein Kompromiss ist. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 38955
+  business: '25.081'
+  title: «Für ein modernes Bürgerrecht (Demokratie-Initiative)». Volksinitiative – Vote final
+  axes: []
+  topics:
+    - demokratie
+  source: llm
+  confidence: 0.9
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Der Bundesrat empfiehlt, die Volksinitiative abzulehnen, welche die Einführung
+    von digitalen Abstimmungen und anderen demokratischen Neuerungen fordert. Die Initiative betrifft
+    formale demokratische Prozesse (E-Voting etc.), was keiner der acht spezifischen Smartspider-Achsen
+    direkt zugeordnet werden kann. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 38956
+  business: '25.088'
+  title: Bundesgerichtsgesetz (BGG). Teilrevision – Vote final
+  axes: []
+  topics:
+    - justiz
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Teilrevision des Bundesgerichtsgesetzes wird angenommen. Es handelt sich um
+    eine technische Revision des BGG ohne klare Ausrichtung auf die definierten politischen Achsen (z.B.
+    keine Verschärfung von Strafen oder grundlegende gesellschaftliche Liberalisierung). [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 38971
+  business: '25.059'
+  title: «Ja zum Importverbot für tierquälerisch erzeugte Pelzprodukte (Pelzinitiative)».
+    Volksinitiative und indirekter Gegenvorschlag (Änderung des Tierschutzgesetzes) – Vote final
+  axes:
+    - axis: umwelt_ausgebaut
+      direction: 1
+      weight: 0.6
+  topics:
+    - tierschutz
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Der indirekte Gegenvorschlag wird angenommen, was zu einer Verschärfung des Tierschutzgesetzes
+    führt, aber die radikale Forderung der Initiative (Importverbot) nicht vollumfänglich umsetzt. Die
+    Annahme des Gegenvorschlags stärkt den Tierschutz (umwelt_ausgebaut), auch wenn er weniger weit
+    geht als die Initiative selbst. [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 38957
+  business: '25.089'
+  title: Versicherungsaufsichtsgesetz. Teilrevision (Rückversicherungsvermittlung und
+    Sanierungsrecht) – Vote final
+  axes:
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - finanzen
+  source: llm
+  confidence: 0.6
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Teilrevision des Versicherungsaufsichtsgesetzes wird angenommen. Die Anpassung
+    des Sanierungsrechts und der Vermittlungsregeln zielt meist auf eine Modernisierung und Effizienzsteigerung
+    des Finanzmarktes ab, was tendenziell liberaler ist. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 38958
+  business: '25.404'
+  title: Indirekter Gegenentwurf zur Stopfleber-Initiative – Vote final
+  axes:
+    - axis: gesellschaft_liberal
+      direction: -1
+      weight: 0.4
+  topics: []
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Der indirekte Gegenentwurf wird angenommen, was eine gesetzliche Regelung zur
+    Stopfleber vorsieht, die weniger streng ist als die Initiative. Die Regulierung von Tierhaltung/Produktion
+    ist ein Eingriff in die wirtschaftliche Freiheit, aber im Kontext des Spiders eher eine Einschränkung
+    der liberalen Gesellschaft/Wirtschaft. Da es ein Gegenentwurf ist, ist die Richtung im Vergleich
+    zur Initiative weniger stark, aber tendenziell regulierend. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 38959
+  business: '25.465'
+  title: Befristete Verlängerung der Ausnahmen von der dreijährigen Tätigkeitspflicht gemäss
+    Artikel 37 Absatz 1 KVG – Vote final
+  axes: []
+  topics:
+    - gesundheit
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Die Ausnahmen von der Tätigkeitspflicht für bestimmte Personen im Rahmen der Krankenversicherung
+    (KVG) werden befristet verlängert. Es handelt sich um eine technische/administrative Verlängerung
+    von Ausnahmeregelungen im Gesundheitswesen ohne klaren Bezug zu den definierten politischen Achsen.
+    [google/gemma-4-31B-it, prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 38960
+  business: '25.482'
+  title: Verluste aus der Strombeschaffung an die Grundversorgungstarife anrechnen – Vote final
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: -1
+      weight: 0.4
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - energie
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Die Verluste aus der Strombeschaffung dürfen auf die Endverbraucher (Grundversorgungstarife)
+    überwälzt werden. Die Überwälzung von Kosten auf Konsumenten statt staatlicher oder unternehmerischer
+    Übernahme ist marktliberal, schwächt aber den Schutz der Konsumenten (Service public). [google/gemma-4-31B-it,
+    prompt 2026-11-07.2, 2026-11-07]'
+- vote_id: 38961
+  business: '26.022'
+  title: Bundesgesetz über die Unterstützung der Opfer der Brandkatastrophe von Crans-Montana vom
+    1. Januar 2026 – Vote final
+  axes:
+    - axis: sozialstaat_ausgebaut
+      direction: 1
+      weight: 0.4
+  topics:
+    - gesundheit
+  source: llm
+  confidence: 0.7
+  contested: false
+  reviewed: false
+  note: 'Ja bedeutet: Das Gesetz zur finanziellen Unterstützung der Opfer der Brandkatastrophe von Crans-Montana
+    wird angenommen. Die Gewährung von staatlichen Unterstützungsleistungen an Opfer einer Katastrophe
+    ist eine Form von staatlicher Solidarität/Sozialleistung. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 38962
+  business: '26.026'
+  title: Mehrwertsteuer-Sondersatz für Beherbergungsleistungen – Vote final
+  axes:
+    - axis: finanzen_restriktiv
+      direction: -1
+      weight: 0.4
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.4
+  topics:
+    - tourismus
+  source: llm
+  confidence: 0.7
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Ein reduzierter Mehrwertsteuersatz für Beherbergungsleistungen wird eingeführt.
+    Die Senkung einer Steuer ist eine Entlastung für die Branche (wirtschaftsliberal), führt aber zu
+    geringeren Staatseinnahmen (gegen restriktive Finanzpolitik). [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
+- vote_id: 38963
+  business: '26.033'
+  title: Freihandelsabkommen zwischen den EFTA-Staaten und Mercosur. Genehmigung – Vote final
+  axes:
+    - axis: aussenpolitik_offen
+      direction: 1
+      weight: 0.7
+    - axis: wirtschaft_liberal
+      direction: 1
+      weight: 0.8
+  topics:
+    - aussenhandel
+  source: llm
+  confidence: 0.9
+  contested: true
+  reviewed: false
+  note: 'Ja bedeutet: Das Freihandelsabkommen mit den Mercosur-Staaten wird genehmigt. Freihandelsabkommen
+    fördern die internationale Öffnung und den Abbau von Handelshemmnissen (wirtschaftsliberal). Strittig
+    ist es oft aufgrund von Umwelt- und Landwirtschaftsbedenken. [google/gemma-4-31B-it, prompt 2026-11-07.2,
+    2026-11-07]'
