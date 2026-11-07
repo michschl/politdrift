@@ -54,6 +54,8 @@ ensure_user deploy
 usermod -aG sudo admin
 passwd -l admin >/dev/null
 passwd -l deploy >/dev/null
+# admin also matches the stock %admin/%sudo rules (with password). Commands use the last
+# matching rule, so `sudo <cmd>` needs no password; `sudo -v` still asks (verifypw=all).
 echo "admin ALL=(ALL) NOPASSWD:ALL" >/etc/sudoers.d/90-admin
 chmod 0440 /etc/sudoers.d/90-admin
 visudo -cf /etc/sudoers.d/90-admin >/dev/null
